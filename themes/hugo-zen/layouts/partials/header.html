@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Personal website of Yasoob. Author of Intermediate Python book. Blogger at Python Tips.">
+  <meta name="author" content="Muhammad Yasoob Ullah Khalid">
+  <meta name="keywords" content="Yasoob, Yasoob Khalid, Python Tips, Intermediate Python, Pakistan, Programmer, Blogger, Muhammad Yasoob Ullah Khalid, Software Engineer">
+  <meta property="og:image" content="http://yasoob.me/images/yasoob.jpg">
+  <meta property="og:url" content="http://yasoob.me">
+  <meta property="og:title" content="Muhammad Yasoob Ullah Khalid">
+  <meta property="og:type" content="profile">
+  <meta property="og:description" content="CS student at Colgate University. Author of Intermediate Python book. Blogger at Python Tips.">
+  <meta name="twitter:site" content="@yasoobkhalid">
+  <meta name="twitter:title" content="Muhammad Yasoob Ullah Khalid">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="CS student at Colgate University. Author of Intermediate Python book. Blogger at Python Tips.">
+  <meta property="profile:first_name" content="Muhammad Yasoob Ullah">
+  <meta property="profile:last_name" content="Khalid">
+  <meta property="profile:gender" content="male">
+  <meta name="google-site-verification" content="h-RrQYj6aNBgcXU7M49xoUoksuI0WuJnbcJbFPJMqc4">
+  
+  <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/logo.png">
+
+
+  <meta charset="utf-8">
+  {{ .Hugo.Generator }}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
+		</div>
+		{{ if eq $isHomePage true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
+	</header>
