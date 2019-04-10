@@ -1,0 +1,1 @@
+(function($){if($&&$.cookie)if(!!window.__iabc)$.cookie("iabc","1");else $.cookie("iabc","",{expires:-1})})(window.jQuery);(function(){window.wp_pb&&wp_pb.StaticMethods&&wp_pb.StaticMethods.registerServiceWorker()})();
