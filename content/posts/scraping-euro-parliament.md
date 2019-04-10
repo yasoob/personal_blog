@@ -74,7 +74,11 @@ def download_file(file_name, url):
 
 You need to provide this function a valid filename with a valid extension (e.g .docx | .pdf) and a valid url.
 
-So now we need to find the required endpoints where the data is being served on the euro parliament website. After poking around a bit I found this url: *http://www.europarl.europa.eu/RegistreWeb/search/typedoc.htm?codeTypeDocu=QECR&year=2015&currentPage=*
+So now we need to find the required endpoints where the data is being served on the euro parliament website. After poking around a bit I found this url: 
+
+```
+http://www.europarl.europa.eu/RegistreWeb/search/typedoc.htm?codeTypeDocu=QECR&year=2015&currentPage=
+```
 
 You can add any page number at the end of the above url. This way you can enumerate all the documents on the website. After researching a bit I got to know that there are a total of **1380** pages. Good, now we can easily open and scrape all the pages. Below is the crux of our `app.py` file:
 
