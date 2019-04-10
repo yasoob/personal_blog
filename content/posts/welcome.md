@@ -17,7 +17,7 @@ def new_blog():
     raise Awesomeness
 ```
 
-I hope you enjoy your stay on my blog as I give my website a new life :heart:
+Please bear with me as I setup the blog. There are still some rough edges which I am trying to iron out. I hope you enjoy your stay on my blog as I give my website a new life :heart:
 
 
 
