@@ -1,12 +1,12 @@
 ---
-title: "Arts"
+title: "Art Projects"
 date: 2019-04-10T02:37:20-04:00
 draft: false
 hidefromhome: true
 showthedate: true
 ---
 
-I am currently taking a Digital Studio class at Colgate University by Margaretha. We have been making a lot of interesting projects and have been pushing the limits of creativity. 
+I spend considerable time doing arts and creative projects. I used to do it as a hobby but now I am taking drawing and digital studio classes at Colgate University. We have been making a lot of interesting projects and have been trying to push the limits of creativity. Here are some of the projects I have done so far:
 
 **:point_right: Living space drawing**
 
