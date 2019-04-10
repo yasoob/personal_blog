@@ -8,6 +8,12 @@ showthedate: true
 
 I am currently taking a Digital Studio class at Colgate University by Margaretha. We have been making a lot of interesting projects and have been pushing the limits of creativity. 
 
+**:point_right: Living space drawing**
+
+![Room drawing](/images/room.jpg)
+
+This was a part of my drawing class. We were supposed to draw a scene which was personal. I decided to draw a scene from my dorm room. I cleaned up the table and arranged the scene in a way to give the feel of an old-school jail room. I used an ebony pencil and a **30x40 (inch)** illustration board to do this drawing. The total drawing time was almost **20+ hours**. 
+
 **:point_right: [Subverting a Website](/arts/A2)**
 
 ![News website](/images/news.png)
