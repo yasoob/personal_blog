@@ -2,6 +2,8 @@
 title: "Arts"
 date: 2019-04-10T02:37:20-04:00
 draft: false
+hidefromhome: true
+showthedate: true
 ---
 
 I am currently taking a Digital Studio class at Colgate University by Margaretha. We have been making a lot of interesting projects and have been pushing the limits of creativity. 
