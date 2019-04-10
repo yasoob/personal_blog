@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p, h2, a, span {
+	font-family: 'Nunito', sans-serif;
+}
+body{
+	text-align: center;
+	margin: 0 auto;
+}
+img{
+	width: 100%;
+}
+header{
+	text-align: center;
+	position: relative;
+	padding-top: 5em;
+}
+span.logo{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: orange;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	width: 25px;
+	height: 25px;
+	transition: all .5s;
+	animation: 
+		backgroundcolor 4s infinite;
+}
+span.logo:hover{
+	background: #e49b14;
+}
+span.logo a{
+	text-decoration: none;
+	color: white;
+}
+h2{
+	font-weight: 300;
+}
+header div h2{
+	font-size: 30px;
+	font-weight: 100;
+	overflow: hidden; 
+	white-space: nowrap;
+	margin: 0 auto; 
+	letter-spacing: .15em;
+	display: inline-block;
+	padding-right: 10px;
+}
+@keyframes backgroundcolor{
+	0%   {background:#cca55e;}
+	25%  {background:orange;}
+	50%   {background:red;}
+	75%  {background:orange;}
+	100% {background: #cca55e;}
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+header div{
+	padding-bottom: 4em;
+}
+header ul{
+	list-style: none;
+	padding: 0;
+}
+header ul li{
+	display: inline-block;
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	position: relative;
+}
+header ul li:after{
+	content: '';
+	background: #e3e3e3;
+	height: 3px;
+	top: 50%;
+	position: absolute;
+	width: 130%;
+	left: 0;
+	transition: all .5s;
+	z-index: -1;
+	left: -15%;
+}
+header ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	/*border-bottom: 3px solid transparent;	*/
+	color: black;
+	transition: all .5s;
+}
+header ul li:hover:after{
+	content: '';
+	background: black;
+	height: 150%;
+	top: -25%;
+	position: absolute;
+	width: 180%;
+	left: -40%;
+	z-index: -1;
+}
+header ul li:hover a{
+	color: white;
+}
+/*header ul li a:hover{
+	border-bottom: 3px solid silver	
+}*/
+div.wrapper{
+	margin-top: 5em;
+	margin-bottom: 4em;
+}
+div.wrapper h2 span{
+	font-weight: bold;
+}
+div.wrapper .intro{
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 7em;
+	text-align: left;
+	border: 5px solid #dedcdc;
+	padding: 50px;
+    box-shadow: -7px -7px 0px 0px rgb(185, 185, 184);
+    position: relative;
+}
+div.wrapper .intro p{
+	line-height: 2.5em;
+	font-size: 20px;
+}
+div.wrapper .intro .scroll{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	padding: 10px;
+	background: gray;
+	transition: all .5s;
+}
+div.wrapper .intro .scroll a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+div.profile-code pre{
+	position: relative;
+	overflow: hidden;
+}
+div.profile-code pre{
+	/*background: url(https://ya-webdesign.com/images/yellow-bar-png-3.png);
+	    background-position-x: 0%;
+	    background-size: auto;
+	background-size: 120% 10px;
+	background-position-x: -20px;*/
+	padding: 20px;
+}
+div.profile-code pre:before{
+	content: "";
+	position: absolute;
+	width: 150%;
+	height: 60%;
+	top: 30%;
+	left: -20%;
+	z-index: -1;
+	background: url(https://ya-webdesign.com/images/yellow-bar-png-3.png) 0 0 no-repeat;
+	background-size: 150% 80%;
+	background-repeat: none;
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+div.profile-code code{
+	background: transparent;
+	transition: all .3s;
+	color: transparent; 
+}
+div.profile-code code:hover{
+	background: white;
+	color: black;
+}
+div.wrapper .intro .scroll:hover{
+	background: black;
+}
+div.piechart {
+	margin: 10em auto;
+	margin-top: 5em;
+	text-align: center;
+}
+div.piechart img{
+	max-width: 1400px;
+}
+div.historymap {
+	margin-top: 3em;
+	margin-bottom: 8em;
+	padding: 0;
+	overflow: hidden;
+}
+div.historymap img{
+	max-width: 1400px;
+}
+div.historymap video{
+	width: 105%;
+	margin-left: -15px;
+}
+div.links {
+	margin: 10em;
+}
+div.links h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 3em;
+}
+div.links .img_icons img{
+	width: 70px;
+	transition: all .2s ease-in-out;
+}
+div.links .img_icons a{
+	margin: 20px;
+}
+div.links .img_icons img:hover{
+	transform: scale(1.3) rotate(360deg);
+}
+div.traceroute{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background: #EFEAEA;
+	margin: 0 auto
+}
+div.traceroute pre{
+	text-align: left;
+	max-width: 1400px;
+	padding: 3em;
+	margin: 0 auto;
+	font-size: 18px;
+	color: gray;
+}
+div.localmap {
+	margin: 10em;
+}
+div.localmap img{
+	max-width: 1000px;
+}
+footer{
+	margin: 5em;
+}
+footer p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+#mynetwork {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    border: 1px solid lightgray;
+}
