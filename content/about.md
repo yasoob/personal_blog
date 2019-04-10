@@ -14,6 +14,7 @@ My work has benefitted people at:
 
 My book and articles have been read by 4+ Million people in 189+ countries. 
 
+If you are interested in learning more about how I got into programming please read [this article](https://pythontips.com/2017/12/01/how-i-got-into-programming/).
 
 # Let's Talk
 

@@ -10,9 +10,9 @@ googleanalytics = "UA-97849776-1"
 [params]
 	logo = "/images/profile.jpg"
 	email = "hi@yasoob.me"
-	facebook = "https://facebook.com/m.yasoob"
 	twitter = "https://twitter.com/yasoobkhalid"
 	github = "https://github.com/yasoob"
+	linkedin = "https://www.linkedin.com/in/yasoob/"
 	tagline = "A personal blog on all kinds of musings"
 [taxonomies]
   category = "categories"

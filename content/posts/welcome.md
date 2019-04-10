@@ -17,6 +17,8 @@ def new_blog():
     raise Awesomeness
 ```
 
+This blog is powered by Netlify and Hugo. I am a strong believer in the idea that one should not be married to the tools and should use the tool which is best for the job. Hence, even though I love Python and would have loved to use Pelican, Hugo is faster and Netlify is better than GitHub pages. Also, did I mention that Netlify does auto-deployments when I push code to GitHub? 
+
 Please bear with me as I setup the blog. There are still some rough edges which I am trying to iron out. I hope you enjoy your stay on my blog as I give my website a new life :heart:
 
 
