@@ -1,15 +1,19 @@
 body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #FCFCFC;
+  position: relative;
 }
 
-h1 { font-size: 2.1rem; }
+h1 { font-size: 2.6rem; }
 h2 { font-size: 1.9rem; }
 h3 { font-size: 1.7rem; }
 h4,
 h5,
 h6 { font-size: 1.5rem; }
 
+p{
+  font-size: 1.6rem;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -29,7 +33,7 @@ main {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 588px;
 }
 
 .header-logo img {
@@ -45,6 +49,12 @@ main {
 
 .site-title {
   margin-top: 2rem;
+}
+
+.site-title a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .entry-title {
@@ -76,4 +86,95 @@ main {
 }
 .footer-link a{
   padding: 10px;
+}
+
+ul.index_category{
+  margin: 0;
+}
+ul.index_category li{
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  background: #f3d8d8;
+}
+ul.index_category li a{
+  text-decoration: none;
+  padding: 0 5px;
+  color: #5c5454;
+  font-size: 14px;
+}
+
+header{
+  text-align: right;
+  padding-right: 20px;
+  border-bottom: 1px dashed black;
+
+}
+header h1{
+  position: relative;
+}
+
+.nav-links li{
+  list-style: none;
+}
+.nav-links li a{
+  font-size: 18px;
+  color: #2285A4;
+}
+.nav-links img{
+  width: 20px;
+}
+.toggle{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #000;
+  border-top: none;
+  position: absolute;
+  right: -30px;
+  top: 10px;
+}
+@media (max-width: 1050px) {
+  .header-logo{
+    display: none;
+  }
+  .hide-nav .nav-links{
+    display: none;
+  }
+  .hide-nav .tag-line{
+    display: none;
+  }
+  .hide-nav .toggle{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    border-bottom: none;
+    position: absolute;
+    right: -30px;
+    top: 10px;
+  }
+}
+
+@media (min-width: 1050px) {
+  header{
+    position: absolute;
+    right: calc(100% + 48px);
+    width: 180px;
+    text-align: right;
+    border-right: 1px solid black;
+    padding-right: 20px;
+    border-bottom: none;
+  }
+  .toggle{
+    display: none;
+  }
+  main{
+    padding-top: 4rem;
+  }
 }

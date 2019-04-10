@@ -41,9 +41,14 @@
 
 <div class="container">
 
-	<header role="banner">
+	<header onclick="nav_display()" id="nav" class="hide-nav" role="banner">
 		<div class="header-logo">
 			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
 		</div>
-		{{ if eq $isHomePage true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
+		<h1 class="site-title"><a href="/">{{ .Site.Title }}</a><span class="toggle"></span></h1>
+		<p class="tag-line">{{.Site.Params.tagline}}</p>
+		<ul class="nav-links">
+			<li><a href="{{ ref . "about.md" }}">About</a></li>
+			<li><a href="/index.xml"><img src="/images/rss.ico"></a></li>
+		</ul>
 	</header>

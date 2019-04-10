@@ -5,11 +5,14 @@ author = "yasoob"
 theme = "hugo-zen"
 copyright = "CC-by-NA"
 enableEmoji = true
+
 [params]
 	logo = "/images/profile.jpg"
 	email = "hi@yasoob.me"
 	facebook = "https://facebook.com/m.yasoob"
 	twitter = "https://twitter.com/yasoobkhalid"
 	github = "https://github.com/yasoob"
-
+	tagline = "A personal blog on all kinds of musings"
+[taxonomies]
+  category = "categories"
 

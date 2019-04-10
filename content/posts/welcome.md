@@ -2,6 +2,7 @@
 title: "New blog new me"
 date: 2019-04-09T12:23:27-04:00
 draft: false
+categories: ["personal"]
 ---
 
 Hi everyone! I have been thinking about starting a blog on my personal website for quite a while now. Previously I just blogged on [Python Tips](https://pythontips.com). Even stuff which did not relate with Python found its way to Python Tips. I think some distinction is important. I always had to do some mental struggle to justify posting some non-python content on Python Tips. 
