@@ -5,6 +5,7 @@ author = "yasoob"
 theme = "hugo-zen"
 copyright = "CC-by-NA"
 enableEmoji = true
+googleanalytics = "UA-97849776-1"
 
 [params]
 	logo = "/images/profile.jpg"
