@@ -45,10 +45,13 @@
 		<div class="header-logo">
 			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
 		</div>
-		<h1 class="site-title"><a href="/">{{ .Site.Title }}</a><span class="toggle"></span></h1>
+		<h1 class="site-title"><img src="/images/logo.png" />{{ .Site.Title }}<span class="toggle"></span></h1>
 		<p class="tag-line">{{.Site.Params.tagline}}</p>
 		<ul class="nav-links">
-			<li><a href="/about">About</a></li>
+			<li><a href="/">Home</a></li>
+      <li><a href="https://book.pythontips.com/" target="_blank">Book</a></li>
+      <li><a href="/resume.pdf" target="_blank">Résumé</a></li>
+      <li><a href="/about">About</a></li>
 			<li><a href="/index.xml"><img src="/images/rss.ico"></a></li>
 		</ul>
 	</header>

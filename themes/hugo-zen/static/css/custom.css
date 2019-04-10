@@ -20,7 +20,9 @@ img {
   vertical-align: middle;
   border: 0;
 }
-
+ul{
+  list-style: disclosure-closed inside;
+}
 header,
 footer {
   margin: 4rem 0;
@@ -47,16 +49,16 @@ main {
   border-color: #F1F1F1;
 }
 
-.site-title {
+.site-title{
   margin-top: 2rem;
-}
-
-.site-title a{
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-
+.site-title img{
+  width: 25px;
+  float: left;
+}
 .entry-title {
   margin-bottom: 0;
 }
@@ -176,5 +178,8 @@ header h1{
   }
   main{
     padding-top: 4rem;
+  }
+  .site-title img{
+    display: none;
   }
 }
