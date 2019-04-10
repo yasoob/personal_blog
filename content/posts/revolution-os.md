@@ -1,5 +1,5 @@
 ---
-title: "Revolution Os"
+title: "Revolution OS"
 date: 2019-04-10T11:48:52-04:00
 draft: false
 categories: ["review"]
