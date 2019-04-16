@@ -56,5 +56,6 @@ After opening up screen the raspberry pi will ask you for user and pass. The def
 
 <hr>
 
+- [SparkFun tutorial for using FTDI Basic](https://learn.sparkfun.com/tutorials/headless-raspberry-pi-setup/all)
 - [CP2102 Image ref](https://eecs.oregonstate.edu/education/hardware/cp210x/)
 - [Fritzing circuit file](/images/raspberry/CP2102-circuit.fzz)
