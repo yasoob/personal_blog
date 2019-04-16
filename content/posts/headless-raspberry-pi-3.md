@@ -2,7 +2,7 @@
 title: "Interfacing with Raspberry Pi 3 over UART using CP210x"
 date: 2019-04-16T12:04:57-04:00
 draft: false
-categories: ["electronics"]
+categories: ["electronics", "raspberry-pi"]
 ---
 
 Hi people! If you read the last article you might be aware that I am exploring raspberry pi right now. I have Pi 3B+ and I am using it to work on some remote sensors. The biggest issue I have with the Pi is that I don't have an external monitor, mouse, and keyboard handy to use with the Pi. 
@@ -53,6 +53,9 @@ $ screen /dev/tty.SLAB_USBtoUART 115200
 The number at the end (baud rate) is important because both devices need to be sending and receiving data at the same rate for this work. Raspberry Pi sends and receives data at 115200 bps. 
 
 After opening up screen the raspberry pi will ask you for user and pass. The default user/pass is pi/raspberry. 
+
+**Note:** If you want to enable SSH by default on the first boot of Raspberry Pi, you have to create an empty `ssh` file in the boot directory when you flash a fresh Raspbian image. This file should not have any extension. Follow the [Connecting Raspberry Pi to Eduroam Wifi]({{< ref "raspberry-pi-eduroam-wifi.md" >}}) article to automatically connect to the WiFi on boot.
+
 
 <hr>
 
