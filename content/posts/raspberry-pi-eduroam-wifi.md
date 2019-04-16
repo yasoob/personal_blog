@@ -23,6 +23,10 @@ $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 This will open up nano (text editor) to allow you to edit the file. Now paste in the following text in the file:
 
 ```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=us
+
 network={
         ssid="eduroam"
         scan_ssid=1
