@@ -56,4 +56,5 @@ After opening up screen the raspberry pi will ask you for user and pass. The def
 
 <hr>
 
-[CP2102 Image ref](https://eecs.oregonstate.edu/education/hardware/cp210x/)
+- [CP2102 Image ref](https://eecs.oregonstate.edu/education/hardware/cp210x/)
+- [Fritzing circuit file](/images/raspberry/CP2102-circuit.fzz)
