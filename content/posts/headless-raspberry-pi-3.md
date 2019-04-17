@@ -1,11 +1,11 @@
 ---
-title: "Interfacing with Raspberry Pi 3 over UART using CP210x"
+title: "Headless Interfacing with Raspberry Pi 3 over UART using CP210x"
 date: 2019-04-16T12:04:57-04:00
 draft: false
 categories: ["electronics", "raspberry-pi"]
 ---
 
-Hi people! If you read the last article you might be aware that I am exploring raspberry pi right now. I have Pi 3B+ and I am using it to work on some remote sensors. The biggest issue I have with the Pi is that I don't have an external monitor, mouse, and keyboard handy to use with the Pi. 
+Hi people! If you read the last article you might be aware that I am exploring raspberry pi right now. I have Pi 3B+ and I am using it to work on some remote sensors. The biggest issue I have with the Pi is that I don't have an external monitor, mouse, and keyboard handy to use with the Pi. I wanted to have a headless interface with the Raspberry pi.
 
 As I am exploring electronics and sensors, I happen to have access to a low-cost CP2102 USB 2.0 to TTL UART converter. 
 
