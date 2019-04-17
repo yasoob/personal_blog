@@ -112,3 +112,5 @@ If it still doesn't work, search on Google and if even Google isn't able to help
 <hr>
 
 - [I2C Image Source](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/all)
+- [What is the difference between /dev/ttyUSB and /dev/ttyACM?](https://rfc1149.net/blog/2013/03/05/what-is-the-difference-between-devttyusbx-and-devttyacmx/)
+- [Send data from Python to Arduino through serial port](https://raspberrypi.stackexchange.com/questions/67840/send-data-from-python-to-arduino-through-serial-port)
