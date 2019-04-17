@@ -1,7 +1,7 @@
 ---
 title: "Connecting and Interfacing Raspberry Pi with Arduino"
 date: 2019-04-17T11:28:41-04:00
-draft: true
+draft: false
 categories: ["electronics", "raspberry-pi"]
 ---
 
