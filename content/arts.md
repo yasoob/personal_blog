@@ -16,7 +16,7 @@ The idea behind this project was to show that metadata alone can tell us a lot a
 
 <hr>
 
-**:point_right: Living space drawing**
+**:point_right: [Living space drawing](/images/room.jpg)**
 
 ![Room drawing](/images/room.jpg)
 
@@ -29,6 +29,14 @@ This was a part of my drawing class. We were supposed to draw a scene which was 
 ![News website](/images/news.png)
 
 For this project I decided to subvert the Washington Post and showcase how there is a very thin line between real and fake news and sometimes it is hard to distinguish between the two. Open the [website](/arts/A2) and try it out for yourself. There is an autoplay audio. Firefox does not autoplay it so use Chrome to get the full experience.
+
+<hr>
+
+**:point_right: [First Graffiti/Spray painting Project](/images/graffiti.jpg)**
+
+![Graffiti](/images/graffiti.jpg)
+
+This project was done soon after the shooting at a mosque in Christchurch, New Zealand in early 2019. The theme of this project was to promote religious harmony. I used English, Arabic and Urdu to write the same message on the placards. People feel uneasy when they see something new or unfamiliar. That is exactly what I am trying to get at here. This was my first attempt at doing any sort of organized wall spray painting and I am proud of how it turned out. I laser cut cardboard stencils for this project.
 
 
 I will update this page with new arts projects soon. :+1:
