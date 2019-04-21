@@ -1,7 +1,7 @@
 ---
 title: ":herb: Greenhouse Part 2: Measuring Temperature & Light Intensity"
 date: 2019-04-20T20:12:17-04:00
-draft: true
+draft: false
 categories: ["arduino", "electronics", "sensor"]
 ---
 

@@ -40,9 +40,9 @@ void loop(){
     int sensorValue = analogRead(moisturePin);    
     Serial.print(sensorValue);    
     if (sensorValue < threshold){
-        Serial.println("Plant doesn't need water");
+        Serial.println(" - Plant doesn't need water");
     } else {
-        Serial.println("Plant needs water!");
+        Serial.println(" - Plant needs water!");
     }
     delay(1000);
 }
@@ -52,7 +52,9 @@ The code is straightforward. We first define the `moisturePin` as `A0`. This is 
 
 Lastly, we add a delay for one second so that we can get reliable and paced readings. There is no use in taking a reading every millisecond.
 
-And that is it! Connect the Arduino to your laptop, upload the code and try putting the sensor in soil!
+And that is it! Connect the Arduino to your laptop, upload the code and try putting the sensor in soil! It should give you an output like this in the serial monitor:
+
+[![Soil Moisture Sensor Readings](/images/raspberry/green-house/soil-moisture-readings.png)](/images/raspberry/green-house/soil-moisture-readings.png)
 
 In the next article, we will learn how to measure temperature and light intensity using the Arduino. See you then! :heart:
 
