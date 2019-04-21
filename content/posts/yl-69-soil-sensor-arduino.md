@@ -14,7 +14,9 @@ In this post, I will introduce you to the YL-69 Soil Moisture Sensor. This is a 
 Let's start off by setting up the circuit. I am using:
 
 - Arduino UNO
+- Breadboard
 - YL-69 Soil Moisture Sensor
+- Jumper Wires
 
 Wire up the circuit like this:
 
