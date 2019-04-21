@@ -5,11 +5,11 @@ draft: false
 categories: ["arduino", "electronics", "sensor"]
 ---
 
-Hi lovely people! If you have read any of my other articles you might be aware that I am working with electronics right now. After learning the basics of Arduino, I decided to work on a relatively ambitious project. I decided to make a greenhouse monitoring system. I am going to write a series of posts introducing you to all of the sensors one by one and by the end of this series, we will have a fully functional, super basic, greenhouse monitoring system.
+Hi lovely people! :wave: If you have read any of my other articles you might be aware that I am working with electronics right now. After learning the basics of Arduino, I decided to work on a relatively ambitious project. I decided to make a greenhouse monitoring system. I am going to write a series of posts introducing you to all of the sensors one by one and by the end of this series, we will have a fully functional, super basic, greenhouse monitoring system.
 
 In this post, I will introduce you to the YL-69 Soil Moisture Sensor. This is a very basic and cheap soil moisture sensor and can be bought from [oddwires](https://www.oddwires.com/yl-69-soil-hygrometer-humidity-soil-moisture-detection-sensor/). 
 
-**Step 1: Setting up the circuit**
+**Step 1: Wiring up the circuit**
 
 Let's start off by setting up the circuit. I am using:
 
@@ -25,7 +25,7 @@ Wire up the circuit like this:
 
 The output from the moisture sensor changes based on how much water is in the soil. It ranges from 0 to 1023. 1023 means that there is no water and 0 means there is perfect conductivity and hence plenty of water.
 
-**Step 2: Coding up the Arduino**
+**Step 2: Coding the Arduino**
 
 ```c
 int moisturePin = A0;
@@ -55,3 +55,7 @@ Lastly, we add a delay for one second so that we can get reliable and paced read
 And that is it! Connect the Arduino to your laptop, upload the code and try putting the sensor in soil!
 
 In the next article, we will learn how to measure temperature and light intensity using the Arduino. See you then! :heart:
+
+<hr>
+
+- [Further Reading](https://randomnerdtutorials.com/guide-for-soil-moisture-sensor-yl-69-or-hl-69-with-the-arduino/)

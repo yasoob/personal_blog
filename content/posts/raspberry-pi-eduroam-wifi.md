@@ -5,7 +5,7 @@ draft: false
 categories: ["sysadmin", "raspberry-pi"]
 ---
 
-Hi people! I was working with Raspberry Pi lately and was trying to connect it to eduroam. If you are not familiar with eduroam, it is a service used by most universities to provide Wifi on their campuses. It uses Enterprise WPA and Raspberry Pi does not connect to it automatically out of the box.
+Hi people! :wave: I was working with Raspberry Pi lately and was trying to connect it to eduroam. If you are not familiar with eduroam, it is a service used by most universities to provide Wifi on their campuses. It uses Enterprise WPA and Raspberry Pi does not connect to it automatically out of the box.
 
 I actually found these instructions on a different website but that website is down now. I am putting these instructions here for all of you who might be stuck in the same situation.
 

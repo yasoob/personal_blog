@@ -5,7 +5,7 @@ draft: false
 categories: ["electronics", "raspberry-pi"]
 ---
 
-Hi lovely people! I am working on a greenhouse monitoring project and I had to connect my Arduino to the internet over WiFi. I wanted to push some sensor data to my server. I could have bought a WiFi shield for the Arduino but why spend more money when you already have a Pi with WiFi card?
+Hi lovely people! :wave: I am working on a greenhouse monitoring project and I had to connect my Arduino to the internet over WiFi. I wanted to push some sensor data to my server. I could have bought a WiFi shield for the Arduino but why spend more money when you already have a Pi with WiFi card?
 
 I ended up connecting Arduino with my Pi and pushing sensor data to my server through the Pi. The process was super simple.
 
