@@ -1,5 +1,5 @@
 ---
-title: "Creating Custom Style Maps With tileserver-gl"
+title: "Creating Offline Custom Style Maps With tileserver-gl"
 date: 2019-04-27T14:33:31-04:00
 draft: false
 categories: ["programming", "maps"]
