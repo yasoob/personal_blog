@@ -5,11 +5,14 @@ body {
 }
 
 h1 { font-size: 2.6rem; }
-h2 { font-size: 1.9rem; }
+h2 { font-size: 1.9rem;}
 h3 { font-size: 1.7rem; }
 h4,
 h5,
 h6 { font-size: 1.5rem; }
+
+article section h2 { font-size: 2.3rem; font-weight: bold;}
+
 
 p{
   font-size: 1.6rem;
@@ -190,4 +193,11 @@ header h1{
   .site-title img{
     display: none;
   }
+}
+
+blockquote{
+  border-left: 5px solid #d4d0d0;
+  padding-left: 15px;
+  margin-left: 0px;
+  color: gray;
 }
