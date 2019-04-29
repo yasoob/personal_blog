@@ -4,18 +4,24 @@
 
 
   <meta charset="utf-8">
-  <meta name="description" content="Personal website of Yasoob. Author of Intermediate Python book. Blogger at Python Tips.">
   <meta name="author" content="Muhammad Yasoob Ullah Khalid">
   <meta name="keywords" content="Yasoob, Yasoob Khalid, Python Tips, Intermediate Python, Pakistan, Programmer, Blogger, Muhammad Yasoob Ullah Khalid, Software Engineer">
   <meta property="og:image" content="http://yasoob.me/images/profile.jpg">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | emojify}}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
   <meta property="og:type" content="profile">
-  <meta property="og:description" content="CS student at Colgate University. Author of Intermediate Python book. Blogger at Python Tips.">
+  {{ if .Summary }}
+  <meta name="description" content="{{ .Summary }}">
+  <meta property="og:description" content="{{ .Summary }}">
+  <meta name="twitter:description" content="{{ .Summary }}">
+  {{ else }}
+  <meta name="description" content="Personal website of Yasoob. Author of Intermediate Python book. Blogger at Python Tips.">
+  <meta property="og:description" content="Personal website of Yasoob. Author of Intermediate Python book. Blogger at Python Tips.">
+  <meta name="twitter:description" content="Personal website of Yasoob. Author of Intermediate Python book. Blogger at Python Tips.">
+  {{ end }}
   <meta name="twitter:site" content="@yasoobkhalid">
   <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | emojify}}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:description" content="CS student at Colgate University. Author of Intermediate Python book. Blogger at Python Tips.">
   <meta property="profile:first_name" content="Muhammad Yasoob Ullah">
   <meta property="profile:last_name" content="Khalid">
   <meta property="profile:gender" content="male">
