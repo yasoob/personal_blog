@@ -1,5 +1,5 @@
 ---
-title: "Nike Run Club Data Visualization"
+title: "Extracting Data from Nike Run Club & Visualizing It"
 date: 2019-05-01T00:00:00-00:00
 draft: false
 categories: ["running", "programming"]
