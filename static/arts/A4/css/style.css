@@ -1,0 +1,226 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html{
+  background-color: #273d50;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  vertical-align: center;
+  height: 700px;
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0em;
+  @media screen and (min-width: 500px) {
+    flex-direction: row;
+  }
+}
+
+#animation {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 14em;
+  padding-top: 3em;
+  opacity: 1;
+  transition: all .5s;
+}
+
+header {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1em 0.5em 2em;
+  
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+.play-again {
+  $color: #4391f1;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid $color;
+  color: $color;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 2em;
+  
+  &:hover {
+    background-color: $color;
+    color: #fff;
+  }
+}
+
+
+.sky {
+  position:absolute;
+  width:100%;
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #283E51, #0A2342);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #283E51, #0A2342); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -olinear-gradient(to top, #283E51, #0A2342); 
+  height: 100%;
+}
+
+.stars {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+  background:url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+svg {
+  z-index: 9;
+  position: absolute;
+}
+
+header{
+  z-index: 99999;
+}
+.drop-container{
+  width: 100px;
+  height: 100px;
+  top: 32px;
+  left: 55px;
+  position: absolute;
+}
+.drop{
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  background: #17BEBB;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  -webkit-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
+  animation: rain 2s linear 1;
+      animation-fill-mode: none;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+  z-index: 9;
+}
+span.water-tip{
+  opacity: 0;
+  background: #5a5a5a;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  top: 30px;
+  left: 110px;
+  width: 185px;
+  text-align: center;
+  transition: all .5s;
+  border-radius: 5px 5px 5px 5px;
+}
+.drop-container .arrow{
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #5a5a5a;
+  left: 100px;
+  position: absolute;
+  top: 37px;
+  transition: all .5s;
+}
+.drop-container:hover .arrow{
+  opacity: 1;
+}
+.drop-container:hover span.water-tip{
+  opacity: 1;
+}
+img.cancel{
+  position: absolute;
+  top: 43px;
+  left: 64px;
+  width: 80px;
+  z-index: 91;
+  pointer-events: none;
+  transition: all .5s;
+}
+@keyframes fadeIn { 
+  from { opacity: 0.6; } 
+}
+img.sun, img.moon{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 150px;
+  z-index: 99;
+  animation: fadeIn 1s infinite alternate;
+  opacity: 1;
+  transition: all .5s;
+}
+
+img.moon{
+  display: none;
+}
+
+.temp, .light, .moisture {
+  font-weight: lighter;
+  color: white;
+  position: relative;
+  left: 0px;
+  margin-bottom: 1em;
+}
+
+.light, .moisture{
+  margin-top: 3em;
+}
+.graphs {
+  margin-top: 3em;
+  padding: 5em;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.graphs #test-3{
+  margin: 0 auto;
+}
+.epoch-theme-dark .epoch.category10 .category1 .area{
+  /*fill:#fff;*/
+}
+.epoch-theme-dark .line{
+  stroke:#fff !important;
+}
+
+.wilting{
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  opacity: 0;
+  transition: all .5s;
+}
+.wilting img{
+  width: 300px;
+  margin-left: -150px;
+  animation: fadeIn 1s infinite alternate;
+}
+footer{
+  text-align: center;
+}
+footer p{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}

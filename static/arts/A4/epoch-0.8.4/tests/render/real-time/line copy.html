@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.7.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+        <script src="../../../dist/js/epoch.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../../dist/css/epoch.css">
+
+        <script>
+            var nextTime = (function() {
+                var currentTime = parseInt(new Date().getTime() / 1000);
+                return function() { return currentTime++; }
+            })();
+        </script>
+    </head>
+    <body class="epoch-theme-dark">
+        <h1>Real-time Line Plot Test</h1>
+
+        <!-- Test 3 -->
+        <div id="test-3" class="test">
+            <div class="epoch" style="width: 600px; height: 200px"></div>
+       </div>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+                var leftRange = [0, 10];
+        var data = [{ label: 'A', values: [] }];
+
+        var pubnubDemo = new PubNub({
+                subscribe_key : 'sub-c-56550f92-66fc-11e9-a1d1-12440c6cd251'
+            });
+        
+        var chart = $('#test-3 .epoch').epoch({
+                    type: 'time.line',
+                    data: data,
+                    axes: ['left', 'bottom']
+                });     
+        
+        pubnubDemo.addListener({
+            message: function(message) {
+                console.log(message);
+                console.log(message.message.time);
+                console.log(message.message.y);
+                //data[0].values.push({time: message.message.time, y: message.message.y});
+                chart.push([message.message]);
+            }
+        })
+
+        pubnubDemo.subscribe({
+            channels: ['epoch-pubnub']
+        });
+
+    });
+    </script>
+    </body>
+</html>

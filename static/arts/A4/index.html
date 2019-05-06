@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <title></title>
+  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.7.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="js/d3.v3.js" charset="utf-8"></script>
+  <script src="js/epoch.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/epoch.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/gradient.css">
+  <script charset="utf-8" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <script charset="utf-8" type="text/javascript" src="js/gradient.js"></script>
+</head>
+<body>
+  <div id="graph-container">
+    <table id="graph">
+      <tr>
+        <td>
+          <div class="bar" id="rBar">
+            <div class="fill" id="rFill"></div>
+            <div class="target-line" id="rTarget"></div>
+          </div>
+        </td>
+        <td>
+          <div class="bar" id="gBar">
+            <div class="fill" id="gFill"></div>
+            <div class="target-line" id="gTarget"></div>
+          </div>
+        </td>
+        <td>
+          <div class="bar" id="bBar">
+            <div class="fill" id="bFill"></div>
+            <div class="target-line" id="bTarget"></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="current">0</td>
+        <td class="current">0</td>
+        <td class="current">0</td>
+      </tr>
+    </table>
+    <table id="stats">
+      <tr>
+        <td>Previous</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Next</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Distance</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Increment</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <input type="button" value="Pause" id="playPause" />
+  <footer>
+    <p>Made with &hearts; in Hamilton, NY</p>
+  </footer>
+
+</body>
+</html>
