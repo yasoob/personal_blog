@@ -11,4 +11,4 @@ I had a place to stay until last night. I was subletting a single bedroom in an 
 
 **If you live in the city and know of anyone who might be subletting a single room from 11th May till 4th August please let me know. I am looking for someplace with a commute of fewer than 30 minutes to the World Trade Center.**
 
-Have a good day!
+You can email me at hi@yasoob.me Have a good day!
