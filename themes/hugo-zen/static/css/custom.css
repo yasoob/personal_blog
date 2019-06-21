@@ -38,7 +38,7 @@ main {
 
 .container {
   width: 90%;
-  max-width: 588px;
+  max-width: 700px;
 }
 
 .header-logo img {
@@ -172,7 +172,6 @@ header h1{
     right: calc(100% + 40px);
     width: 180px;
     text-align: right;
-    border-right: 1px solid #776c6c;
     padding-right: 28px;
     border-bottom: none;
     background: url('/images/map.png');
@@ -188,9 +187,14 @@ header h1{
     display: none;
   }
   main{
-    padding-top: 4rem;
+    padding: 4rem;
+    background: white;
+    border: 1px solid #eae9e9;
   }
   .site-title img{
+    display: none;
+  }
+  footer .hr{
     display: none;
   }
 }
