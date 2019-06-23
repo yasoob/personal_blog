@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-	<main role="main">
+	<main class="homepage" role="main">
 {{ range (where .Data.Pages ".Params.hidefromhome" "!=" "true") }}
 		<article itemscope itemtype="http://schema.org/Blog">
 			<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a></h2>

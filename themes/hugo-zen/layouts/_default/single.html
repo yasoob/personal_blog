@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 	<main role="main">
-		<article itemscope itemtype="http://schema.org/BlogPosting">
+		<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
 			<h1 class="entry-title" itemprop="headline">{{ .Title | emojify}}</h1>
 			<span class="entry-meta">{{ partial "tags.html" .}}
 				{{ if not (.Params.showthedate) }}

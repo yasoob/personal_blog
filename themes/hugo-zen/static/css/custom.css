@@ -190,7 +190,10 @@ header h1{
     background: white;
     border: 1px solid #eae9e9;
   }
-  article{
+  main.homepage{
+    padding: 4rem;
+  }
+  article.single{
     padding: 4rem;
   }
   .site-title img{
@@ -277,7 +280,7 @@ blockquote{
    border-radius: 6px;
 }
 
-.btn-primary.comment-buttons:hover {
+.btn-primary.comment-buttons:focus, .btn-primary.comment-buttons:hover {
    background: #7c51a2 !important;
    color: white;
 }
