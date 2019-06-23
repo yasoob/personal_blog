@@ -33,7 +33,7 @@
 		<p>Be the first to leave a comment</p>
 		{{ end }}
 
-		<h3>Say something</h3>
+		<h3 class="prompt">Say something</h3>
 
 		<form class="post-new-comment" method="post" action="{{ .Site.Params.staticman.endpoint }}/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/comments">
 			<input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">

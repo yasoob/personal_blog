@@ -239,9 +239,11 @@ blockquote{
   background: #9a6bcc;
   color: white;
 }
-
+.post-comments h3.prompt{
+   margin-top: 2rem;
+}
 .post-comment {
-   background-color: rgb(247, 247, 247);
+   background-color: white;
    padding: 20px;
    margin-top: 20px;
 }
@@ -286,7 +288,7 @@ blockquote{
 }
 
 .post-comment-info .post-comment-name {
-   font-size: 1.4rem;
+   font-size: 2rem;
    font-weight: 500;
 
 }
