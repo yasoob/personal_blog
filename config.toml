@@ -14,6 +14,13 @@ googleanalytics = "UA-97849776-1"
 	github = "https://github.com/yasoob"
 	linkedin = "https://www.linkedin.com/in/yasoob/"
 	tagline = "A personal blog on all kinds of musings"
+
+	[params.staticman]
+	endpoint = "https://staticman-blog.herokuapp.com/v2/entry"
+	username = "yasoob"
+	repository = "personal_blog"
+	branch = "master"
+
 [taxonomies]
   category = "categories"
 
