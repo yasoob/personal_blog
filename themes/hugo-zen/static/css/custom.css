@@ -244,10 +244,15 @@ blockquote{
 }
 .post-comment {
    background-color: white;
-   padding: 20px;
-   margin-top: 20px;
+   margin-top: 60px;
 }
 
+.post-comment:first-of-type {
+    margin-top: 60px;
+}
+.post-comment:last-of-type {
+    margin-bottom: 60px;
+}
 .post-comment-header {
    margin-bottom: 20px;
 }
