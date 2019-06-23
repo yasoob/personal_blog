@@ -23,7 +23,9 @@
 					</a>
 				</p>
 			</div>
-			{{ .comment | markdownify }}
+			<div class="comment-message">
+				{{ .comment | markdownify }}
+			</div>
 		</div>
 		{{ end }}       
 		{{ end }}

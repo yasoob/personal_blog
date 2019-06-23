@@ -256,7 +256,9 @@ blockquote{
 .post-comment-header {
    margin-bottom: 20px;
 }
-
+.post-comment .comment-message{
+  font-size: 1.7rem;
+}
 .post-comment-avatar {
    display: inline-block;
    vertical-align: middle;
