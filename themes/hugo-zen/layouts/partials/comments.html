@@ -1,13 +1,8 @@
-{{ if and (or .Site.DisqusShortname .Site.Params.staticman) (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
+{{ if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
 <section id="comments">
-	{{ if .Site.DisqusShortname }}
-	<div class="disqus-comments">
-		{{ template "_internal/disqus.html" . }}
-	</div>
-	{{ end }}
 	{{ if .Site.Params.staticman }}
+	<h3 class="title">&#9997; Comments</h3>
 	<section class="staticman-comments post-comments">
-		<h3>Comments</h3>
 
 		{{ $comments := readDir "data/comments" }}
 		{{ $.Scratch.Add "hasComments" 0 }}
@@ -35,29 +30,25 @@
 		{{ end }}
 
 		{{ if eq ($.Scratch.Get "hasComments") 0 }}
-		<p>Be the first to leave a comment.</p>
+		<p>Be the first to leave a comment</p>
 		{{ end }}
 
 		<h3>Say something</h3>
-		Your email is used for <a href="https://gravatar.com" target="_blank">Gravatar</a> image and reply notifications only.
-
 
 		<form class="post-new-comment" method="post" action="{{ .Site.Params.staticman.endpoint }}/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/comments">
-			<input name="options[redirect]" type="hidden" value="https://yasoob.me">
-			  <!-- e.g. "2016-01-02-this-is-a-post" -->
-			  <input name="options[slug]" type="hidden" value="{{ .File.BaseFileName }}">
-			  <label><input name="fields[name]" type="text">Name</label>
-			  <label><input name="fields[email]" type="email">E-mail</label>
-			  <label><textarea name="fields[comment]"></textarea>Message</label>
-			  
-			  <button type="submit">Go!</button>
+			<input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
+			<input type="hidden" name="options[slug]" value="{{ .File.BaseFileName }}">
+			<input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
+			<input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>          
+			<textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
+			<input type="submit" class="post-comment-field btn btn-primary comment-buttons" value="Submit">
 		</form>
 	</section>
 
 	<div id="comment-submitted" class="dialog">
-		<h3>Thank you</h3>
-		<p>Your comment has been submitted and will be published once it has been approved.</p>
-		<p><a href="https://github.com/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/pulls">Click here</a> to see the pull request you generated.</p>
+		<h3>Thank you!</h3>
+		<p>Your comment has been submitted and will be published once it has been approved.<br>
+		<a href="https://github.com/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/pulls">Click here</a> to see the pull request you generated.</p>
 
 		<p><a href="#" class="btn btn-primary comment-buttons ok">OK</a></p>
 	</div>

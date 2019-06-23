@@ -187,9 +187,11 @@ header h1{
     display: none;
   }
   main{
-    padding: 4rem;
     background: white;
     border: 1px solid #eae9e9;
+  }
+  article{
+    padding: 4rem;
   }
   .site-title img{
     display: none;
@@ -223,7 +225,16 @@ blockquote{
 /* Staticman comment section and form */
 
 .post-comments {
-   margin-top: 60px;
+   margin-top: 30px;
+   padding: 4rem;
+   padding-top: 0rem;
+}
+#comments h3.title{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 4rem;
+  background: #9a6bcc;
+  color: white;
 }
 
 .post-comment {
@@ -262,13 +273,13 @@ blockquote{
 .btn-primary.comment-buttons {
    background: #9b6bcc !important;
    border-color: #9b6bcc !important;
-   font-size: 0.9rem;
-   padding: 10px 14px 9px;
+   color: white;
    border-radius: 6px;
 }
 
 .btn-primary.comment-buttons:hover {
-   background: #53237f !important;
+   background: #7c51a2 !important;
+   color: white;
 }
 
 .post-comment-info .post-comment-name {
@@ -289,6 +300,10 @@ blockquote{
    color: #9b6bcc;
 }
 
+.post-new-comment {
+  margin-bottom: 0px;
+}
+
 
 /* End staticman comment section and form */
 
@@ -298,7 +313,6 @@ blockquote{
    display: none;
    position: fixed;
    background-color: rgb(247, 247, 247);
-   padding: 25px;
    padding-top: 20%;
    top: 0;
    left: 0;
@@ -310,9 +324,15 @@ blockquote{
 .dialog:target {
    display: block;
 }
+.dialog h3{
+   font-size: 25px;
+   font-weight: bold;
+}
 
 .dialog .btn-primary.comment-buttons.ok {
    width: 7rem;
+   display: inline-block;
+   text-decoration: none;
 }
 
 /* End staticman comment submission confirmation dialog */
