@@ -43,20 +43,14 @@
 
 
 		<form class="post-new-comment" method="post" action="{{ .Site.Params.staticman.endpoint }}/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/comments">
-			<input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
-			<input type="hidden" name="options[slug]" value="{{ .File.BaseFileName }}">
-			<input type="hidden" name="fields[postName]" value="{{ .File.BaseFileName }}"/>          
-			<input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
-			<input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>          
-			<input type="address" name="fields[botpot]" placeholder="botpot (do not fill!)" style="display: none"></textarea>          
-			<textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
-			<!-- Following fields used for subscribing to comments -->
-			<input type="hidden" name="options[origin]" value="{{ $.Permalink }}#comments">
-			<input type="hidden" name="options[parent]" value="{{ .File.BaseFileName }}">
-			<input id="form-submit" type="checkbox" name="options[subscribe]" class="checkbox post-comment-field" value="email">
-			<label for="form-submit" class="post-comment-field checkbox-label"> &nbsp Notify me of new comments on this post</label>
-			<!-- End following fields used for subscribing to comments -->
-			<input type="submit" class="post-comment-field btn btn-primary comment-buttons" value="Submit">
+			<input name="options[redirect]" type="hidden" value="https://yasoob.me">
+			  <!-- e.g. "2016-01-02-this-is-a-post" -->
+			  <input name="options[slug]" type="hidden" value="{{ .File.BaseFileName }}">
+			  <label><input name="fields[name]" type="text">Name</label>
+			  <label><input name="fields[email]" type="email">E-mail</label>
+			  <label><textarea name="fields[comment]"></textarea>Message</label>
+			  
+			  <button type="submit">Go!</button>
 		</form>
 	</section>
 
