@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
-	<main role="main">
-		<h1 class="list-title">{{ .Title | emojify}}</h1>
+	<main role="main" class="all-articles">
+		<h1 class="list-title"><span class="emoji">✍️</span>{{ .Title | emojify}}</h1>
 {{ range .Data.Pages }}
 		<article itemscope itemtype="http://schema.org/Blog">
 			<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></h2>

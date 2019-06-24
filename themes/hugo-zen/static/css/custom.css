@@ -67,6 +67,9 @@ main {
 }
 h1.entry-title{
   text-align: center;
+  font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 2.8rem;
 }
 .entry-title a {
   text-decoration: none;
@@ -74,6 +77,7 @@ h1.entry-title{
 .single .entry-meta{
   display: block;
   text-align: center;
+  margin-bottom: 3rem;
 }
 .entry-meta {
   display: inline-block;
@@ -149,6 +153,12 @@ header h1{
   right: -30px;
   top: 10px;
 }
+a.button.all-articles{
+  margin-top: 35px;
+}
+main.homepage h1 .emoji, div.homepage-articles h1 .emoji, .all-articles .emoji{
+  margin-right: 10px;
+}
 @media (max-width: 1050px) {
   .header-logo{
     display: none;
@@ -201,6 +211,20 @@ header h1{
   }
   main.homepage{
     padding: 4rem;
+  }
+  main.homepage p{
+    margin-bottom: 0px;
+  }
+  div.homepage-articles, main.all-articles{
+    padding: 4rem;
+    background: white;
+    border: 1px solid #eae9e9;
+  }
+  div.homepage-articles article:last-of-type span, main.all-articles article:last-of-type span{
+    margin-bottom: 0px;
+  }
+  div.homepage-articles h1 {
+    margin-bottom: 30px;
   }
   article.single{
     padding: 4rem;

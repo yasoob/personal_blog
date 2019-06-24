@@ -4,6 +4,7 @@ date: 2019-04-09T19:50:04-04:00
 draft: false
 hidefromhome: true
 showthedate: true
+disable_comments: true
 ---
 
 During the last 5 years I have completed numerous projects, authored a widely read programming book, Intermediate Python, and written 130+ programming articles at Python Tips.
