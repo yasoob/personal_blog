@@ -5,6 +5,7 @@ comments:
     - email
     - website
     - comment
+    - reply_to
   branch: master
   commitMessage: "New comment in {options.slug}"
   filename: "comment-{@timestamp}"

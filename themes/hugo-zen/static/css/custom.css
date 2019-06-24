@@ -228,9 +228,6 @@ blockquote{
 /* Staticman comment section and form */
 
 .post-comments {
-   margin-top: 30px;
-   padding: 4rem;
-   padding-top: 0rem;
 }
 #comments h3.title{
   font-weight: bold;
@@ -244,14 +241,24 @@ blockquote{
 }
 .post-comment {
    background-color: white;
-   margin-top: 60px;
+   padding: 2rem 4rem;
 }
-
+.post-comment.reply{
+  background: #f3f0f0eb;
+  position: relative;
+}
+.arrow-up{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #f3f1f1;
+  position: absolute;
+  top: -20px;
+}
 .post-comment:first-of-type {
-    margin-top: 60px;
 }
 .post-comment:last-of-type {
-    margin-bottom: 60px;
 }
 .post-comment-header {
    margin-bottom: 20px;
@@ -271,7 +278,14 @@ blockquote{
    margin-bottom: 0;
    vertical-align: middle;
 }
-
+.comment__reply{
+  text-align: right;
+  margin-top: 10px;
+}
+.comment__reply button{
+  background: #996bcca8;
+  color: white;
+}
 /* Part of blog subscription also */
 .post-comment-field, .post-blogsubscriber-btn {
    display: block;
@@ -313,7 +327,10 @@ blockquote{
 }
 
 .post-new-comment {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding: 4rem;
+    padding-top: 0rem;
 }
 
 
