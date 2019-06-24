@@ -1,0 +1,11 @@
+<div class="related">
+	<h2>You might also like</h2>
+	<ul>
+        {{ with .PrevInSection }}
+          <a class="previous" href="{{.Permalink}}">👉 {{.Title}}</a><br>
+        {{ end }}
+        {{ with .NextInSection }}
+          <a class="next" href="{{.Permalink}}">👉 {{.Title}}</a>
+        {{ end }}
+	</ul>
+</div>

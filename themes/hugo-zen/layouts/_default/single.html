@@ -8,13 +8,13 @@
 				<time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
 				{{end}}
 			</span>
-
 			<section itemprop="entry-text">
 				{{ .Content }}
 			{{ partial "tags.html" .}}
 			<div class="sharethis-inline-share-buttons"></div>
 			</section>
 		</article>
+			{{ partial "related.html" .}}
 			{{ partial "comments.html" .}}
 	</main>
 

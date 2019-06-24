@@ -159,6 +159,24 @@ a.button.all-articles{
 main.homepage h1 .emoji, div.homepage-articles h1 .emoji, .all-articles .emoji{
   margin-right: 10px;
 }
+aside.toc{
+  position: absolute;
+  left: calc(100% + 40px);
+  width: 200px;
+  text-align: left;
+  padding-right: 28px;
+}
+.related{
+  padding: 2rem 4rem;
+}
+.related a{
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: all .4s;
+}
+.related a:hover{
+  color: #0d789a;
+}
 @media (max-width: 1050px) {
   .header-logo{
     display: none;
