@@ -38,7 +38,7 @@ main {
 
 .container {
   width: 90%;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .header-logo img {
@@ -65,11 +65,16 @@ main {
 .entry-title {
   margin-bottom: 0;
 }
-
+h1.entry-title{
+  text-align: center;
+}
 .entry-title a {
   text-decoration: none;
 }
-
+.single .entry-meta{
+  display: block;
+  text-align: center;
+}
 .entry-meta {
   display: inline-block;
   margin-bottom: 2rem;
@@ -95,6 +100,7 @@ main {
 
 ul.index_category{
   margin: 0;
+  float: left;
 }
 ul.index_category li{
   list-style: none;
@@ -163,6 +169,9 @@ header h1{
     position: absolute;
     right: -30px;
     top: 10px;
+  }
+  article.single{
+    padding-bottom: 3rem;
   }
 }
 
@@ -234,6 +243,10 @@ blockquote{
   font-size: 20px;
   padding: 10px 4rem;
   background: #9a6bcc;
+  color: white;
+}
+#comments .title a{
+  text-decoration: none;
   color: white;
 }
 .post-comments h3.prompt{
