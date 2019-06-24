@@ -283,8 +283,14 @@ blockquote{
   margin-top: 10px;
 }
 .comment__reply button{
-  background: #996bcca8;
+  background: #9a6bcc;
   color: white;
+  border: none;
+  transition: all .2s;
+}
+.comment__reply button:hover{
+  border: none; 
+  background: #996bccd1;
 }
 /* Part of blog subscription also */
 .post-comment-field, .post-blogsubscriber-btn {
