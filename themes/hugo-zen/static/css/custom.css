@@ -506,3 +506,14 @@ input[type=checkbox].checkbox {
 }
 
 /* End subscribe to blog posts */
+
+
+@media (max-width: 430px){
+  .post-comment-info {
+     display: inline-block;
+     margin-left: 0px;
+     margin-top: 20px;
+     margin-bottom: 0;
+     vertical-align: middle;
+  }
+}
