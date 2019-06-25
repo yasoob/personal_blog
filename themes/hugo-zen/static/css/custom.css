@@ -177,6 +177,7 @@ aside.toc{
 .related a:hover{
   color: #0d789a;
 }
+
 @media (max-width: 1050px) {
   .header-logo{
     display: none;
@@ -229,6 +230,9 @@ aside.toc{
   }
   main.homepage{
     padding: 4rem;
+    border: 6px solid #FFC107;
+    box-shadow: 6px -6px 0px #eae9e9;
+
   }
   main.homepage p{
     margin-bottom: 0px;
@@ -236,7 +240,8 @@ aside.toc{
   div.homepage-articles, main.all-articles{
     padding: 4rem;
     background: white;
-    border: 1px solid #eae9e9;
+    border: 6px solid #9a6bcc;
+    box-shadow: 6px -6px 0px #eae9e9;
   }
   div.homepage-articles article:last-of-type span, main.all-articles article:last-of-type span{
     margin-bottom: 0px;
@@ -246,6 +251,10 @@ aside.toc{
   }
   article.single{
     padding: 4rem;
+  }
+  main.single-main{
+    border: 6px solid #9a6bcc;
+    box-shadow: 6px -6px 0px #eae9e9;
   }
   .site-title img{
     display: none;
