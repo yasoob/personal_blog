@@ -146,7 +146,7 @@ comments:
 
 This is super simple and tells staticman to do a couple of things. It tells it where to put the comment data (`data/comments/{options.slug}` in this case), which fields are allowed and which ones from among them are required. I have also turned on moderation because spam is a real issue. I need to manually moderate the comments. I have added a `reply_to` field as well. This is going to be used when we implement nested comments.
 
-After creating this file, we need to create `data/comments` folder in the root of our blog repo as well. Once you do that, create a `.gitkeep` file in there so that git knows to add that empty folder in version control. 
+After creating this file, we need to create `data/comments` folder in the root of our blog repo as well. Once you do that, create a `.keep` file in there so that git knows to add that empty folder in version control. 
 
 Now stage your changes, commit them and push them:
 
