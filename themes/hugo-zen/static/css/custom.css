@@ -177,7 +177,9 @@ aside.toc{
 .related a:hover{
   color: #0d789a;
 }
-
+.comment-subscribe input{
+  margin-right: 10px;
+}
 @media (max-width: 1050px) {
   .header-logo{
     display: none;

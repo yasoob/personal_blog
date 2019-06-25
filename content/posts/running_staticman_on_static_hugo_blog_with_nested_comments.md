@@ -393,7 +393,15 @@ if (isLegacyAuth) {
 }
 ```
 
-After this change, everything started working again. The one thing I did not cover in this tutorial is email notifications for follow-up comments. I will cover them once I implement them in this blog. Till then you can follow the link in the sources section below. One of them teaches you how to implement that. 
+Another error I encountered was:
+
+```
+"errorCode": "GITHUB_READING_FILE"
+```
+
+This was because I hadn't created the `data/comments` directory. Make sure you have that directory with an empty `.keep` file in it. 
+
+After these change, everything started working again. The one thing I did not cover in this tutorial is email notifications for follow-up comments. I will cover them once I implement them in this blog. Till then you can follow the link in the sources section below. One of them teaches you how to implement that. 
 
 I wrote most of this article from memory. If you get any error please write a comment below and I will happily update the post.
 

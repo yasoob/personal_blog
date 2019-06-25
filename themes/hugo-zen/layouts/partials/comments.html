@@ -46,10 +46,16 @@
 			<h3 class="prompt">Say something</h3>
 			<input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
 			<input type="hidden" name="options[slug]" value="{{ .File.BaseFileName }}">
+			<input type="hidden" name="options[origin]" value="{{ .Permalink }}">
+ 			<input type="hidden" name="options[parent]" value="{{ .Permalink }}">
 			<input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
 			<input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>
 			<input type="hidden" id="comment-parent" name="fields[reply_to]" value="">
 			<textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
+			<div class="comment-subscribe">
+				<input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+        		Send me an email when someone comments on this post.
+    		</div>
 			<input type="submit" class="post-comment-field btn btn-primary comment-buttons" value="Submit">
 		</form>
 	</section>
