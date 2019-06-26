@@ -42,8 +42,8 @@ main {
 }
 
 .header-logo img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: 4px solid #E1E1E1;
 }
@@ -180,6 +180,16 @@ aside.toc{
 .comment-subscribe input{
   margin-right: 10px;
 }
+pre {
+  background: linear-gradient(to bottom, #bcd08c, #cc6b78);
+  padding-left: 3px;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+code{
+  border-radius: 0;
+  padding-left: 10px !important;
+}
 @media (max-width: 1050px) {
   .header-logo{
     display: none;
@@ -221,7 +231,7 @@ aside.toc{
         background-size: auto;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 00px 95px;
+    background-position: 00px 90px;
   }
   .toggle{
     display: none;
