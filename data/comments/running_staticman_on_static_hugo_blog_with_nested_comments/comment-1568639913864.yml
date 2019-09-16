@@ -1,0 +1,13 @@
+_id: 7be022c0-d884-11e9-9a20-5d3bd4665714
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Yasoob
+email: 741c7bf9a1bd02d108f7e5681229925f
+reply_to: f133c750-c3ff-11e9-abff-55389bd877ba
+comment: >-
+  Hey Xin! The current blog source is not open source for now. The repo you
+  linked to is pretty old :) The current version is hosted on Netlify and makes
+  use of a private repo. If there is anything specific you want to know I can
+  share the code for that.
+name_try: ''
+date: '2019-09-16T13:18:33.858Z'
