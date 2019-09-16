@@ -37,6 +37,10 @@ During my time at ASAPP, the security team organized a company-wide CTF. This wa
 
 **P.S: My team got the second place at the company CTF :sparkles: :sparkles:**
 
+As a bonus for reading this far, here is a picture of me and a good chunk of people who I worked with at ASAPP.
+
+![ASAPP team](/images/asapp-team.jpg)
+
 The internship was amazing and I learned a lot during my time there. Before planning on going back, I will try to search for a slightly different kind of place. Maybe, a fin-tech or a hardware company. Let's see where life takes me! 
 
 Also, if you happen to work at a fin-tech or hardware company and are looking forward to hiring an intern let me know! :heart:
