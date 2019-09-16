@@ -407,6 +407,8 @@ I wrote most of this article from memory. If you get any error please write a co
 
 Till next time! :heart:
 
+**Edit:** Vin100 made some remarks about some of the issues I shared in this article. Make sure to check out [his comment](https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/#commentid-8a8f4650-c9e5-11e9-8238-9540886bfca2)!
+
 ----
 
 **Sources:** 
