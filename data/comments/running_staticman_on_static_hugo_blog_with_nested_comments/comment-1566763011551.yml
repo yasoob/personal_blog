@@ -1,0 +1,8 @@
+_id: 7ae68e40-c772-11e9-a62a-07d2c687fec7
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Atahan
+email: 9b3f60063f6cfc7538c5eeb3d5327827
+reply_to: 17b11620-97bf-11e9-bc85-c9a2b30a15c1
+comment: "Hi Yasoob,\r\nI did all your said, but when I open the application in heroku, I get an \"Application Error\" problem.\r\nCan you help me?"
+date: '2019-08-25T19:56:51.545Z'
