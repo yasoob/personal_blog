@@ -38,7 +38,7 @@ main {
 
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 620px;
 }
 
 .header-logo img {
@@ -244,7 +244,7 @@ code{
     padding: 4rem;
     border: 6px solid #FFC107;
     box-shadow: 6px -6px 0px #eae9e9;
-
+    margin-right: -40px;
   }
   main.homepage p{
     margin-bottom: 0px;
@@ -254,6 +254,7 @@ code{
     background: white;
     border: 6px solid #9a6bcc;
     box-shadow: 6px -6px 0px #eae9e9;
+    margin-right: -40px;
   }
   div.homepage-articles article:last-of-type span, main.all-articles article:last-of-type span{
     margin-bottom: 0px;
@@ -267,9 +268,13 @@ code{
   main.single-main{
     border: 6px solid #9a6bcc;
     box-shadow: 6px -6px 0px #eae9e9;
+    margin-right: -80px;
   }
   .site-title img{
     display: none;
+  }
+  footer{
+    margin-right: -40px;
   }
   footer .hr{
     display: none;
@@ -282,7 +287,9 @@ blockquote{
   margin-left: 0px;
   color: gray;
 }
-
+.comments-emoji {
+  margin-right: 5px;
+}
 
 
 
