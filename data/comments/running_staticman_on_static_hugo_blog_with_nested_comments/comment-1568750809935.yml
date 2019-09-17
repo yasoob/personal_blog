@@ -1,0 +1,9 @@
+_id: af1932a0-d986-11e9-bc3c-ed4590182f7a
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Vin100 Tam
+email: 4980f828b9588a712cc2013ac10fd13a
+reply_to: 17b11620-97bf-11e9-bc85-c9a2b30a15c1
+comment: "Hi Atahan,\r\nYou're using the GitHub Apps version of Staticman?  Note that this article describe the procedures for the legacy authentication method.  You may create an issue in Staticman's official repo to get response from other users."
+name_try: ''
+date: '2019-09-17T20:06:49.933Z'
