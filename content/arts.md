@@ -3,6 +3,7 @@ title: "Art Projects"
 date: 2019-04-10T02:37:20-04:00
 draft: false
 hidefromhome: true
+disable_comments: true
 showthedate: true
 ---
 

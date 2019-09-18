@@ -13,9 +13,11 @@ My work has benefitted people at:
 
 ![Customers](/images/customers.png)
 
-My book and articles have been read by 4+ Million people in 189+ countries. 
+My book and articles have been read by 5+ Million people in 189+ countries. 
 
 If you are interested in learning more about how I got into programming please read [this article](https://pythontips.com/2017/12/01/how-i-got-into-programming/).
+
+I am also looking for internships for summer 2020 so if you work at a kick-ass company and can help me please read [this post](http://bit.ly/internS2020).
 
 # Let's Talk
 
