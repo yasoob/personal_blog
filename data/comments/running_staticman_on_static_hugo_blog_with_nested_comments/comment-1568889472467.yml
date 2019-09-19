@@ -1,0 +1,9 @@
+_id: 884ed460-dac9-11e9-be00-85f602bff955
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Yudy
+email: b5d623932e8281aac3e8cc3ed2e1a650
+reply_to: 17b11620-97bf-11e9-bc85-c9a2b30a15c1
+comment: "Atahan\r\n\r\nmake sure that you have correct `RSA_PRIVATE_KEY` if you are using windows do not use `$(cat key.pem)`"
+name_try: ''
+date: '2019-09-19T10:37:52.461Z'
