@@ -13,6 +13,16 @@ I spend considerable time doing arts and creative projects. I used to do it as a
 
 I recently started exploring the world of generative art and this is the result of that. I used processing/p5js to make these. I hope you like them. I might write some articles in the future about how I made some of these. In the meantime you should definitely check out Daniel Shiffman's videos. He publishes on "[The Coding Train](https://www.youtube.com/user/shiffman/videos)" channel on YouTube.
 
+<video controls loop src="/images/processing/art10.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+
+<video controls loop src="/images/processing/art9.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+
+<video controls loop src="/images/processing/art8.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+
+<video controls loop src="/images/processing/art7.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+
+<video controls loop src="/images/processing/art6.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+
 <video controls loop src="/images/processing/art5.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
 
 <video controls loop src="/images/processing/art4.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
@@ -57,22 +67,3 @@ This project was done soon after the shooting at a mosque in Christchurch, New Z
 
 
 I will update this page with new arts projects soon. :+1:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
