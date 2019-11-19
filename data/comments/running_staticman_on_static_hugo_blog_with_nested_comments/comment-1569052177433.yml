@@ -1,0 +1,9 @@
+_id: 5c0fffb0-dc44-11e9-83ee-6bdb021b3e8e
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Yudy
+email: b5d623932e8281aac3e8cc3ed2e1a650
+reply_to: ''
+comment: "I have *locale date* inside `partials/comments.html`\r\n\r\n~~~\r\n{{ $date := .date }}\r\n{{ (time $date).Day }}                            \r\n{{ $month := (time $date).Month }}\r\n{{ index $.Site.Data.month (printf \"%d\" $bulan) | humanize }},\r\n{{ (time $date).Year }}\r\n~~~\r\n\r\nbut somehow the code doesn't work well in `partials/comment-replies.html` the result was `<index $.Site.Data.bulan (printf \"%d\" $bulan)>: error calling index: index of untyped nil`\r\n\r\ni'm not realy sure but maybe i have to add something in `{{ partial \"single/jurnal/comment-replies\" (dict ....`\r\n\r\nany idea?"
+name_try: ''
+date: '2019-09-21T07:49:37.424Z'
