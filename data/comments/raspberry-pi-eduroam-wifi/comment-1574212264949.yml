@@ -1,0 +1,8 @@
+_id: 9fd9c1a0-0b32-11ea-b206-91b3882e8995
+_parent: 'http://yasoob.me/posts/raspberry-pi-eduroam-wifi/'
+name: Gonçalo
+email: 47d109942573790e825b119e377e77be
+reply_to: ''
+comment: "I'm having a error\r\n\"Successfully iniatilized wpa_supplicant\r\nctrl_iface exists and seems to be in use - cannot override it\r\nDelete ' /var/run/wpa_supplicant/wlan0' manually if it is not used anymore\r\nFailed to initialize control interface 'DIR=/var/run/wpa_supplicant GROUP=netdev'.\r\nYou may have another wpa_supplicant process already running or the file was left by an unclean termination of wpa_supplicant in which case you will need to manually remove this file before starting wpa_supplicant again.\r\n\r\nnl80211: deinit if name=wlan0 disabled_11b_rates=0"
+name_try: ''
+date: '2019-11-20T01:11:04.939Z'
