@@ -1,0 +1,9 @@
+_id: 82e2ddf0-45b3-11ea-83ce-b3d7c5495e0b
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Siddhartha Banerjee
+email: a3d5579eecffae5b18a253052d80dc99
+reply_to: ''
+comment: "I am getting this error: {\r\nsuccess: false,\r\nerrorCode: \"INVALID_VERSION\"\r\n}\r\n\r\nWhen I use the url and cannot seem to get it working."
+name_try: ''
+date: '2020-02-02T11:59:48.823Z'
