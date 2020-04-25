@@ -1,0 +1,9 @@
+_id: 1f210850-5ca1-11ea-b3cf-5b35febb22ca
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: ElArk
+email: 2243b1fa92e0e7a2f5833d7dcc50b3ea
+reply_to: ''
+comment: "Hi Yasoob,\r\n\r\nThank you very much for this detailed tutorial!!\r\n\r\nI'm trying to implement static comments on my jekyll blog. I followed your recipe, but using the `v3` version of staticman. I'm getting the same error as you did when trying to submit a comment:\r\n```\r\n(node:24) UnhandledPromiseRejectionWarning: Error: Require an `oauthToken` or `token` option at /app/lib/GitHub.js:33:15\r\n```\r\nAlthough the `GitHub.js` code has changed slightly, I still tried to change the order of the if statements, but to no avail. Do you have any clue of what else could be going wrong?\r\n\r\nThanks again!"
+name_try: ''
+date: '2020-03-02T16:16:07.254Z'
