@@ -1,0 +1,9 @@
+_id: 2be6ebb0-9f52-11ea-9de0-33c517bcf5d7
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Bradford
+email: a9e7254c1ac1ba2052aa9da9bfe79364
+reply_to: ''
+comment: "I came here searching for a solution to the error\r\n\r\n```\r\nUnhandledPromiseRejectionWarning: Error: Require an `oauthToken` or `token` option\r\n```\r\nI found some [more details here](https://github.com/eduardoboucas/staticman/issues/332) which might help others."
+name_try: ''
+date: '2020-05-26T13:09:46.258Z'
