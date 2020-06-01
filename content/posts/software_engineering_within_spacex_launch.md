@@ -47,7 +47,11 @@ A fun fact which I got via [Hacker News](https://news.ycombinator.com/item?id=23
 
 > Automatic docking software for the ATV that delivers supply to ISS is written using C code and verified with Astree.
 
-SpaceX also made use of Chromium and JavaScript for Dragon 2 flight interface. I am not sure how that passed the certification. I assume it was allowed because for every mission-critical input on the display, there was a physical button underneath the display as well. So if in case the screen malfunctioned, the astronauts could potentially make use of the physical buttons. You can see the buttons in the image below.
+SpaceX also made use of Chromium and JavaScript for Dragon 2 flight interface. I am not sure how that passed the certification. I assume it was allowed because for every mission-critical input on the display, there was a physical button underneath the display as well. So if in case the screen malfunctioned, the astronauts could potentially make use of the physical buttons. Regarding the use of Chromium and JS, a user on [Hacker News](https://news.ycombinator.com/item?id=23369065) had to say this as well:
+
+> Also, only the actual graphical display application uses Chromium/JS. The rest of the system is all C++. The display code has 100% test coverage, down to validation of graphical output (for example if you have a progress bar and you set it to X% the tests verify that it is actually drawn correctly).
+
+You can see the buttons in the image below.
 
 ![Falcon 9 touch input display](/images/spacex/touch-input.jpg)
 
