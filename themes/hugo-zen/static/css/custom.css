@@ -24,7 +24,7 @@ img {
   border: 0;
 }
 ul{
-  list-style: disclosure-closed inside;
+  list-style: disc;
 }
 header,
 footer {
