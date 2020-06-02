@@ -67,7 +67,9 @@ I searched for my email on Have I Been Pawned and found out that my details were
 
 ## Please use password managers
 
-If your email is listed as having been leaked as part of a breach you should go ahead and make sure you change the password on all the services where that email is used. The best way to do that is to use a password manager. These tools allow you to set strong and random passwords for your online accounts and then save them in a database. You only have to remember one master password for your email manager and then you can easily see all the other saved passwords. This is safer because the password manager allows you to create unique passwords for each service so even if a website is hacked you don't have to go back and change your password on all other services. Moreover, the password managers make sure that your passwords are saved in such a way that even if the password manager itself is hacked your saved plaintext passwords aren't leaked to the public.
+If your email is listed as having been leaked as part of a breach you should go ahead and make sure you change the password on all the services where that email is used. The best way to do that is to use a password manager. These tools allow you to set strong and random passwords for your online accounts and then save them in a database. You only have to remember one master password for your email manager and then you can easily see all the other saved passwords. 
+
+This is safer because the password manager allows you to create unique passwords for each service so even if a website is hacked you don't have to go back and change your password on all other services. Moreover, the password managers make sure that your passwords are saved in such a way that even if the password manager itself is hacked your saved plaintext passwords aren't leaked to the public.
 
 There are numerous easy to use password managers out there:
 
