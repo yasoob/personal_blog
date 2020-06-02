@@ -1,7 +1,7 @@
 ---
 title: "Investigating SSH connection issue in SONiC"
 date: 2020-05-26T02:11:18-04:00
-draft: true
+draft: false
 categories: ["programming", "sysadmin", "internship"]
 ---
 
