@@ -277,6 +277,9 @@ body.darkmode{
 .darkmode .post-comment{
   color: white;
 }
+.darkmode .dialog{
+  background-color: #302f2f;
+}
 @media (max-width: 1050px) {
   .header-logo{
     display: none;
