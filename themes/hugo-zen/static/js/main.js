@@ -46,6 +46,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
       "darkmode=true; expires=" + date.toGMTString() + "; path=/";
     }
     else {
+      // Updating CSS on the fly
+      // https://stackoverflow.com/questions/19844545/replacing-css-file-on-the-fly-and-apply-the-new-style-to-the-page
       document.getElementById("light").rel="stylesheet";
       document.getElementById("dark").rel="alternate stylesheet";
       document.cookie =
