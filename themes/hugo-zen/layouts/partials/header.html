@@ -36,7 +36,8 @@
   {{ .Hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+  <link id="light" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/github.min.css">
+  <link id="dark" rel="alternate stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/dracula.min.css">
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/custom.css">
@@ -47,19 +48,22 @@
 
 <div class="container">
 
-	<header onclick="nav_display()" id="nav" class="hide-nav" role="banner">
-		<div class="header-logo">
-			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
-		</div>
-		<h1 class="site-title"><a href="/"><img src="/images/logo.png" /></a>{{ .Site.Title }}<span class="toggle"></span></h1>
-		<p class="tag-line">{{.Site.Params.tagline}}</p>
-		<ul class="nav-links">
-			<li><a href="/">Home</a></li>
+  <header onclick="nav_display()" id="nav" class="hide-nav" role="banner">
+    <div class="header-logo">
+      <a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
+    </div>
+    <h1 class="site-title"><a href="/"><img src="/images/logo.png" /></a>{{ .Site.Title }}<span class="toggle"></span></h1>
+    <p class="tag-line">{{.Site.Params.tagline}}</p>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
       <li><a href="/arts">Art Projects</a></li>
       <li><a href="https://pythontips.com/" target="_blank">Python Blog</a></li>
       <li><a href="https://book.pythontips.com/" target="_blank">Book</a></li>
       <li><a href="/resume.pdf" target="_blank">Résumé</a></li>
       <li><a href="/about">About</a></li>
-			<li><a href="/index.xml"><img src="/images/rss.ico"></a></li>
-		</ul>
-	</header>
+      <li>
+        <a id="darkModeToggle">🌓</a>
+        <a href="/index.xml"><img src="/images/rss.ico"></a>
+      </li>
+    </ul>
+  </header>

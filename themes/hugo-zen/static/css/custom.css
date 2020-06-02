@@ -52,6 +52,11 @@ main {
   border-color: #F1F1F1;
 }
 
+#darkModeToggle{
+  cursor: pointer;
+  margin-right: 15px;
+}
+
 .site-title{
   margin-top: 2rem;
   color: black;
@@ -122,6 +127,10 @@ ul.index_category li a{
   font-size: 14px;
 }
 
+li  {
+  font-size: 1.7rem;
+}
+
 header{
   text-align: right;
   padding-right: 20px;
@@ -189,6 +198,72 @@ pre {
 code{
   border-radius: 0;
   padding-left: 10px !important;
+}
+
+#hp{
+  width: 100%;
+}
+
+body.darkmode{
+  background: #1e1d1d;
+}
+.darkmode h1.site-title{
+  color: white;
+}
+
+.darkmode p.tag-line{
+  color: white;
+}
+
+.darkmode h1, .darkmode h2, .darkmode h3, .darkmode h4,
+.darkmode h5, .darkmode h6, .darkmode p, .darkmode li, 
+.darkmode .comment-subscribe, .darkmode label{
+  color: white;
+}
+
+.darkmode blockquote p{
+  color: #a3a3a3;
+}
+
+.darkmode .nav-links li a, .darkmode a{
+  color: #aeaeae;
+}
+
+.darkmode #comments h3.title{
+  background: #838087;
+}
+
+.darkmode .btn-primary.comment-buttons{
+  background: #838087 !important;
+  border-color: #838087 !important;
+}
+
+.darkmode .btn-primary.comment-buttons:hover{
+  background: #6c6a6e !important;
+  border-color: #6c6a6e !important;
+}
+.darkmode code{
+  background: #282626;
+}
+.darkmode input[type="email"], .darkmode input[type="number"], 
+.darkmode input[type="search"], .darkmode input[type="text"],
+.darkmode input[type="tel"],.darkmode input[type="url"],
+.darkmode input[type="password"],.darkmode textarea{
+  background: grey;
+  border: 0px;
+  color: white;
+}
+.darkmode ::-webkit-input-placeholder{
+  color: white;
+}
+.darkmode ul.index_category li{
+  background: #817d7d;
+}
+.darkmode ul.index_category li a{
+  color: #dddddd;
+}
+.darkmode a:hover{
+  color: grey;
 }
 @media (max-width: 1050px) {
   .header-logo{
@@ -269,6 +344,12 @@ code{
     border: 6px solid #9a6bcc;
     box-shadow: 6px -6px 0px #eae9e9;
     margin-right: -80px;
+  }
+  .darkmode main.single-main, .darkmode .homepage-articles,
+  .darkmode .homepage, .darkmode main.all-articles{
+    box-shadow: none;
+    border: 6px solid #838087;
+    background: #393838;
   }
   .site-title img{
     display: none;
