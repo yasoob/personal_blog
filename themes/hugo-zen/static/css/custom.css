@@ -233,12 +233,12 @@ body.darkmode{
   background: #838087;
 }
 
-.darkmode .btn-primary.comment-buttons{
+.darkmode .btn-primary.comment-buttons, .darkmode .comment__reply button{
   background: #838087 !important;
   border-color: #838087 !important;
 }
 
-.darkmode .btn-primary.comment-buttons:hover{
+.darkmode .btn-primary.comment-buttons:hover, .darkmode .comment__reply button:hover{
   background: #6c6a6e !important;
   border-color: #6c6a6e !important;
 }
@@ -264,6 +264,18 @@ body.darkmode{
 }
 .darkmode a:hover{
   color: grey;
+}
+.darkmode .post-comment{
+  background-color: #393838;
+}
+.darkmode .post-comment.reply{
+  background-color: #625f5f;
+}
+.darkmode .arrow-up{
+  border-bottom: 20px solid #625f5f;
+}
+.darkmode .post-comment{
+  color: white;
 }
 @media (max-width: 1050px) {
   .header-logo{
@@ -476,6 +488,10 @@ blockquote{
 .btn-primary.comment-buttons:focus, .btn-primary.comment-buttons:hover {
    background: #7c51a2 !important;
    color: white;
+}
+
+.darkmode .btn-primary.comment-buttons:focus, .btn-primary.comment-buttons:hover{
+  background: #838087 !important;
 }
 
 .post-comment-info .post-comment-name {
