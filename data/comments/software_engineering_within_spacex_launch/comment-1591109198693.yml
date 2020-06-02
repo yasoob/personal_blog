@@ -1,0 +1,8 @@
+_id: dd42b460-a4df-11ea-8c71-37d9d28f4fbc
+_parent: 'http://yasoob.me/posts/software_engineering_within_spacex_launch/'
+name: Johnny
+email: 729a30fba40c0baffed535bba391f89c
+reply_to: ''
+comment: "\"A ROS provides real-time guarantees which are essential for such software.\"\r\nDo you mean a RTOS?"
+name_try: ''
+date: '2020-06-02T14:46:38.689Z'
