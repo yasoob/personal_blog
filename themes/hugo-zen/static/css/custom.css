@@ -204,6 +204,63 @@ code{
   width: 100%;
 }
 
+#mc_embed_signup{
+  border: 5px solid #99970433;
+  padding: 10px;
+  position: relative;
+  background: #d0cf6f33;
+}
+#mc_embed_signup h3{
+  margin: 0;
+  color: #867d62;
+  margin-bottom: 10px;
+}
+#mc_embed_signup a{
+  color: #d0c6a7;
+  transition: .5s all;
+}
+#mc_embed_signup a:hover{
+  color: #5e5b5b;
+}
+#mc_embed_signup p{
+  color: #aa9d76;
+  font: 110%;
+  margin-bottom: 10px;
+}
+#mc_embed_signup .close-btn{
+  position: absolute;
+  z-index: 2;
+  right: 4px;
+  top: 0;
+  font: bold 24px "Source Sans Pro", sans-serif;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+#mce-EMAIL{
+  width: 100%;
+  border: 3px solid #99970433;
+  box-shadow: none;
+  font-size: 100%;
+  color: #84844b;
+}
+#mc-embedded-subscribe {
+  float: right;
+  background: #ecec67;
+  border: none;
+  border-radius: 4px;
+  color: #84844b;
+  transition: .5s all;
+}
+#mc-embedded-subscribe:hover{
+  background: #d5d56f;
+}
+#mc_embed_signup p.subtext{
+  color: #aa9d76;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 95%;
+}
+
 body.darkmode{
   background: #1e1d1d;
 }
@@ -279,6 +336,9 @@ body.darkmode{
 }
 .darkmode .dialog{
   background-color: #302f2f;
+}
+.darkmode #mc_embed_signup{
+  background-color: #4f4f4f;
 }
 @media (max-width: 1050px) {
   .header-logo{
