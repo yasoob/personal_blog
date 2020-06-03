@@ -1,0 +1,13 @@
+_id: 86202400-a5ad-11ea-bf9c-29d2837896d7
+_parent: 'http://yasoob.me/posts/software_engineering_within_spacex_launch/'
+name: Sam
+email: c46c2697575169cbdb61fe0c34595ec3
+reply_to: ''
+comment: >-
+  I was working with Qt in a previous job and in my ramp up of it discovered
+  that SpaceX was using QML for the Crew Dragon UI. I believe that jives with
+  the statement that "only the graphics are drawn with JS/Chromium" and that the
+  rest of the code is C++. Really awesome how far UI development has come with
+  balancing high performance vs speed of development vs visual quality!
+name_try: ''
+date: '2020-06-03T15:18:48.949Z'
