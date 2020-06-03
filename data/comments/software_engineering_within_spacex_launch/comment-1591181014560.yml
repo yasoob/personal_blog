@@ -1,0 +1,8 @@
+_id: 12d83a30-a587-11ea-94c0-9b24ee7da701
+_parent: 'http://yasoob.me/posts/software_engineering_within_spacex_launch/'
+name: Ern
+email: 4070a5a21dfc63a4d7e5ca7f17e94b7c
+reply_to: ''
+comment: "Good summary.\r\nI'd assume that there would be classified aspects to some of this such as perhaps the guidance systems, hardware designs, software designs, etc.\r\nMission critical with humans would need the highest levels of hardware redundancy with rad-hardening in particular due to the space environment. Especially the in-orbit hardware.\r\nIt's interesting that sub-orbital hardware may not require rad-hardening.\r\nNoticed a typo in \"tripple\". Should be triple."
+name_try: ''
+date: '2020-06-03T10:43:34.556Z'
