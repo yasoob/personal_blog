@@ -53,11 +53,11 @@ This was a part of my drawing class. We were supposed to draw a scene which was 
 
 <hr>
 
-**:point_right: [Subverting a Website](/arts/A2)**
+**:point_right: Subverting a Website**
 
 ![News website](/images/news.png)
 
-For this project I decided to subvert the Washington Post and showcase how there is a very thin line between real and fake news and sometimes it is hard to distinguish between the two. Open the [website](/arts/A2) and try it out for yourself. There is an autoplay audio. Firefox does not autoplay it so use Chrome to get the full experience.
+For this project I decided to subvert the Washington Post and showcase how there is a very thin line between real and fake news and sometimes it is hard to distinguish between the two. The user decides if they think an article is real or fake and then they click on the article. It it is real, the article title flashes in green and if it is fake, the title flashes in red.
 
 <hr>
 

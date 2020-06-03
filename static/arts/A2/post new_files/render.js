@@ -1,1 +1,0 @@
-(function($){$(".pb-f-generic-promo-image").each(function(){var $hasLabel=$(this).find(".label-wrapper");if($hasLabel.length==0)$(this).find("\x3e:first-child").addClass("mobile-border")})})(jQuery);
