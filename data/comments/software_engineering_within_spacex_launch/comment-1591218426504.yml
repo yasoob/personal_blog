@@ -1,0 +1,12 @@
+_id: 2e1062d0-a5de-11ea-b83c-35a7ace4d486
+_parent: 'http://yasoob.me/posts/software_engineering_within_spacex_launch/'
+name: Nate Fisher
+email: 6353b0a9fadd9bf1b8c17c8af14ec5fe
+reply_to: ''
+comment: >-
+  Does this article imply that RTCA/DO-178B is used as a means of demonstrating
+  compliance in some way, or otherwise is used to define lifecycle processes for
+  their development/verification/systems teams? Can you say where you saw this
+  mentioned by SpaceX?
+name_try: ''
+date: '2020-06-03T21:07:06.497Z'
