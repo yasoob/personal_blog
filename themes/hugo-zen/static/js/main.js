@@ -51,22 +51,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
       enableDarkmode();
       // Updating cookies will help prevent this from showing up again soon
       // http://www.quirksmode.org/js/cookies.html
-      document.cookie =
-      "darkmode=true; expires=" + date.toGMTString() + "; path=/";
+      document.cookie = "darkmode=true; expires=" + date.toGMTString() + "; path=/";
     }
     else {
       // Updating CSS on the fly
       // https://stackoverflow.com/questions/19844545/replacing-css-file-on-the-fly-and-apply-the-new-style-to-the-page
       disableDarkmode();
-      document.cookie =
-      "darkmode=false; expires=" + date.toGMTString() + "; path=/";
+      document.cookie = "darkmode=false; expires=" + date.toGMTString() + "; path=/";
     }
   });
 
   if (getCookie("darkmode") == "true") {
     var element = document.body;
     element.classList.toggle("darkmode");
-    document.getElementById("dark").rel="stylesheet";
-    document.getElementById("light").rel="alternate stylesheet";
+    enableDarkmode();
+  }
+
+  var closeNewsletterBtn = document.getElementById('close-btn');
+  closeNewsletterBtn.addEventListener("click", function () {
+      document.getElementById('mc_embed_signup').style.display = 'none';
+
+      var date = new Date();
+      var days = 10;
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      document.cookie =
+          "hidesubscribe=true; expires=" + date.toGMTString() + "; path=/";
+  });
+
+  if (getCookie("hidesubscribe") == "true") {
+    document.getElementById('mc_embed_signup').style.display = 'none';
   }
 });

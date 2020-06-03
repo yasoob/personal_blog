@@ -227,7 +227,7 @@ code{
   font: 110%;
   margin-bottom: 10px;
 }
-#mc_embed_signup .close-btn{
+#mc_embed_signup #close-btn{
   position: absolute;
   z-index: 2;
   right: 4px;
