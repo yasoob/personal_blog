@@ -1,0 +1,8 @@
+_id: 88418d50-a5c1-11ea-b56e-e5c826ceac49
+_parent: 'http://yasoob.me/posts/software_engineering_within_spacex_launch/'
+name: Stefan
+email: df6ccd7263dd7c9fea441577810777ef
+reply_to: ''
+comment: "also intresting in this context is this talk\r\nhttps://www.youtube.com/watch?v=t_3bckhV_YI\r\nit is from SpaceX engineers how they migrated to Bazel for their build system"
+name_try: ''
+date: '2020-06-03T17:42:02.269Z'
