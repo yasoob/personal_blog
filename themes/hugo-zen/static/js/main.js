@@ -24,6 +24,17 @@ function getCookie(cname) {
   return "";
 }
 
+function enableDarkmode(){
+  document.getElementById("dark").rel="stylesheet";
+  document.getElementById("light").rel="alternate stylesheet";
+  console.log("setting darkmode");
+}
+
+function disableDarkmode(){
+  document.getElementById("light").rel="stylesheet";
+  document.getElementById("dark").rel="alternate stylesheet";
+  console.log("removing darkmode");
+}
 document.addEventListener('DOMContentLoaded', (event) => {
   //the event occurred
   hljs.initHighlightingOnLoad();
@@ -37,9 +48,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     element.classList.toggle("darkmode");
     console.log(getCookie("darkmode") == "true");
     if (getCookie("darkmode") != "true") {
-      document.getElementById("dark").rel="stylesheet";
-      document.getElementById("light").rel="alternate stylesheet";
-      console.log("setting darkmode");
+      enableDarkmode();
       // Updating cookies will help prevent this from showing up again soon
       // http://www.quirksmode.org/js/cookies.html
       document.cookie =
@@ -48,11 +57,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     else {
       // Updating CSS on the fly
       // https://stackoverflow.com/questions/19844545/replacing-css-file-on-the-fly-and-apply-the-new-style-to-the-page
-      document.getElementById("light").rel="stylesheet";
-      document.getElementById("dark").rel="alternate stylesheet";
+      disableDarkmode();
       document.cookie =
       "darkmode=false; expires=" + date.toGMTString() + "; path=/";
-      console.log("removing darkmode");
     }
   });
 

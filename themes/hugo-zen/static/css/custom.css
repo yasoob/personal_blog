@@ -340,6 +340,9 @@ body.darkmode{
 .darkmode #mc_embed_signup{
   background-color: #4f4f4f;
 }
+.darkmode #mce-EMAIL{
+  color: white;
+}
 @media (max-width: 1050px) {
   .header-logo{
     display: none;
