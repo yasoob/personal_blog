@@ -21,6 +21,9 @@ googleanalytics = "UA-97849776-1"
 	repository = "personal_blog"
 	branch = "master"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [taxonomies]
   category = "categories"
 
