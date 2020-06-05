@@ -63,7 +63,7 @@ Go to this [dashboard url][2] and create a new application.
 
 On the next page give your application a unique name.
 
-![Img](/wp-content/uploads/2017/04/screen-shot-2017-04-12_at_4_24_50_pm.png)
+![Img](/wp-content/uploads/2017/04/screen_shot_2017-04-12_at_4_24_50_pm.png)
 
 From the next page click on "Heroku CLI" and download the latest [Heroku CLI][3] for your operating system. Follow the on-screen install instructions and come back once it has been installed.
 

@@ -127,8 +127,7 @@ So now you have got some idea of how testing works in python. Remember that this
 
 I hope you enjoyed this article and do remember this one tip that the best time to write tests is while developing. If you write tests bit by bit while developing then they will not become a burden and your application will be rock solid. 
 
-Do share your views in the comments below or feel free to [email me][2] or [tweet me][3]. Last but not the least follow this blog and stay tuned for the next post.
+Do share your views in the comments below or feel free to email me, or [tweet me][3]. Last but not the least follow this blog and stay tuned for the next post.
 
  [1]: http://docs.python.org/2/library/unittest.html
- [2]: yasoob.khld@gmail.com
  [3]: http://twitter.com/yasoobkhalid

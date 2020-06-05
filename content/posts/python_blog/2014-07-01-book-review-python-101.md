@@ -24,7 +24,7 @@ tags:
 ---
 Hi guys. So I am trying to get up to speed with my blog because lately I have not been posting a lot and due to this my blog is becoming stagnant. In this post I am going to write a book review. My friend **Mike** from **[The Mouse Vs The Python Blog][1]** recently wrote a book with the name of Python 101. He is a really talented blogger and programmer and I was waiting anxiously to read his brand new book, Python 101.
 
-![Python 101 by Michael Driscoll](http://www.blog.pythonlibrary.org/wp-content/uploads/2014/02/mousecovercolor_sm-237x300.jpg)
+![Python 101 by Michael Driscoll](https://www.blog.pythonlibrary.org/wp-content/uploads/2014/02/mousecovercolor_sm-237x300.jpg)
 
 In **Python 101** Mike has clearly explained most of the basic concepts of Python in a straight forward way. Lets be honest, while I was reading his book I was trying to search those parts of the book which I could have written better and he clearly won because there is virtually nothing I could have made better.
 

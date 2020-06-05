@@ -69,7 +69,7 @@ plt.show()
 
 Here’s what the image looks like:
 
-![Horsehead Nebula](http://codenhance.com/assets/horsehead_nebula.png)
+![Horsehead Nebula](/wp-content/uploads/2016/08/horsehead_nebula.png)
 
 The full tutorial is [here][15] if you want to do more!
 

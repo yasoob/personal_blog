@@ -314,7 +314,7 @@ Congrats on successfully completing the Alexa custom Skill development project! 
 
 Let me share some more instructions about how you would go about doing the latter project. You can extract the `Intent` from the voice input. This is similar to how we extracted the `Command` from the input in this tutorial. Then you can send that Intent to IBM Watson for sentiment analysis. Watson will tell you the mood of the user. Then you can use that mood and the Spotify API to create a playlist based on that specific mood. Lastly, you can play the custom generated playlist using the Spotify API.
 
- [1]: brickhack.io
+ [1]: https://brickhack.io/
  [2]: https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
  [3]: https://ngrok.com
  [4]: https://ngrok.com/download
