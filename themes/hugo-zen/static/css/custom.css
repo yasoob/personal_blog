@@ -175,6 +175,9 @@ a.button.all-articles{
 main.homepage h1 .emoji, div.homepage-articles h1 .emoji, .all-articles .emoji{
   margin-right: 10px;
 }
+.homepage_signup{
+  margin-bottom: 40px;
+}
 aside.toc{
   position: absolute;
   left: calc(100% + 40px);
@@ -409,6 +412,10 @@ body.darkmode{
     border: 6px solid #FFC107;
     box-shadow: 6px -6px 0px #eae9e9;
     margin-right: -40px;
+  }
+  div.homepage_signup{
+    margin-right: -40px;
+    margin-bottom: 40px;
   }
   main.homepage p{
     margin-bottom: 0px;
