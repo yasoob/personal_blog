@@ -1,0 +1,17 @@
+_id: !!python/unicode '4113'
+comment: !!python/unicode "Hello,\nI am working on CrocToy project, which is a big\
+  \ robotic toy with artificial intellect, a mix of an animal and a 3-4 years old\
+  \ kid. After the research on possible main functionality, I decide to use Python\
+  \ as a programming platform. I am looking for help in developing the entire architecture\
+  \ or at least the main functionality modules:\n- text-to-speech synthesizer\n- voice\
+  \ recognition\n- use xbox to maintain a \"vision\", simple object distancing and\
+  \ recognition functions\n- use Python to move (program) servo motors\nHaving a limited\
+  \ programming skills, I am looking for much of help or perhaps someone is interested\
+  \ to get over of programming part of CrocToy's project. \nQuestion is how to let\
+  \ know about my project to as many programmers as possible?\nIf it helps, I can\
+  \ prepare a short overview of my project.\nThank you, sorry for imperfect English,\n\
+  Andrew\nPS\nI may have troubles of follow answers to my post, please use my e-mail:\
+  \ croctoy@gmail.com\nThank you,\nAndrew"
+date: !!python/unicode '2015-02-12 01:59:55'
+email: c546319d24b89d18a583b60b45a28238
+name: !!python/unicode 'Andrew'

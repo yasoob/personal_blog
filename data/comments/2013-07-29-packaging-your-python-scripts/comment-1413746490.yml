@@ -1,0 +1,8 @@
+_id: !!python/unicode '3504'
+comment: !!python/unicode "Somehow it is not working for me. Here is the error\n\n\
+  \"usage: a.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n   or: a.py\
+  \ --help [cmd1 cmd2 ...]\n   or: a.py --help-commands\n   or: a.py cmd --help\n\n\
+  error: no commands supplied\n\"\na.py is the name of the file storing above code."
+date: !!python/unicode '2014-10-19 15:21:30'
+email: bf33a38907494d6f207c502acf6a17e7
+name: !!python/unicode 'Amit'

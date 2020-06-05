@@ -1,0 +1,6 @@
+_id: !!python/unicode '10304'
+comment: !!python/unicode 'SQLAlchemy is very powerful but much too low-level for
+  many uses.  See instead the Records library which is a layer on top of SQLAlchemy.'
+date: !!python/unicode '2017-04-12 00:09:36'
+email: 0c27474bcff67974d6a9fcb43cb7ba4e
+name: !!python/unicode 'Chris'

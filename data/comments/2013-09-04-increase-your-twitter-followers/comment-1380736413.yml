@@ -1,0 +1,14 @@
+_id: !!python/unicode '864'
+comment: !!python/unicode "It will be in Ukrainian language. I can change words myself,\
+  \ I just wanna sample, because I just started to learn Python few month ago, but\
+  \ it's difficult to me to work with twitter api :]\nIt will be autoresponder bot,\
+  \ that wishes something. \n\nI know about API limit. Nearly 1000 twits\n\nAlso,\
+  \ have two suggestions for you:\n1. Make auto-reply bot that launch automatically.\
+  \ For example, once in 5 minutes. \n2. Select reply-phrase from some range of phrases\
+  \ (for example: we have three reply-phrases in a range: \"Me too!\", \"I love it\
+  \ soooo much\" and \"Python - forever!\". When someone post a twit with a word \"\
+  Python\" in it - bot replies with a random selected phrase from our range)"
+date: !!python/unicode '2013-10-02 13:53:33'
+email: 562fe63e029801b1dd7539b15886d7b3
+name: !!python/unicode 'oliver'
+reply_to: !!python/unicode '659'

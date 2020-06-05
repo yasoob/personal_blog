@@ -1,0 +1,7 @@
+_id: !!python/unicode '373'
+comment: !!python/unicode 'By the way, this is just a convention. If you want your
+  own modules to have a useful version, simply assign a string (if possible using
+  the semantic version format, see http://semver.org/ ) to __module__ .'
+date: !!python/unicode '2013-08-28 13:24:44'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'Philipp'

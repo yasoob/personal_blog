@@ -1,0 +1,8 @@
+_id: !!python/unicode '4344'
+comment: !!python/unicode "<pre><code>&gt;&gt;&gt; a = [1,2,3,4]\n&gt;&gt;&gt; a[::-1]</code></pre>  \nIt\
+  \ does not reverse the list, it creates a new list which is reversed. The 'list'\
+  \ class has a reverse() method for that purpose.\n(but if 'a' is a string -- strings\
+  \ are immutable -- the a[::-1] way is quite good)"
+date: !!python/unicode '2015-04-19 09:51:27'
+email: 5594d4871b505b495cbfeffe5155d2f3
+name: !!python/unicode 'GuieA_7'

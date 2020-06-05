@@ -1,0 +1,8 @@
+_id: !!python/unicode '8537'
+comment: !!python/unicode 'well, the reason there is no sortedcontainer in the stdlib
+  IMHO boils down to the presece of the `sorted()` function and the ".sort()" method.
+
+  Why "keep sorted" a list when you can sort on the fly when you need?'
+date: !!python/unicode '2016-04-30 08:58:46'
+email: bcfe2359f5f43407a4a039827f736a14
+name: !!python/unicode 'ZeDware'

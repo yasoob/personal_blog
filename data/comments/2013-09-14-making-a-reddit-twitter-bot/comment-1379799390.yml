@@ -1,0 +1,11 @@
+_id: !!python/unicode '603'
+comment: !!python/unicode 'Hi there Alekz.p. Thanks for replying. The problem is that
+  this blog is currently on wordpress. I can only use gist to use syntax highlighting
+  but by embedding gist in the current theme the code font becomes TOO big so I left
+  it. I don''t want to change the theme because there is no other free good looking
+  theme like this. In near future I am going to shift it to python preferably Pelican.
+  Lets see what becomes of this blog in the future.'
+date: !!python/unicode '2013-09-21 17:36:30'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '601'

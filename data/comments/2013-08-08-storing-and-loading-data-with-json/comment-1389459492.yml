@@ -1,0 +1,10 @@
+_id: !!python/unicode '1241'
+comment: !!python/unicode 'By default, json.dump will output just a single line, so
+  you''re already good to go. If you want just one large list, simply read in the
+  file with json.load, overwrite it (with myfile.truncate()), and write your new list
+  out. If you''re worried about data consistency, create a temporary file in the same
+  directory, write into that, and then rename it to ''database.txt''.'
+date: !!python/unicode '2014-01-11 11:58:12'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'Philipp'
+reply_to: !!python/unicode '1239'

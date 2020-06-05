@@ -1,0 +1,11 @@
+_id: !!python/unicode '5'
+comment: !!python/unicode 'Good post, but a couple of minor nitpicks: According to
+  PEP8, there should be a space in  open(''file.txt'',''w'') . file is also not a
+  good variable name, since it will (at least in Python 2) overshadow a built-in and
+  therefore confuse people. Additionally, open(''file.txt'', ''w'') is virtually never
+  the right thing to do since it involves a lot of guessing and can have crazy semantics
+  on platforms. In &gt;99% of the cases, you either want to use io.open or open(''file'',
+  ''wb'').'
+date: !!python/unicode '2013-07-30 08:00:58'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'Philipp'

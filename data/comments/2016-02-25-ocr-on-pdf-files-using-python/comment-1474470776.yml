@@ -1,0 +1,12 @@
+_id: !!python/unicode '9151'
+comment: "The TESSERACT_CMD should also include 'os.sep', as below:\nTESSERACT_CMD\
+  \ = os.environ[\u201CTESSDATA_PREFIX\u201D] + os.sep + \u2018tesseract.exe\u2019\
+  \ if os.name == \u2018nt\u2019 else \u2018tesseract\u2019\n\nIt works properly that\
+  \ way since we get the path as:: 'C:\\\\Program Files (x86)\\\\Tesseract-OCR\\\\\
+  tesseract.exe'\n\nAlso, for 'eng' I guess it is tool.get_available_languages()[0]\
+  \ instead of the 2nd entry in the list. Not sure.\n\nThanks for the wonderful explanation\
+  \ for Windows, life saver! :)"
+date: !!python/unicode '2016-09-21 11:12:56'
+email: d17140afcfb480f52548d253693b6797
+name: !!python/unicode 'diabyed'
+reply_to: !!python/unicode '9103'

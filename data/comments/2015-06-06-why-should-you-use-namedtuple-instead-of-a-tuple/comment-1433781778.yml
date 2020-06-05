@@ -1,0 +1,17 @@
+_id: !!python/unicode '4500'
+comment: !!python/unicode "Thank for a nice post.\nI'd have a follow up question -\
+  \ how easy it is to create a named tuple from a dictionary (with default values\
+  \ for example)? I have my workarounds but thought you may know better.\n\nMy use\
+  \ case is as follows: I'm using argparse library in my code. Unfortunately (!) \
+  \ they use named tuples too. All is well when I call my code through command line\
+  \ (all parameters are set and used in the code), but sometimes I want to use my\
+  \ code not through the command line. So what I want to do is to set just a few parameters\
+  \ in the named tuple and pass it along to the logic. Unfortunately it's impossible\
+  \ - all parameters need to be set (even when not used in my logic).\n\nSo what I\
+  \ ended up doing is either expecting a dictionary or converting named tuple to a\
+  \ dictionary and then process. This ain't elegant though in my view.\n\nWould prefer\
+  \ argparse to use dictionaries... \n\nAny hints are appreciated. \n\nThank you,\
+  \ \nPaul"
+date: !!python/unicode '2015-06-08 12:42:58'
+email: 2d4d8970e7fc165563374aed37cf44d1
+name: !!python/unicode 'Paul'

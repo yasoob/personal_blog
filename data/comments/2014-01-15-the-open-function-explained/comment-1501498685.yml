@@ -1,0 +1,11 @@
+_id: !!python/unicode '11652'
+comment: !!python/unicode "<pre><code>CONTENT = r\"C:\\Users\\CHARLES\\Desktop\\test.txt\"\n\
+  D = open(CONTENT,'r').read()\nprint(type(D))\nopen(CONTENT,'r').close()</code></pre>\n\nIf you\
+  \ see the second line without the \".read()\" the result will feed the object D,\
+  \ so that you can use D with `.close()` or `.read()`, however, I am putting .read()\
+  \ right next to the open() cause it will catch the information that will be saved\
+  \ in D as an object and instead of having D as an object a am turning this info\
+  \ into a string. \nYou can test it with the following;\nprint(type(D))"
+date: !!python/unicode '2017-07-31 06:58:05'
+email: 3870c135b3b8eb38afa01ded6b61d626
+name: !!python/unicode 'Ernesto89'

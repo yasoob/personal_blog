@@ -1,0 +1,23 @@
+_id: !!python/unicode '3464'
+comment: !!python/unicode 'Very happy PyCharm user here.  I''m doubly blessed to have
+  a license for the commercial edition for use at work, and since we''re using a lot
+  of the advanced features of it, it''s really _really_ nice.
+
+
+  I''m very much a proponent of everyone using what works best for them, I''m not
+  bashing Sublime users here, I have nothing against that.  But my opinion is that
+  from what I can see, it takes a fair bit of work to get Sublime setup with what
+  comes out of the box with PyCharm.  Not only that, but an interactive pdb session
+  is not the same as having a fully integrated rich debugging experience.  Auto-completion
+  that knows Python syntax is nice, having it auto-complete with items from other
+  open items is even nicer, but autocompleting with items from an imported package
+  is king, and I doubt that Sublime supports that.
+
+
+  You mention that you like how quickly Sublime starts up, and it''s absolutely true
+  that PyCharm takes awhile.  But I feel like I save more than the 10 seconds it took
+  to start up in using a tool that was actually custom designed for what I want to
+  do with it.  Just my $0.02.'
+date: !!python/unicode '2014-10-14 20:04:57'
+email: ca65df2b3f91ec4398c6ad460d0fa3fc
+name: !!python/unicode 'Yutaka'

@@ -1,0 +1,14 @@
+_id: !!python/unicode '5361'
+comment: !!python/unicode 'Hey that is great! I would recommend Flask but it is solely
+  my own preference. If you believe that you can easily learn the "magic" going on
+  behind the scenes in Django then Django is also not a bad choice. However, I know
+  a couple of companies who have/are migrating from Django to Flask because of the
+  flexibility Flask provides. In the end it is up to you. There are a lot of comparisons
+  done between both of these frameworks by a lot of people online so I wont be doing
+  it again. I hope that I have answered your question. If there is anything else which
+  you would like to ask then just let me know and I would be happy to assist you.
+  :)'
+date: !!python/unicode '2015-07-27 15:32:58'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '5360'

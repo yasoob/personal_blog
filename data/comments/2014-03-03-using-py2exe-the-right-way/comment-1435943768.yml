@@ -1,0 +1,9 @@
+_id: !!python/unicode '4875'
+comment: !!python/unicode "I've an icon associated with my app, but when i convert\
+  \ it to an exe the icon is not present. Any information on how I might include it?\
+  \ \n\nIn the UI file the line is:\nicon.addPixmap(QtGui.QPixmap(_fromUtf8(\"icons/favicon.ico\"\
+  )), QtGui.QIcon.Normal, QtGui.QIcon.Off)\n\nSo I've added icons/favicon.ico to the\
+  \ dist directory, but no joy. \n\nThanks."
+date: !!python/unicode '2015-07-03 13:16:08'
+email: 4ea5d951a5c3e4a7bec7a4ca332b0d28
+name: !!python/unicode 'johndlawlor'

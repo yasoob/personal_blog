@@ -1,0 +1,7 @@
+_id: !!python/unicode '12647'
+comment: !!python/unicode 'JIM MOONEY, more than likely not. If it closed automatically,
+  then why would there be a close function. The open() can be assigned to a variable,
+  and that can be closed, read, written to, etc., so no it shouldn''t close automatically.'
+date: !!python/unicode '2017-10-29 22:25:26'
+email: f45e107a3e87892ddf55efb76149c030
+name: !!python/unicode 'scoutchorton'

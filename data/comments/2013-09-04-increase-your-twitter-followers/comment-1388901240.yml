@@ -1,0 +1,9 @@
+_id: !!python/unicode '1236'
+comment: !!python/unicode 'looks like you messed something up with creating the Oauth
+  tokens. Great tutorial by @yasoob but he should have mentioned to also make sure
+  you give write abilities (post) to the account. double check you filled in all the
+  tokens correctly.'
+date: !!python/unicode '2014-01-05 00:54:00'
+email: edf01a24988c85eb1febc829ab173012
+name: !!python/unicode 'Eric Matzner'
+reply_to: !!python/unicode '1119'

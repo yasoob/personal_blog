@@ -1,0 +1,9 @@
+_id: !!python/unicode '6072'
+comment: !!python/unicode "Just a precision. yield has nothing to do with loop in\
+  \ function as you suggest (but it is true that  it is often make sens in loops).\
+  \ The StopIteration occur when the function end (hit return).\nyou can still write:\n\
+  def g():\n   yield 1\n   yield 2\n   yield 3\n\nwithout loop statement.  [i for\
+  \ i in g()] == [1,2,3]"
+date: !!python/unicode '2015-09-11 05:28:46'
+email: 0859779a892ee9d6c51771418172685d
+name: !!python/unicode 'sly'

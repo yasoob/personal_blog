@@ -1,0 +1,11 @@
+_id: !!python/unicode '1219'
+comment: !!python/unicode "Awesome...\n\nMay be something like,\n\n<pre><code>[]#python test.py\n\
+  Enter your search criteria( Songs, Albums, Movie, Artist)\n\nEnrique\n\n++Searching\
+  \ ..... Found 3 results ...\n&gt; Heartbeat\n&gt; Escape\n&gt; Somebody's\n\nChoose\
+  \ option:\n1. Download songs from above search\n2. New search\n3. Exit\n\nOption:\
+  \ 1\n\nEnter Songs from (Heartbeat, Escape, Somebody's): Escape\n\n++Downloading......\n\
+  \nDownload Successful...</code></pre> \n\nJust started with python (Beginner), May be I can reach\
+  \ to a level where I can write such smart codes."
+date: !!python/unicode '2013-12-27 04:51:16'
+email: 10f3ba7b924cd7a8ea1550a3926e1b86
+name: !!python/unicode 'mjmokaal'

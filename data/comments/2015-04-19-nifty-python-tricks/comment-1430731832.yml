@@ -1,0 +1,7 @@
+_id: !!python/unicode '4395'
+comment: !!python/unicode 'You can even use a ternary operator in a list comprehension:
+  <pre><code>
+  [x**2 if x &gt; 10 else x**4 for x in range(40)]</code></pre>'
+date: !!python/unicode '2015-05-04 05:30:32'
+email: 1962f9799467786945d4184805d2651b
+name: !!python/unicode 'Jim Mooney'

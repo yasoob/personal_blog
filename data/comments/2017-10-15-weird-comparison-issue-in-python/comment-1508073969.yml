@@ -1,0 +1,17 @@
+_id: !!python/unicode '12435'
+comment: !!python/unicode 'first of all, cool post. once it is known how python handles
+  this, the obvious workaround (use parentheses to force python to handle things in
+  the order we prefer) is:
+
+
+  (d + 2 * a &gt; int(c)) == b
+
+
+  and that fixes your problem. now if you want to tell me that pythons way of handling
+  d + 2 * a &gt; int(c) == b is weird and un-obvious: i agree. i wouldnt have guessed
+  that (d + 2 * a &gt; int(c)) == b fixes it until i read your post. but at least
+  the fix is easy and intuitive-- once the piece of knowledge youre sharing here is
+  known.'
+date: !!python/unicode '2017-10-15 09:26:09'
+email: c5d4cd98747c1e203e26937d718325d3
+name: !!python/unicode 'codeinfig'

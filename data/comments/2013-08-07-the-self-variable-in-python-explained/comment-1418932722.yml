@@ -1,0 +1,9 @@
+_id: !!python/unicode '3849'
+comment: "Shouldn't the \"open_branch\" function's if-statement say,\n\nif self.bankrupt\
+  \ == True:\n    print (\"branch opened\")\n\nBecause you said, \n\n\"Then we assign\
+  \ it a property \u201Cbankrupt\u201D which is currently false. ***After that we\
+  \ assign it a function open_branch which can only occur if \u201Cbankrupt\u201D\
+  \ is False which means that the Restaurant has some money.***\""
+date: !!python/unicode '2014-12-18 14:58:42'
+email: c661493e1a70ddca654691288baf9304
+name: !!python/unicode 'Bob Barker'

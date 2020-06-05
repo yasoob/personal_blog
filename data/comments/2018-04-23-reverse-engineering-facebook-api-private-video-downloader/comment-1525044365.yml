@@ -1,0 +1,10 @@
+_id: !!python/unicode '15072'
+comment: !!python/unicode 'I have the same problem in those lines. It looks like there''s
+  a missing simple quote or parenthesis.
+
+  I tried to fixed in my IDLE but I don''t understand verry well wich parts of that
+  code shuold be string, wich ones should be methods and wich ones attributes.'
+date: !!python/unicode '2018-04-29 19:26:05'
+email: ff512248b8c5291c03ca654cd9f7ae9a
+name: !!python/unicode 'Ricardo'
+reply_to: !!python/unicode '15035'

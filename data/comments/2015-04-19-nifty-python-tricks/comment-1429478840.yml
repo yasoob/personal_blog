@@ -1,0 +1,8 @@
+_id: !!python/unicode '4348'
+comment: !!python/unicode 'Curious that you''re mentioning ast.literal_eval without
+  any reason. It''s actually a much more limited eval and is not designed to evaluate
+  general Python. The ast module is for modeling Python''s syntax. Try a few statements
+  with literal_eval; you will not get far.'
+date: !!python/unicode '2015-04-19 17:27:20'
+email: d700efe4c5d1b2f72c74d43d9f3e296f
+name: !!python/unicode 'tim'

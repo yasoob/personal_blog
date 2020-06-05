@@ -1,0 +1,7 @@
+_id: !!python/unicode '5414'
+comment: !!python/unicode 'Thanks for the tutorial. I''m getting stuck as the directory
+  i want to interrogate is a windows share, and I cannot  get the path syntax correct.
+  I did try r''\\computer\folder'' but it fails.'
+date: !!python/unicode '2015-07-30 12:07:22'
+email: 8feaf12a304c8c712a6861dee1b9feb7
+name: !!python/unicode 'indi67'

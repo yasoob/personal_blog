@@ -1,0 +1,11 @@
+_id: !!python/unicode '1705'
+comment: !!python/unicode 'Sometimes the CLI just won''t do. Sometimes I want to distribute
+  my programs to friends; not all of than are capable of using the terminal. This
+  book seems to be full of good ideas on how to write useable, maintainable, practical
+  object oriented applications in python/tkinter. I am really interested in this book.
+  https://twitter.com/esato1981/statuses/447695779931910145
+
+  https://www.facebook.com/eduardo.sato.509/posts/10203199720531228?stream_ref=10'
+date: !!python/unicode '2014-03-23 11:40:06'
+email: aea0c5d16015d9d6d91ebc5b5abe9bc3
+name: !!python/unicode 'Eduardo Sato'

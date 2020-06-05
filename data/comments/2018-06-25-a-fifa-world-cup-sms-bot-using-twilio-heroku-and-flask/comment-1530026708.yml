@@ -1,0 +1,7 @@
+_id: !!python/unicode '18520'
+comment: !!python/unicode 'when I enter  :        ''heroku create''
+
+  It shows  :     ''heroku: command not found'''
+date: !!python/unicode '2018-06-26 11:25:08'
+email: be471b54a72b20dab4e3ada78ba0d518
+name: !!python/unicode 'Shreyash Anarase'

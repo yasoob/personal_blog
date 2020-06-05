@@ -1,0 +1,9 @@
+_id: !!python/unicode '2993'
+comment: !!python/unicode 'Well, then you need to use an actual password and full
+  disk encryption. How could Skype possibly encrypt something when it must be fully
+  usable after being started? Note that on a company laptop, your boss could also
+  have installed a keylogger, screenlogger, or anything else he''d want.'
+date: !!python/unicode '2014-08-25 21:16:27'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'phihag'
+reply_to: !!python/unicode '2988'

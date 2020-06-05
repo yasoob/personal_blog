@@ -1,0 +1,6 @@
+_id: !!python/unicode '8370'
+comment: !!python/unicode 'Can you explain, why we bind the socket to 12345, but the
+  client connects to 52***...'
+date: !!python/unicode '2016-03-26 15:24:20'
+email: 9291eddc2cefad563ee03ab1a381f781
+name: !!python/unicode 'Jannis'

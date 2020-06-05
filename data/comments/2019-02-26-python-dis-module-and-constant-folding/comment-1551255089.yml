@@ -1,0 +1,9 @@
+_id: !!python/unicode '30156'
+comment: !!python/unicode "Great article!  \n\nIf you look at what might be the PR\
+  \ that brought some of this constant folding into Py3 : https://github.com/python/cpython/pull/2858/files#diff-807cb08857a345ecb5c5665366c642d5R200\
+  \ (about line 200 of Python/ast_opt.c), you'll see it was limiting things to numbers\
+  \ that were smaller than 20 digits.  I suspect this got upped as 3xx64 is 30 digits\
+  \ while 3xx65 is 31."
+date: !!python/unicode '2019-02-27 03:11:29'
+email: ccc9578f69b1e2285803c6ec4c0513af
+name: !!python/unicode 'jim anderson'

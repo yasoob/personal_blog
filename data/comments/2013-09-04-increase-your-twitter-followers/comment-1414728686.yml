@@ -1,0 +1,12 @@
+_id: !!python/unicode '3560'
+comment: !!python/unicode 'I get an error that says: UnicodeEncodeError: ''charmap''
+  codec can''t encode character ''\u2026'' in position 112: character map to (undefined)
+
+
+  What does this mean? how can i get rid of it?
+
+
+  Thanks'
+date: !!python/unicode '2014-10-31 00:11:26'
+email: 3fd081e13684f33b4e7262c35a1e98ec
+name: !!python/unicode 'Gelbra'

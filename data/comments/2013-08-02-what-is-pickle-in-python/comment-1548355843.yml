@@ -1,0 +1,5 @@
+_id: !!python/unicode '23493'
+comment: !!python/unicode 'in Python3 use ''rb'' and not just ''r'' when opening file'
+date: !!python/unicode '2019-01-24 13:50:43'
+email: 9b2b9e267a5475b214c3e558dbff00c3
+name: !!python/unicode 'Jaison'

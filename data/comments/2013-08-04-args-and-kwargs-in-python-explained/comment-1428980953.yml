@@ -1,0 +1,18 @@
+_id: !!python/unicode '4328'
+comment: !!python/unicode 'For Python3 now please note a difference:
+
+  in the first example for usage of **kwargs the line that has this:
+
+  for key, value in kwargs.iteritems():
+
+
+  gave me an error because it needs to be:
+
+  for key, value in kwargs.items():
+
+
+  since iteritems() no longer is defined in Python3 because items() can do the same
+  thing.'
+date: !!python/unicode '2015-04-13 23:09:13'
+email: 044d489f0c765d88688a60e297273651
+name: !!python/unicode 'Falon'

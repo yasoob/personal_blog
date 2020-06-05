@@ -1,0 +1,7 @@
+_id: !!python/unicode '4394'
+comment: !!python/unicode 'So what if you open without a handle? I often see this:
+  print(open(''data.txt'').read()) I assume it''s always closed automatically, but
+  I hate to assume ;'')'
+date: !!python/unicode '2015-05-04 04:44:16'
+email: 1962f9799467786945d4184805d2651b
+name: !!python/unicode 'Jim Mooney'

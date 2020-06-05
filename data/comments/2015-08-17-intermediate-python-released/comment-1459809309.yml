@@ -1,0 +1,9 @@
+_id: !!python/unicode '8437'
+comment: !!python/unicode 'It''s a good book. I really enjoy reading the book. Something
+  i think would be useful to readers are how to use some basic standard libs and applying
+  into small projects like os, subprocess, just to name a few. Also since you talk
+  about set, you may want to talk about list and dict since they''re basic data structures.
+  also i can see unittest lib is also good since python is important for test development.'
+date: !!python/unicode '2016-04-04 18:35:09'
+email: f66adda50eaae079eccfffc2ea8b5ae6
+name: !!python/unicode 'Brian Nguyen'

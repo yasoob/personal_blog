@@ -1,0 +1,19 @@
+_id: !!python/unicode '18117'
+comment: !!python/unicode "You're right Rei-Chan, and I do like SoundCloud and hope\
+  \ for the best for its life continuity, but I think the Emphasize here is not about\
+  \ teaching people to \"steal from SoundCloud\". Yasoob is just trying to explain\
+  \ how he achieve what he did, step by step in a practical tutorial.\n\nWhich he\
+  \ did it very impressive and very helpful for someone like me who are new to Python.\n\
+  This tutorial have very good practical aspects of  at least the following things:\n\
+  - Reverse engineering a service (or I'd like to call it understanding how things\
+  \ work) \n- Design a flow to automate the process\n- Using Python to automate the\
+  \ flow\n- Practical example of library like Requests and Flask can be used\n- How\
+  \ to structure it properly\n\nI'd like to thank Yasoob for his works! keep it up!\
+  \ It's very helpful for me personally. I like how you make a tutorial that is practical\
+  \ and have a real world application. It does really help me build similar scraping\
+  \ tools for other service. I'm new to Python but have been doing some web dev in\
+  \ Node and PHP. Starting to like the beauty of Python\n\nThanks again."
+date: !!python/unicode '2018-06-03 07:19:07'
+email: 1611343bf8d8557f73772cb258d39242
+name: !!python/unicode 'raizerde'
+reply_to: !!python/unicode '14400'

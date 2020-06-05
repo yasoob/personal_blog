@@ -1,0 +1,19 @@
+_id: !!python/unicode '10148'
+comment: "&gt;&gt; Note that there is no requirement for a 64 bit OS to define ints\
+  \ as 64 bit wide.\nyes, we know. for this reason, we didn't use values greater than\
+  \ 32- bit integers for compatibility with 32-bit os.\n\n&gt;&gt; Whoever set an\
+  \ int to 0xf0f0f0f0 should review \xA75.2.4.2.1 of the C standard \u2013 this is\
+  \ not going to work on all platforms since the minimum INT_MAX is only 65535.\n\
+  agree. it could out of mind at the moment of choosing the value for constant. now\
+  \ it's hard to remember why we choose this value because it was 2 years ago, But\
+  \ now all our constants are less than 65535 :)\n\n&gt;&gt; One more note: you can\
+  \ avoid the step of inserting a print to see why an assertion fails if you use a\
+  \ proper test case (an object derived from unittest.TestCase) and then call self.assertEqual.\
+  \ This will automatically output the values upon failure. Only some test runners\
+  \ will also do that for assert x == y.\nAll the examples with assertions were used\
+  \ just for examples and in test script at the stage of discovering the problem.\
+  \ In the tests we use TestCase and his useful functions like assertEqual/assertTrue\
+  \ (https://github.com/cossacklabs/themis/blob/master/tests/pythemis/)."
+date: !!python/unicode '2017-03-13 11:35:55'
+email: 656ce767b26e82ba9a04344cb7d71b54
+name: !!python/unicode 'Lagovas'

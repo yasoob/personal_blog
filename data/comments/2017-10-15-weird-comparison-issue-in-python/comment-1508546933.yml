@@ -1,0 +1,6 @@
+_id: !!python/unicode '12543'
+comment: !!python/unicode "No shit, the same thing happens with this:\nif 'a' &lt;=\
+  \ foo &lt;= &#039;z&#039;:\n   return True"
+date: !!python/unicode '2017-10-20 20:48:53'
+email: cb4a3cd25f2ecbe1f17e7191dac3a7bc
+name: !!python/unicode 'retard'

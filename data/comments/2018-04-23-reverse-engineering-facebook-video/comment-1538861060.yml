@@ -1,0 +1,13 @@
+_id: !!python/unicode '19606'
+comment: !!python/unicode 'Nice! This is cool. I modified the script slightly so that
+  instead of just printing the video URL to screen, it fires up the browser passing
+  the _video_url_ as a parameter. For that I edited as follows;
+
+  <pre><code>import webbrowser
+
+  #print(video_url)
+
+  webbrowser.open_new(video_url)</code></pre>'
+date: !!python/unicode '2018-10-06 17:24:20'
+email: 6a1a7513254e89fc742530021acd562a
+name: !!python/unicode 'Tigere Gurundoro (@RangTiger)'

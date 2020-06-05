@@ -1,0 +1,9 @@
+_id: !!python/unicode '10241'
+comment: !!python/unicode 'A good tech talk thrives from structure. There is a limited
+  number of points you can make, usually one. Split it into few subpoints (3-5, not
+  more). Usually len(subpoints) &lt; len(slides), thus it is a good idea to start
+  with the overall structure. If you are doing well, the most interesting stuff goes
+  into subpoints[-1].'
+date: !!python/unicode '2017-03-31 14:30:13'
+email: a4521b2b186593d74e27ff6e23eb2696
+name: !!python/unicode 'Kristian Rother'

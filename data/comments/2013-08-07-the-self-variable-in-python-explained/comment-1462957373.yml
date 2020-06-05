@@ -1,0 +1,10 @@
+_id: !!python/unicode '8588'
+comment: !!python/unicode "Thanks you for very nice explanation. Could you please\
+  \ elaborate on object parameter which is present while declaring a class.. What\
+  \ is its significance? Also do we need to explicitly declare class variables ?\n\
+  I mean is below code is correct?\nclass Restaurant(object):\n   def __init__(self):\n\
+  \      self.bankrupt = false;\n    def open_branch(self):\n        if not self.bankrupt:\n\
+  \            print(\"branch opened\")"
+date: !!python/unicode '2016-05-11 05:02:53'
+email: e68475608e653a3bbd2e2b53c74cbfd6
+name: !!python/unicode 'Poornima'

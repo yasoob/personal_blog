@@ -1,0 +1,14 @@
+_id: !!python/unicode '1552'
+comment: !!python/unicode 'Just a note first - your link to the book''s page has an
+  unnecessary space in it. It should be http://www.packtpub.com/tkinter-gui-application-development-hotshot/book
+
+
+  Learning to write multi-threaded applications is probably what interests me the
+  most about this. While making a note-taking program for an Extended Project Qualification,
+  I''ve been occasionally working on a 2D terrain generator. The basic generation
+  works, but I''m looking to add more complexity. The generation is pretty fast, but
+  the ways I''m displaying it in tkinter make it pretty slow, so any good practices
+  I can apply to the code would be helpful.'
+date: !!python/unicode '2014-03-08 15:22:10'
+email: 6797f1afbc81b015c210c22bf3e7c9a7
+name: !!python/unicode 'George Bryant'

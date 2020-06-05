@@ -1,0 +1,8 @@
+_id: !!python/unicode '10213'
+comment: !!python/unicode 'While loading the pickled object back, the file should
+  be opened in "rb" mode instead of just ''r'' since we have dumped initially by writing
+  in raw binary "wb" mode. If not done, this throws the error (UnicodeDecodeError:
+  ''utf-8'' codec can''t decode byte 0x80 in position 0: invalid start byte).'
+date: !!python/unicode '2017-03-26 11:15:05'
+email: fe0187c6dac7b59e5663e021f9070b8f
+name: !!python/unicode 'Saurav Jha'

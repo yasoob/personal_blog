@@ -1,0 +1,10 @@
+_id: !!python/unicode '2755'
+comment: !!python/unicode 'For some reason I''m still getting the Missing Sip error
+  even though I''ve called for it in my setup.py script. I''m also running it in the
+  command line as "python setup.py py2exe" but when I run the exe I still get that
+  error. However, running the command "python setup.py py2exe --includes sip compiles
+  the project just fine. The only problem: I''m missing more modules and don''t know
+  how to list multiple modules other than in the setup.py file. Please help?'
+date: !!python/unicode '2014-07-22 20:10:09'
+email: 9e6a64f3eda84735b9d0469318fcd428
+name: !!python/unicode 'Jason Reed'

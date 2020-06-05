@@ -1,0 +1,10 @@
+_id: !!python/unicode '10466'
+comment: !!python/unicode "First, thanks for the awesome instructions!! Epitomizes\
+  \ the benefit of project-based learning. \nI was hoping you could shed light on\
+  \ an error message I've been getting. When I try entering heroku git:remote -a,\
+  \ Terminal gives me the following message: \n-a, --app APP needs a value\nNot sure\
+  \ what this means, and doesn't seem to be too common an error; I feel like I must\
+  \ be missing something basic.."
+date: !!python/unicode '2017-05-08 02:32:05'
+email: 68e572395cfa4f84bcf7b1a65c64392a
+name: !!python/unicode 'Susie'

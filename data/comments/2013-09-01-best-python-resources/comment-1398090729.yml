@@ -1,0 +1,18 @@
+_id: !!python/unicode '1912'
+comment: !!python/unicode 'Thanks for this great post. You may also consider www.ansible.com
+  for Deployment, provisioning, orchestration, ...
+
+  You can install it easily just with pip and it makes your life thousand time nicer.
+  ;)
+
+
+  I used Fabric and done deployment. It''s fine for the beginning and maybe mini projects,
+  but Ansible is just awesome for any sized project and is really easy to learn and
+  work with.
+
+
+  P.S.: I use Ansible+Vagrant (www.vagrantup.com) to create and configure deployment
+  environments.'
+date: !!python/unicode '2014-04-21 10:32:09'
+email: 04f1ba2ae8d80a5b40d7ddd54cfd6056
+name: !!python/unicode 'Youhey'

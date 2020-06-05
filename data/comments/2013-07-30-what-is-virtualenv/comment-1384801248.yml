@@ -1,0 +1,10 @@
+_id: !!python/unicode '1084'
+comment: !!python/unicode 'You should also check-out a project called zc.buildout.
+  It''s similar to virtualenv but creates a Python environment sandbox in the directory
+  where your project lives, and is based off "recipes" which can do things virtualenv
+  can''t, building and installing non-python binaries locally (eg. libxml2). It''s
+  very useful when you have a number of devs working on the same project across multiple
+  systems, and makes deployment a breeze.'
+date: !!python/unicode '2013-11-18 14:00:48'
+email: 8ee7b99ca70d227abd4171dcb7f8b642
+name: !!python/unicode 'Oldham-Made (@OldhamMade)'

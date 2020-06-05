@@ -1,0 +1,13 @@
+_id: !!python/unicode '39412'
+comment: !!python/unicode 'PySimpleGUI is another option.  http://www.PySimpleGUI.org
+  .   With it  you can develop your GUI on your desktop or in the browser.  The code
+  is the same except for the import statement.  It runs on top of tkinter, Qt, WxPython,
+  and browser based using Remi.
+
+  Zero web experience required.  Runs on Repl if you''re into that sort of thing.  https://repl.it/@PySimpleGUI  both
+  in tkinter mode AND as a browser based GUI using Remi.
+
+  Requires a tiny amount of code to get a lot done.'
+date: !!python/unicode '2019-06-09 16:22:58'
+email: ad3ca2df571eb1004578b63b198255e2
+name: !!python/unicode 'PySimpleGUI'

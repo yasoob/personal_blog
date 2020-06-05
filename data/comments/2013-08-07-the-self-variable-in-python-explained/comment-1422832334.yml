@@ -1,0 +1,9 @@
+_id: !!python/unicode '4072'
+comment: !!python/unicode 'Hey bradozmen. I hope that  have understood your problem
+  correctly. You can subclass the Remotecontrol class in a new file and implement
+  the function in the subclass. After that create a new object from the subclass and
+  use it. For more info on subclassing read this http://stackoverflow.com/questions/1607612/python-how-do-i-make-a-subclass-from-a-superclass'
+date: !!python/unicode '2015-02-01 18:12:14'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '4062'

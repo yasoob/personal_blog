@@ -1,0 +1,15 @@
+_id: !!python/unicode '1232'
+comment: !!python/unicode "Daniel, \nI tried this and the code works. You can copy-paste\
+  \ this into a python editor and save it, then run it. When you call it, you need\
+  \ to include an 81 character string on the command line. This string represents\
+  \ the sudoku puzzle, with 0's in place of the empty cells. So you'd call it like\
+  \ this:\n     python sudoku.py 81-char-string\n\nAlternatively, I modified the script\
+  \ and included it on my GitHub account. My version takes a filename as input on\
+  \ the command line. The file contains the sudoku puzzle. Each line in the file represents\
+  \ one row in the puzzle, with 0's in the empty cells. You can find the code here\
+  \ - https://github.com/ariesunique/sudoku. The txt files are the puzzles. The file\
+  \ called simple_sudoku_solver.py is the code found on this page."
+date: !!python/unicode '2014-01-02 01:50:05'
+email: 6ad5d66b1301b7c0f17d964be7631fc3
+name: !!python/unicode 'AB'
+reply_to: !!python/unicode '1153'

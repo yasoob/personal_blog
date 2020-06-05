@@ -1,0 +1,16 @@
+_id: !!python/unicode '8672'
+comment: !!python/unicode "Hi\nI have been using py2exe for some time and I too have\
+  \ had similar problems but I managed to solve them, but right now I am really stuck\
+  \ on one that I can't fix. The thing is that I must use gnuradio.wxgui for the app\
+  \ I am currently developing, instead of PyQt which is what I have always used. For\
+  \ PyQt I include \"PyQt4.QtGui\" and \"PyQt4.QtCore\" in the setup.py because I\
+  \ always use these modules, without them a can't build the exe. But now for the\
+  \ gnuradio.wxgui app I don't know what happens that I manage to build the exe and\
+  \ when I run it, it shows up but it doesn't respond, it just freezes, nothing happens\
+  \ and any click on the app causes it to close. I was wondering if there was any\
+  \ special module that must be included as in the PyQt case. If you happen to know\
+  \ what is causing this I would really appreciate your help.                    \
+  \                                  \nThank you so much\n Sergio Frayle"
+date: !!python/unicode '2016-05-25 20:33:13'
+email: 2533b3771e5146b411e45467467bd3ea
+name: !!python/unicode 'Sergio Frayle Perez'

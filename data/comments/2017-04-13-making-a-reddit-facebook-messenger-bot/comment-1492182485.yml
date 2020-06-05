@@ -1,0 +1,26 @@
+_id: !!python/unicode '10321'
+comment: !!python/unicode 'Hey Andrew,
+
+
+  I am sorry but I forgot to include the table creation part in the post. I have edited
+  the post to rectify that. Basically you need to do the following after uploading
+  the final code on Heroku:
+  
+  <pre><code>
+  $ heroku run python
+  </code></pre>
+
+  In the resulting python shell run the following commands:
+
+  <pre><code>
+  >>> from app import db
+
+  >>> db.create_all()
+  </code></pre>
+
+  Then close the shell and things should start working as expected. If something still
+  doesn''t work please let me know :)'
+date: !!python/unicode '2017-04-14 11:08:05'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '10318'

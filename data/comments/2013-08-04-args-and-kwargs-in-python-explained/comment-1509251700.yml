@@ -1,0 +1,8 @@
+_id: !!python/unicode '12634'
+comment: !!python/unicode "How about like this:\n\ndef sum_args(*numbers): \n    summ=0\n\
+  \    for arg in numbers:\n        summ = summ + arg\n    return summ\n&gt;&gt;&gt;\
+  \ sum_args(1,2,3,4,5)\n15"
+date: !!python/unicode '2017-10-29 00:35:00'
+email: 5cf1c2ab588864c5c746b218efcab53c
+name: !!python/unicode 'Maxx'
+reply_to: !!python/unicode '10265'

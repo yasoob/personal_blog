@@ -1,0 +1,10 @@
+_id: !!python/unicode '22102'
+comment: !!python/unicode 'Yes. It all depends on what the button is doing. Is it
+  executing some JavaScript? If yes, then you need to see what the JavaScript is actually
+  doing and if you can implement the logic in Python. If it is simply a button to
+  a different url, you can extract the url using regex and use requests or scrapy
+  to open it. I hope it helps :)'
+date: !!python/unicode '2018-12-13 05:32:26'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '22101'

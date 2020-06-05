@@ -1,0 +1,10 @@
+_id: !!python/unicode '2573'
+comment: !!python/unicode '&gt; Now whenever you insert values after 30, the leftmost
+  value will be popped from the list.
+
+
+  This is correct, assuming you''re just "append"-ing. If you "appendleft", the rightmost
+  value will be dropped. Cool tip!'
+date: !!python/unicode '2014-07-02 13:40:58'
+email: d37b7f9cf407bb1f97db2a4582d99c28
+name: !!python/unicode 'Ryan'

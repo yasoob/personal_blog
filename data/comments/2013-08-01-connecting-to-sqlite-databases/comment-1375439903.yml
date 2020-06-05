@@ -1,0 +1,7 @@
+_id: !!python/unicode '42'
+comment: "A reblogu\xE9 ceci sur <a href=\"http://quantumpost.wordpress.com/2013/08/02/connecting-to-sqlite-databases/\"\
+  \ rel=\"nofollow\">Quantum Post</a> and commented: \nThis is a post I'll use a lot\
+  \ in the near future."
+date: !!python/unicode '2013-08-02 06:38:23'
+email: edf254d067c6a767f7f440c3becb606e
+name: !!python/unicode 'Roland'

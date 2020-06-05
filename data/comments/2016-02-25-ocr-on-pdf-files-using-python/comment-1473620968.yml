@@ -1,0 +1,7 @@
+_id: !!python/unicode '9102'
+comment: !!python/unicode 'Why did you convert the pdf to an image file? In my project
+  Ihave the choice of using a tiff or pdf file as the source of text to be extracted
+  and stored in a DB. Which would be better-tiff or pdf - as the source?'
+date: !!python/unicode '2016-09-11 15:09:28'
+email: 788eef3c9aa5e8a3140fab8e01433c98
+name: !!python/unicode 'Stanley Denman'

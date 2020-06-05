@@ -1,0 +1,11 @@
+_id: !!python/unicode '73'
+comment: !!python/unicode 'U0 PrintF(U8 *fmt,...)
+
+  {
+
+  //like "this" in C++, in HolyC argv[] and argc
+
+  }'
+date: !!python/unicode '2013-08-04 21:55:25'
+email: 7716c8eed0fe70fedc3c3cb1043b7e98
+name: !!python/unicode 'Terrence Andrew Davis'

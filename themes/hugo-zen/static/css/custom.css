@@ -26,6 +26,9 @@ img {
 ul{
   list-style: disc;
 }
+ol{
+  list-style: decimal;
+}
 header,
 footer {
   margin: 4rem 0;
@@ -131,6 +134,10 @@ li  {
   font-size: 1.7rem;
 }
 
+li > P{
+  margin-bottom: 0px;
+}
+
 header{
   text-align: right;
   padding-right: 20px;
@@ -197,6 +204,10 @@ pre {
 }
 code{
   border-radius: 0;
+  white-space: normal;
+}
+
+pre code{
   padding-left: 10px !important;
 }
 

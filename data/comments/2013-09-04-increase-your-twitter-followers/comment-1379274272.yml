@@ -1,0 +1,12 @@
+_id: !!python/unicode '463'
+comment: !!python/unicode 'Hi MIKHAIL. Firstly thanx for replying and secondly I have
+  not used count=100 in a condition. I have used it in a function. I could have written
+  "def search_tweets(q, count)" but there can be a problem with that. If we don''t
+  pass a value for count our function will give an error. I have set a default value
+  of 100 so that if I don''t pass a value for count my function will take count to
+  be equal to 100. I hope that clarifies everything. Still if you have any other question
+  then feel free to post.'
+date: !!python/unicode '2013-09-15 15:44:32'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '460'

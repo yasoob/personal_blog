@@ -1,0 +1,15 @@
+_id: !!python/unicode '6578'
+comment: !!python/unicode "Hi Yassob,\nYou're first point caught my eye as I ran into\
+  \ that a few years back.  I had found a relatively good answer at \"http://stackoverflow.com/questions/12965238/wxpython-py2exe-app-not-bundling-properly\"\
+  \n\nIn any case, adding 'MSVCP90.dll' to the excludes appears to have worked in\
+  \ my case. \n\nPY2EXE (or CXFreeze) all seem to be hit and miss at times and gathering\
+  \ from all the forum chatter, needs a lot of tweaking at time. \nOther issues I\
+  \ ran into: Ex. the vlc binding might not py2exe properly work depending on the\
+  \ vlc.py and python versions you are trying, then furthermore it may or may not\
+  \ py2exe properly depending on the bundle option.\nCurrently also having problems\
+  \ trying to py2exe an app that uses pysnmp (4.2.5 and/or 4.3) . \n\nAnyways I hope\
+  \ the posting on \"wxpython-py2exe-app-not-bundling-properly\" may help explain\
+  \ a few things."
+date: !!python/unicode '2015-10-13 22:55:13'
+email: 77565b20e3ecce26fada4d0a7b0b5512
+name: !!python/unicode 'gilles'

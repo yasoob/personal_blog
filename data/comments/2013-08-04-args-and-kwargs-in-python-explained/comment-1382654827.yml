@@ -1,0 +1,8 @@
+_id: !!python/unicode '1025'
+comment: !!python/unicode "Hi im trying to use a fill_between command but i dont know\
+  \ what to put in the **kwargs \"section\".\n\nThis is my coding:\n\n(...)\n\nfill_between(x,\
+  \ y1, y2=0, where=None, **kwargs)  \n\nWhat should i write in the kwargs** section?\n\
+  \nGreetings from Norway."
+date: !!python/unicode '2013-10-24 18:47:07'
+email: 62fb4307b13a3aa9a12d9e19a4399cd2
+name: !!python/unicode 'Per'

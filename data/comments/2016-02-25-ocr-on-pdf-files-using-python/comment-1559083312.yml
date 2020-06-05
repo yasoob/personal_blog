@@ -1,0 +1,17 @@
+_id: !!python/unicode '39241'
+comment: !!python/unicode "Works like a charm, but wand/imagemagick currently might\
+  \ have some security issue (see https://alexvanderbist.com/posts/2018/fixing-imagick-error-unauthorized)\n\
+  \nI got it to work with pdf2image instead of wand:\n\n<pre><code>#from wand.image import Image\
+  \ # This requires change in /etc/ImageMagick-6/profile.xml and a potential security\
+  \ issue\nimport pdf2image\nfrom PIL import Image as PI\nimport pyocr\nimport pyocr.builders\n\
+  import io\ntool = pyocr.get_available_tools()[0]\nlang = tool.get_available_languages()[0]\n\
+  final_text = []\nPDF_PATH = \"./ASDF.pdf\"\nDPI = 300\nOUTPUT_FOLDER = None\nFIRST_PAGE\
+  \ = None\nLAST_PAGE = None\nFORMAT = 'jpg'\nTHREAD_COUNT = 1\nUSERPWD = None\nUSE_CROPBOX\
+  \ = False\nSTRICT = False\nimage_jpeg = pdf2image.convert_from_path(PDF_PATH, dpi=DPI,\
+  \ output_folder=OUTPUT_FOLDER, first_page=FIRST_PAGE, last_page=LAST_PAGE, fmt=FORMAT,\
+  \ thread_count=THREAD_COUNT, userpw=USERPWD, use_cropbox=USE_CROPBOX, strict=STRICT)\n\
+  for img in image_jpeg: \n    txt = tool.image_to_string(\n        img,\n       \
+  \ lang=lang,\n        builder=pyocr.builders.TextBuilder()\n    )\n    final_text.append(txt)</code></pre>"
+date: !!python/unicode '2019-05-28 18:41:52'
+email: c588923580f69c53b127f00dfe2d1467
+name: !!python/unicode 'Stefan Brot'

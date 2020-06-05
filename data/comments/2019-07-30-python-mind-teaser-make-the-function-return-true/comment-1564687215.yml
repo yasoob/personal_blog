@@ -1,0 +1,14 @@
+_id: !!python/unicode '40319'
+comment: !!python/unicode 'Hmmm. That didn''t work for me.
+
+
+  &gt;&gt;&gt; check(0.5)
+
+  False
+
+
+  Do you mind sharing why 0.5 should work?'
+date: !!python/unicode '2019-08-01 15:20:15'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '40318'

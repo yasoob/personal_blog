@@ -1,0 +1,8 @@
+_id: !!python/unicode '11694'
+comment: !!python/unicode 'Nevermind I figured it out! Turns out that I had to use
+  echo to create the Procfile, and had to add parentheses to the print functions in
+  the .py file. I also moved the app to a virtual environment.'
+date: !!python/unicode '2017-08-03 17:13:04'
+email: 1e0dbf14a82712e2fef2aad7d9622d59
+name: !!python/unicode 'Elly Meng'
+reply_to: !!python/unicode '11692'

@@ -1,0 +1,8 @@
+_id: !!python/unicode '1231'
+comment: !!python/unicode 'Thanks for sharing this. This post inspired me to make
+  my own attempt as a sudoku solver. I wrote my code before looking at this so I was
+  surprised to see how short this code is. The solution is very elegant however it
+  relies a lot on recursion so it''s a bit time-intensive.'
+date: !!python/unicode '2014-01-02 01:40:02'
+email: 6ad5d66b1301b7c0f17d964be7631fc3
+name: !!python/unicode 'AB'
