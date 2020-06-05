@@ -274,7 +274,50 @@ pre code{
   margin-bottom: 5px;
   font-size: 95%;
 }
-
+section#privacy-button-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 3px;
+  align-items: flex-end;
+  justify-content: center;
+}
+section#privacy-button-links div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+section#privacy-button-links h1 {
+  font-size: 30px;
+  text-align: center;
+}
+section#privacy-button-links div a {
+  border: 0 solid #e2e8f0;
+  border-image: none 100% 1 0 stretch;
+  border-radius: 0.25rem;
+  color: #fff;
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+section#privacy-button-links svg {
+  border: 0 solid #e2e8f0;
+  border-image: none 100% 1 0 stretch;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+section#privacy-button-links span {
+  border: 0 solid #e2e8f0;
+  border-image: none 100% 1 0 stretch;
+  display: inline;
+  margin: 0;
+}
 body.darkmode{
   background: #1e1d1d;
 }
@@ -713,5 +756,12 @@ input[type=checkbox].checkbox {
      margin-top: 20px;
      margin-bottom: 0;
      vertical-align: middle;
+  }
+  section#privacy-button-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  section#privacy-button-links div{
+    margin-left: initial;
   }
 }
