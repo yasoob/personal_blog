@@ -1,0 +1,7 @@
+_id: !!python/unicode '632'
+comment: !!python/unicode "hi! \nI have a proposition/question.\ncan You tell how\
+  \ to make autoresponder bot? \n\nfor example, bot search word 'Python' and replies\
+  \ 'I love Python too'. can You do this?"
+date: !!python/unicode '2013-09-22 19:22:50'
+email: 562fe63e029801b1dd7539b15886d7b3
+name: !!python/unicode 'oliver'

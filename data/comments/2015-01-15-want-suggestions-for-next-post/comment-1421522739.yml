@@ -1,0 +1,8 @@
+_id: !!python/unicode '3998'
+comment: !!python/unicode 'Yes you are right. I decided to go with this method just
+  for testing my abilities and as there were no tutorials about this method. I also
+  believe that scraping should be the last resort when an API already exists.'
+date: !!python/unicode '2015-01-17 14:25:39'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '3996'

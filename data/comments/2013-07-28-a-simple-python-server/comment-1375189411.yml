@@ -1,0 +1,8 @@
+_id: !!python/unicode '10'
+comment: !!python/unicode 'No, you don''t need to run a new Python process to embed
+  the simple HTTP server in your Python application (say, because you want to share
+  your application''s source code or so). SocketServer.TCPServer(("", 8080), SimpleHTTPServer.SimpleHTTPRequestHandler).serve_forever()  (in
+  a new thread) is sufficient'
+date: !!python/unicode '2013-07-30 09:03:31'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'Philipp'

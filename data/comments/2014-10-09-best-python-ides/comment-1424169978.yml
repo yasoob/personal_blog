@@ -1,0 +1,11 @@
+_id: !!python/unicode '4131'
+comment: !!python/unicode "I know a lot of people say this and it largely ignored,\
+  \  but vim is by far the best editor out there,  and is actually pretty easy to\
+  \ turn into a full featured IDE.  I highly recommend the spf-13 style of configuring\
+  \ vim,  find documentation here\n\nhttps://github.com/spf13/spf13-vim\n\nWatch a\
+  \ few tutorial videos.  It only took me about a day to be faster with vim than most\
+  \ IDE I had used,  and the potential is practically limitless.\n\nThis post helped\
+  \ me see its value \nhttp://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/"
+date: !!python/unicode '2015-02-17 05:46:18'
+email: 4bee9e0ba82d1a709a5064852d3409c5
+name: !!python/unicode 'Garrett'

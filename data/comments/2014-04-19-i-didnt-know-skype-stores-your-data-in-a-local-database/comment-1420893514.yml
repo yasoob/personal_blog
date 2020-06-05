@@ -1,0 +1,12 @@
+_id: !!python/unicode '3965'
+comment: !!python/unicode "Well you log into Skype using a password, so Skype could\
+  \ have used that password to encrypt the message contents.  It gets more tricky\
+  \ when you change your password but its still possible.\n\nBut if you give someone\
+  \ access to your PC then you really can't complain about security.  It's no different\
+  \ to giving someone keys to your house.  \n\nThe comment about company laptops is\
+  \ also moot.  If this is a company machine, then anything stored on it is company\
+  \ owned.  If you don't want your boss reading your personal skype chats, then don't\
+  \ use a company machine to do it on!"
+date: !!python/unicode '2015-01-10 07:38:34'
+email: 592c6642b1d3ccd2c03b005bfe29c7d6
+name: !!python/unicode 'AndrewC'

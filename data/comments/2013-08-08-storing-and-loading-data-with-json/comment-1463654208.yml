@@ -1,0 +1,14 @@
+_id: !!python/unicode '8627'
+comment: !!python/unicode 'Hi, since a long time I''m searching for the sample code
+  to store class object (like addresses) to file with json.
+
+  I want to test your explanation but it does not run on my side!
+
+  Can you please post the complete example code here ( I want to copy &amp; past it
+  for my understanding).
+
+
+  Thx,'
+date: !!python/unicode '2016-05-19 06:36:48'
+email: 91542e8ce7697b9ac96cae4ea43e570b
+name: !!python/unicode 'Christian Moosmeier'

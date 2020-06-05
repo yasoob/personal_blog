@@ -1,0 +1,6 @@
+_id: !!python/unicode '3729'
+comment: !!python/unicode 'Shouldn''t it be `os.devnull`?'
+date: !!python/unicode '2014-11-29 15:09:24'
+email: 17b1f4dd0164372d9681f773aeba5eaf
+name: !!python/unicode 'TF'
+reply_to: !!python/unicode '1181'

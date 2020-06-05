@@ -1,0 +1,9 @@
+_id: !!python/unicode '7814'
+comment: !!python/unicode 'Yasoob, nice work! I ran your example on python3 and wanted
+  to point out to your readers a minor change for python3 compatibility. Python3 requires
+  an encoding parameter to the open method for reading binary files. The line "b =
+  pickle.load(fileObject)" will raise an exception unless "fileObject = open(file_Name,''r'')"
+  is changed to "fileObject = open(file_Name,''rb'').'
+date: !!python/unicode '2016-01-07 13:14:22'
+email: 87c292e57756dab1d35f68952a14f605
+name: !!python/unicode 'Jeff Loughridge'

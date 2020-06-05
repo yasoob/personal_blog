@@ -1,0 +1,14 @@
+_id: !!python/unicode '16646'
+comment: !!python/unicode "Hi David!\n\nI am assuming that when adding something to\
+  \ the deque you can add a check for whether the item being added is an integer or\
+  \ not. This is pretty easy by using the type() function. \n\nIn order to accommodate\
+  \ 10 as well, you can initialise the deque like this:\n\n<pre><code>t=collections.deque([1,2,3,4,5,6,7,8,9,10])</code></pre>\n\
+  \nAs far as summing the elements go, I would personally prefer to use a list comprehension\
+  \ and the sum function like this:\n\n<pre><code>total = sum([int(elem) for elem in t])</code></pre>\n\n\
+  In this case I am assuming that the deque might have integers in string form. If\
+  \ you know for sure that the elements are all integers you can omit \"int\". \n\n\
+  I hope my answer helps you. If you still have any questions please let me know!"
+date: !!python/unicode '2018-05-24 01:51:43'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '15325'

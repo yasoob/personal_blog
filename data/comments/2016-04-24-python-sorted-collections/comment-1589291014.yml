@@ -1,0 +1,8 @@
+_id: !!python/unicode '75266'
+comment: !!python/unicode 'I have a little experience with "sortedcontainers" module,
+  but what I''ve noticed is that it causes reference cycles (zombie object) which
+  are collected by GC (if it is not disabled) and it leads to latency spikes. Be careful
+  with it if latency and/or performance matters for you.'
+date: !!python/unicode '2020-05-12 09:43:34'
+email: 90ee8f9edf60a391b41c6bd80f1ce40a
+name: !!python/unicode 'Aliaksandr Pivavarchyk'

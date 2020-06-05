@@ -1,0 +1,8 @@
+_id: !!python/unicode '4084'
+comment: !!python/unicode "Hi, great tutorial and very well explained, thankyou!\n\
+  \nHowever I get this error:\n\n s.bind(('', port))\nOSError: [WinError 10048] Only\
+  \ one usage of each socket address (protocol/network address/port) is normally permitted\n\
+  \nAnyone got any ideas?"
+date: !!python/unicode '2015-02-03 17:36:51'
+email: 3418be058159c790489e4db90fc7f595
+name: !!python/unicode 'Dan'

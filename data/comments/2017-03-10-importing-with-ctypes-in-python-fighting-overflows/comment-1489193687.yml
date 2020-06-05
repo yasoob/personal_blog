@@ -1,0 +1,12 @@
+_id: !!python/unicode '10126'
+comment: "Note that there is no requirement for a 64 bit OS to define ints as 64 bit\
+  \ wide.\n\nWhoever set an int to 0xf0f0f0f0 should review \xA75.2.4.2.1 of the C\
+  \ standard - this is not going to work on all platforms, since the minimum INT_MAX\
+  \ is only 65535.\n\nOne more note: you can avoid the step of inserting a print to\
+  \ see why an assertion fails if you use a proper test case (an object derived from\
+  \ unittest.TestCase) and then call self.assertEqual. This will automatically output\
+  \ the values upon failure. Only some test runners will also do that for assert x\
+  \ == y."
+date: !!python/unicode '2017-03-10 19:54:47'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'phihag'

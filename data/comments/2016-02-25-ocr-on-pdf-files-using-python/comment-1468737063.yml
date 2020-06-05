@@ -1,0 +1,8 @@
+_id: !!python/unicode '8884'
+comment: !!python/unicode 'What''s do you think about OCR on PDF forms? dot matrix
+  printed invoices with dates, invoice numbers, line items (qty, item, stock #, price)
+  each in designated spaces. Other than the obvious irony that it would be easier
+  now to just get a damn xml file.'
+date: !!python/unicode '2016-07-17 02:31:03'
+email: 6a6515fe7e85a3c36b1ad64265359793
+name: !!python/unicode 'xtiansimon'

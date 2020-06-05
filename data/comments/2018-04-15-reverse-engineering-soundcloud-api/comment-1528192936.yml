@@ -1,0 +1,11 @@
+_id: !!python/unicode '18337'
+comment: !!python/unicode 'I am sorry I don''t really have any link handy. There are
+  two ways you can go about doing this. First one is to create a browser extension
+  and converting this Python code into Javascript code. The second one is to convert
+  the python code into a Flask based API, run the API in the backend, create a browser
+  extension which can pass a Soundcloud URL to the backend API and download the music
+  from the url returned by the Flask API. I hope it helps :)'
+date: !!python/unicode '2018-06-05 06:02:16'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '16644'

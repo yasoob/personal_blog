@@ -1,0 +1,12 @@
+_id: !!python/unicode '8903'
+comment: !!python/unicode 'I am trying to connect linux machines via telnet. I am
+  able to connect to it and execute the commands (For Ex: "ls"), but I am not able
+  to get the output of "ls" when I try to print it. Using exit I am closing the connection,
+  then only I am able to read all the contents and print on my console.
+
+
+  Can anyone please tel me, how can I fetch the results without closing the connection
+  and execute more commands by using same telnet connection.'
+date: !!python/unicode '2016-07-23 07:11:13'
+email: f282ae24d014ba83590e448f20f0e7b3
+name: !!python/unicode 'RAVIKEERTHI'

@@ -1,0 +1,9 @@
+_id: !!python/unicode '11'
+comment: !!python/unicode 'Let me clear your confusion. This tutorial is about folder
+  sharing and if i do <code>-m SimpleHTTPServer</code> then i will get the logs as
+  well. I know we can get logs from your method as well but i think we should prefer
+  a one liner than a two or four liner :)'
+date: !!python/unicode '2013-07-30 09:09:24'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '10'

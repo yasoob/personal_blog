@@ -1,0 +1,7 @@
+_id: !!python/unicode '6518'
+comment: !!python/unicode 'Vishal, try ending your code in a raw_input....
+  <pre><code>endRun = raw_input(r" ")</code></pre>
+  or put your run in a "while" loop that can only escape with a flag of some sort.'
+date: !!python/unicode '2015-10-09 05:36:12'
+email: c1ae7287f742bfbb979f8afe88681081
+name: !!python/unicode 'Tek Mailer'

@@ -1,0 +1,11 @@
+_id: !!python/unicode '22739'
+comment: !!python/unicode "Nice set of tutorial. I like how you explain these topic\
+  \ using common language and terms, You to do not assume that the reader knows technical\
+  \ terms. When basically takes away that whole purpose of a beginner`s tutorial.\
+  \ I would suggest that next you do one on \n#1 Factories\n#2 Generators\n#3 Iterators\n\
+  #4 Tuples\n#5 Sequences\n#6 List\n\nThose are topics ( in the of least understood\
+  \ to somewhat understood) that have baffled me in the 16 years that I have been\
+  \ dabbling in python."
+date: !!python/unicode '2019-01-01 00:31:10'
+email: 654cb58404699c280dfc791bf54a4351
+name: !!python/unicode 'Robert Davis'

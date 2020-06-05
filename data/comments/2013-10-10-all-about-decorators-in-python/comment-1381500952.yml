@@ -1,0 +1,7 @@
+_id: !!python/unicode '945'
+comment: !!python/unicode 'It is a bad habit to shadow builtin functions (like "type"
+  in one of the examples). You could use something like "typ" or a word with similar
+  meaning. I prefer to use the name "kind" in cases like this.'
+date: !!python/unicode '2013-10-11 10:15:52'
+email: 38e89c57f38c2b5554be9c8ad3ff2ee2
+name: !!python/unicode '3k'

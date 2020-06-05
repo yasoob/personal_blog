@@ -1,0 +1,10 @@
+_id: !!python/unicode '9388'
+comment: !!python/unicode 'Great blog you put up. Very informative. However id like
+  to ask you about something else. Is it possible to apply that to two different computers
+  ex connected in LAN. Would it be possible to run a server script and a client script
+  in a server pc and client pc, respectively? And also id like to know if its possible
+  to check if a certain pc is connected to a network or now by any python networking
+  scripts? Thank you for your patience in reading this. Let me know about your answer'
+date: !!python/unicode '2016-11-02 16:20:25'
+email: 3bf9ec6af19f0cb47b65aa2de430ae0f
+name: !!python/unicode 'Francis Luciano'

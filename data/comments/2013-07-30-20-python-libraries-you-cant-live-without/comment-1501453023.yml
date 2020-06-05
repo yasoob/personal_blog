@@ -1,0 +1,8 @@
+_id: !!python/unicode '11649'
+comment: !!python/unicode 'Super cool list! Though, I already using a few of these.
+  And I would like to add uuid which is another cool library for programming tasks
+  like hashing, key/value stores and universally unique ids. It implements many versions
+  of the UUID standards and is really handy for ensuring uniqueness.'
+date: !!python/unicode '2017-07-30 18:17:03'
+email: b1475b1712f804b7df9e228a9179b0b6
+name: !!python/unicode 'Meenakshi Agarwal'

@@ -1,0 +1,6 @@
+_id: !!python/unicode '4388'
+comment: !!python/unicode 'I think we should use `{1,4,5,6}` instead of `[1,4,5,6]`
+  for `in` operator because `set` can access each element by O(1).'
+date: !!python/unicode '2015-05-02 15:21:38'
+email: ac756b0998f4353440a4a9f2ef109d08
+name: !!python/unicode 'kaisk'

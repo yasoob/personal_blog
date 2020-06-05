@@ -1,0 +1,10 @@
+_id: !!python/unicode '18560'
+comment: !!python/unicode "Hi, Yasoob, I've followed your instructions an it works.\
+  \ But with a patch for the complete part due:\n\n    elif body == 'complete':\n\
+  \        html = requests.get(urls['group']).json()\n        output = \"\"\n    \
+  \    for group in html:\n            output += \"\\n\\n--- Group \" + group['letter']\
+  \ + \" ---\\n\"\n            for team in group['ordered_teams']:\n             \
+  \   output += team['country'] + \" Pts: \" + str(team['points']) + \"\\n\""
+date: !!python/unicode '2018-06-30 08:31:48'
+email: 95766ef41a6fbcdb28895a051fc7251f
+name: !!python/unicode 'yarving'

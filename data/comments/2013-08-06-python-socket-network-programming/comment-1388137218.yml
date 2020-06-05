@@ -1,0 +1,12 @@
+_id: !!python/unicode '1218'
+comment: !!python/unicode "Awesome post... I understood everything you posted\n\n\
+  can you please help we with below, don't need entire script but just helping hands\n\
+  \nI am trying something like,\n 1. fetch some strings from files and check those\
+  \ patterns in incoming packets on port 80\n\n2. If patterns found, output like,\
+  \ \n\nSource: IP\nPattern:\nURL:\n\nExample:\nSource: 198.12.45.87\nPattern: /cgi-bin\n\
+  URL: http://www.example.com/cgi-bin\n\nsomething like,\n\npack = s.rec(1024) for\
+  \ incoming packets on port 80\n\nand then each packets captured,\n\nif (\"pattern\"\
+  \ in pack):\nprint \"[Source IP: , Pattern: , URL: \")"
+date: !!python/unicode '2013-12-27 04:40:18'
+email: 10f3ba7b924cd7a8ea1550a3926e1b86
+name: !!python/unicode 'mjmokaal'

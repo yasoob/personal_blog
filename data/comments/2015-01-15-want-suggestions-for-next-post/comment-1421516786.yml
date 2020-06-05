@@ -1,0 +1,7 @@
+_id: !!python/unicode '3996'
+comment: "\u201CPosting to Facebook group without the Graph API\u201D is NOT a \u201C\
+  quality tutorial\u201D AT ALL.  A quality tutorial would be \u201CPosting to Facebook\
+  \ group with the Graph API\u201D.  Scraping should be done at a last resort!"
+date: !!python/unicode '2015-01-17 12:46:26'
+email: 43dd349901b028d86d3eefd5f63adcbd
+name: !!python/unicode 'WTF'

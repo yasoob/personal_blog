@@ -1,0 +1,6 @@
+_id: !!python/unicode '5145'
+comment: !!python/unicode 'Is there a way to insert an element into a deque in an
+  arbitrary position? I mean, something analogous to the insert method in list?'
+date: !!python/unicode '2015-07-16 09:35:35'
+email: 3b54c0cead72f87b1e90ce3a5d86bf8c
+name: !!python/unicode 'AS'

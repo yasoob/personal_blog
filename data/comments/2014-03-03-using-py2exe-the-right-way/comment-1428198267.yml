@@ -1,0 +1,15 @@
+_id: !!python/unicode '4298'
+comment: !!python/unicode 'Using PyQt4 / Python 3.4, and wanting a single executable
+  (not a folder of files), I think that limits me to using py2exe instead of some
+  of the other newbie-friendly gui-based tools (cx_freeze , pyInstaller, etc).
+
+
+  Unfortunately, while my .py file runs fine when I execute it in tge IDLE GUI, it
+  doesn''t run from the console due to  ''no module named xxxx'' errors.
+
+
+  I assume I have to get that to work first before running py2exe... but what makes
+  it work from the IDLE gui and not via a command prompt?'
+date: !!python/unicode '2015-04-04 21:44:27'
+email: 0461be24cc4458e6ed7e4a242ebc7ec4
+name: !!python/unicode 'ru4mj12 (@ru4mj12)'

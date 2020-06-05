@@ -1,0 +1,18 @@
+_id: !!python/unicode '4062'
+comment: !!python/unicode "I get this. \nMy problem is there is an assessment I have\
+  \ to do that has 3 files. \n3rd file is irrelevant to my problem.. \n\nThe second\
+  \ file has a class called remotecontrol\n\nThe first file imports remotecontrol\
+  \ and creates an instance. \n\nRem = remotecontrol() \n\nNow in remotecontol I can\
+  \ correctly use self to assign functions and properties and it works fine from the\
+  \ 1st file that creates the instance. \nExample.. \nRem.settrace(true)\nPrint rem.Tracing\
+  \ \n&gt;&gt;true \n\nNow here's the problem. \n\nWe are not allowed to modify the\
+  \ file that creates the instance of remotecontol. \n\nAll our code has to be within\
+  \ remotecontol itself. \n\nWhen in remotecontol how do I refer to the same instance?\
+  \ \nExample in remotecontol... \nself.settrace(true) \n&gt;&gt; self is not defined.\
+  \ \nRemotecontrol.settrace(true)\n&gt;&gt;remotecontrol is not defined. \n\nAny\
+  \ ideas? \n\nIf I was allowed to just write my code in the same file as where the\
+  \ instance is created and refer to all the classes properties using the instance\
+  \ name it wouldn't be a problem. But I am not allowed to edit that file."
+date: !!python/unicode '2015-01-31 03:34:40'
+email: cf5fa41ee5b41cf858975ccd7fbdbc03
+name: !!python/unicode 'bradozman'

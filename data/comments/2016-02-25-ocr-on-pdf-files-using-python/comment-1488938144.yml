@@ -1,0 +1,20 @@
+_id: !!python/unicode '10106'
+comment: !!python/unicode 'Hi,
+
+
+  I am attempting to get this code to work with various PDFs that I have that have
+  been OCR''d from printed documents.  I am running on Mac OSX El Capitan with the
+  latest tesseract installed via Homebrew.
+
+
+  I am running it in a Python 2.7.11 environment
+
+
+  My issue is that when I run a PDF document through this procedure it does not generate
+  any text.  It is always blank.
+
+
+  What might be causing this?'
+date: !!python/unicode '2017-03-07 20:55:44'
+email: 27d5f35c61867551c710340b61df5cbb
+name: !!python/unicode 'skaught'

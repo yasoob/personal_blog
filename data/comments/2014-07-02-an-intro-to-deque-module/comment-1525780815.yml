@@ -1,0 +1,13 @@
+_id: !!python/unicode '15325'
+comment: !!python/unicode "Hi there, thanks for your write-up on this matter. All\
+  \ your stuff is really helpful. \nNoob to python here. \n\nI'm assuming that deques\
+  \ allow for string elements? Is there a way to force the container to accommodate\
+  \ only integers for example?\n\nSecondly, if I wanted to insert double-digit numbers\
+  \ into the list. My attempt has been unsuccessful - e.g. how do I return the element\
+  \ '10' in the list?\n\n<pre><code>import collections\nt=collections.deque('12345678910')\n\
+  print(t)\n\ndeque(['1', '2', '3', '4', '5', '6', '7', '8', '9', '1', '0'])</code></pre>\n\nFinally,\
+  \ what's the best way to sum the elements in the container? Would it be necessary\
+  \ to loop through the list and sum iteratively?"
+date: !!python/unicode '2018-05-08 08:00:15'
+email: 20bfb6add2ae36abff8d983128dd7d34
+name: !!python/unicode 'davidxand'

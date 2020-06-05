@@ -1,0 +1,11 @@
+_id: !!python/unicode '1239'
+comment: !!python/unicode "Nicely explained.\nI am using\nwith open('database.txt','a+')\
+  \ as myfile:\n            json.dump(lst,myfile)\nto write a list of integers called\
+  \ ist in txt file. And it is in a loop, so it adds every time another list in the\
+  \ file. I would like to make it to write every new list to a new line in file, but\
+  \ don't know how to do that. Or insert ',' between everyblist in a file, so that\
+  \ when I open the file for read, have readable list of lists for manipulation. How\
+  \ can I do that?"
+date: !!python/unicode '2014-01-11 09:38:10'
+email: 7997fc4391b23339f1b9adae2c38931a
+name: !!python/unicode 'Milos'

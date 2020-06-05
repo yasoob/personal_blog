@@ -1,0 +1,14 @@
+_id: !!python/unicode '8862'
+comment: !!python/unicode 'Fantastic post! I use Python to do data science all the
+  time. On the job and at home on pet projects. I love it. I love the flexibility
+  it gives you. And well done on recommending Anaconda, it''s unbelievably useful
+  for managing the scientific Python packages. Some; like Matplotlib Basemap can''t
+  be pip installed, but are on Anaconda.
+
+
+  Pandas is probably my favourite Python package! I wrote a tutorial on pandas on
+  my blog (and numpy and matplotlib and basemap + more to come) you might want to
+  check out too. http://www.datadependence.com/2016/05/scientific-python-pandas/'
+date: !!python/unicode '2016-07-12 13:24:01'
+email: a648a18928ad015eb11b78c187f456b8
+name: !!python/unicode 'Jamal'

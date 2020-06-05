@@ -1,0 +1,13 @@
+_id: !!python/unicode '1900'
+comment: "This is a typical false security report. In fact, it's so typical it even\
+  \ has a name: Being on the other side of an airtight hatchway\xB9. If you are giving\
+  \ someone control over your computer with your user account, they can access all\
+  \ the information in your user account. Skype cannot possible encrypt its internal\
+  \ information since it must be usable without typing in any password. If they would\
+  \ generate a random key, the \"attacker\" could simply fetch that random key.\n\n\
+  If you want to give someone untrustworthy access to your computer, create a separate\
+  \ account, or log them in to the guest account. They won't have the permissions\
+  \ to read C:\\Users\\ in the first place then.\n\n\xB9 http://blogs.msdn.com/b/oldnewthing/archive/2013/09/12/10448418.aspx"
+date: !!python/unicode '2014-04-19 08:29:31'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'Philipp'

@@ -1,0 +1,7 @@
+_id: !!python/unicode '727'
+comment: !!python/unicode 'I suggest adding the http://software-carpentry.org/ site.
+  It''s not python-only, but teaches a variety of approaches, often in a python-centric
+  way.'
+date: !!python/unicode '2013-09-26 17:20:35'
+email: bfbac4e8ee1d63c328d8f5576d4bae4f
+name: !!python/unicode 'Marc-Antoine Parent'

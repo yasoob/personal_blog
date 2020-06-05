@@ -1,0 +1,10 @@
+_id: !!python/unicode '4508'
+comment: !!python/unicode "Hey, \nnot sure if this is checked as it's a little old\
+  \ but I'm having a couple of errors.  Is anyone able to help? \nIf so, I understand\
+  \ that I'm using a newer version (3.4.3) and have updated the \"print\" commands\
+  \ to include ( ).. but I'm just not sure what I'm missing here.  Error screenshot\
+  \ here: http://i.imgur.com/5yUlV4i.png\nI'm new to python but not to programming.\
+  \  Any help or guidance would be appreciated."
+date: !!python/unicode '2015-06-09 20:07:14'
+email: fb122ebe72617d70b28be2037f398c30
+name: !!python/unicode 'Stu'

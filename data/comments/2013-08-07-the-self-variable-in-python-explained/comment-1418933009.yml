@@ -1,0 +1,9 @@
+_id: !!python/unicode '3850'
+comment: !!python/unicode "Same person from a second ago, \n\nI even mistyped what\
+  \ I meant to correct.\n\nI mean shouldn't the if-statement say,\n\nif self.bankrupt\
+  \ == False:\n    print(\"branch opened\")\n\nThis is to make the idea of your class\
+  \ make more sense? \n\nIf a restaurant IS BANKRUPT, that means bankrupt = True.\
+  \ \n\nWhy would the branch be opened then if it IS bankrupt?"
+date: !!python/unicode '2014-12-18 15:03:29'
+email: c661493e1a70ddca654691288baf9304
+name: !!python/unicode 'Bob Barker'

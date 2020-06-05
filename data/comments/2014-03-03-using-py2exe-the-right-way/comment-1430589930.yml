@@ -1,0 +1,8 @@
+_id: !!python/unicode '4387'
+comment: !!python/unicode 'Excellent synthesis of regular outcoming questions about
+  py2exe. However, there is one missing : how to automatically add the *.ui files
+  (PyQt generated ) to the dist directory, without converting them to a python file
+  ? Is there any solution for this ?'
+date: !!python/unicode '2015-05-02 14:05:30'
+email: 5b418a6bb411fe96ad514a58e1eec8b3
+name: !!python/unicode 'Pierre Dimo'

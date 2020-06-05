@@ -1,0 +1,11 @@
+_id: !!python/unicode '18521'
+comment: !!python/unicode 'I am so sorry. I forgot to mention that you need to install
+  the Heroku toolbelt. Follow the instructions here: https://devcenter.heroku.com/articles/heroku-cli
+
+
+  This should provide you with a heroku command. If it still doesn''t work please
+  let me know :)'
+date: !!python/unicode '2018-06-26 16:54:49'
+email: 741c7bf9a1bd02d108f7e5681229925f
+name: !!python/unicode 'Yasoob'
+reply_to: !!python/unicode '18520'

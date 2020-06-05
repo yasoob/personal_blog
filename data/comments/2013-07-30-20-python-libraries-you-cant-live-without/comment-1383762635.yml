@@ -1,0 +1,7 @@
+_id: !!python/unicode '1056'
+comment: !!python/unicode 'this really isnt a library for python, but its the python
+  implementation that runs in Java, (Python to bytecode compiler) good for those folks
+  that want to write Java applets or native Android apps in Python. http://www.jython.org/'
+date: !!python/unicode '2013-11-06 13:30:35'
+email: c999d9bbece22a538d1908fe58d53dbc
+name: !!python/unicode 'David'

@@ -1,0 +1,8 @@
+_id: !!python/unicode '1088'
+comment: !!python/unicode 'This looks like a nice list. So, I add my favorite python
+  web framework "webpy" - www.webpy.org.
+
+  This is done by https://en.wikipedia.org/wiki/Aaron_Swartz - RIP'
+date: !!python/unicode '2013-11-19 10:19:30'
+email: 17e415c874fc9e302bbdda2d83459d22
+name: !!python/unicode 'mik-d'

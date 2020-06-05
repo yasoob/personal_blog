@@ -1,0 +1,12 @@
+_id: !!python/unicode '8372'
+comment: !!python/unicode 'When using **kwargs, we call those ''keyword'' arguments.
+
+  But in Python, I thought ''keyword'' referred to Python keywords like ''if'', ''else'',
+  ''while'', ''for'', etc.
+
+  I''m guessing the term ''keyword'' means two completely different things depending
+  on the context (Python language keywords vs. keyword arguments) but I wasn''t sure,
+  can someone clarify?'
+date: !!python/unicode '2016-03-26 23:11:58'
+email: 413dcd1dcbb81301c82772b5c6163c38
+name: !!python/unicode 'Jay'

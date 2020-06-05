@@ -1,0 +1,33 @@
+_id: !!python/unicode '2528'
+comment: !!python/unicode 'Thank you!  It''s the best explanation I''ve read but I
+  don''t really see the point in them.
+
+
+  In PHP we just pass variables onto functions.  A variable can be well... anything.  A
+  number, a string, an array or even a multidimensional array - can all be handled
+  by just saying:
+
+
+  function hello($some_variable) {
+
+  //do some stuff
+
+  }
+
+
+  In PHP the function doesn''t really care what gets passed to it.  Whether you through
+  into the function, PHP will deal with it.  So, if PHP is able to live quite happily
+  without args and kwargs, how come Python seems to have a problem here?
+
+
+  This is not a loaded question.  It''s a sincere question from a dude who is trying
+  to learn.  Perhaps I''m missing something.
+
+
+  Many thanks,
+
+
+  -DC'
+date: !!python/unicode '2014-06-27 10:23:04'
+email: bf33f53fb2ba8c5393803faa7078ca58
+name: !!python/unicode 'parkerandhobbes'

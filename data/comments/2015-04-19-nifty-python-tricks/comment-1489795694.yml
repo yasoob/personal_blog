@@ -1,0 +1,7 @@
+_id: !!python/unicode '10175'
+comment: !!python/unicode 'On simple if/else statements like shown under Ternary Operators,
+  I like to use indexing where the test returns 0 (False) or 1 (True).  So you could
+  represent as: small = (y,x)[x&lt;y]'
+date: !!python/unicode '2017-03-17 20:08:14'
+email: 4daaa545d82d4b0ac2fd3a436e9c5102
+name: !!python/unicode 'Mark Montgomery'

@@ -1,0 +1,6 @@
+_id: !!python/unicode '40342'
+comment: !!python/unicode 'Increasing max_workers to 14 further decreased time by
+  ~30%. Playing with got me to this optimal number for max_workers.'
+date: !!python/unicode '2019-08-02 14:20:25'
+email: a749a87bc24b6bab0a52c0e40659520c
+name: !!python/unicode 'Edan Saltz'

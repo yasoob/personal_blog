@@ -1,0 +1,7 @@
+_id: !!python/unicode '5612'
+comment: !!python/unicode 'This helped me understand pickle in Python a tad bit more,
+  but I would have liked to see a real-world example to understand it is used (as
+  where you mentioned storing a state).'
+date: !!python/unicode '2015-08-17 03:48:52'
+email: ebf422527aaa21f664ccaba0f719ada1
+name: !!python/unicode 'D Roberts'

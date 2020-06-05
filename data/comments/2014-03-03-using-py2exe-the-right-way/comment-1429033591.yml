@@ -1,0 +1,8 @@
+_id: !!python/unicode '4329'
+comment: "hi there,\ni am trying to make a .exe file , i already had an partial success.\n\
+  i am using tkinter, matplotlib and numpy library\xB4s.\ni tried a lot of variables\
+  \ ,but there is always an error.\nthe most common is ''matplot file data not found''.\n\
+  \ have you ever had this problem?  please, help me.\nfelipe"
+date: !!python/unicode '2015-04-14 13:46:31'
+email: cf64c71c65f5e72a9c1b34fad5541670
+name: !!python/unicode 'felipe'

@@ -1,0 +1,7 @@
+_id: !!python/unicode '3466'
+comment: !!python/unicode 'The thingy **kwargs by itself and then refer to them in
+  your function as kwargs.'
+date: !!python/unicode '2014-10-15 04:34:13'
+email: 47861438c06d2dceaf71d5fe600526e6
+name: !!python/unicode 'Mahan Marwat'
+reply_to: !!python/unicode '1025'

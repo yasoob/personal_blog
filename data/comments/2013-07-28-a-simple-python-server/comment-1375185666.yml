@@ -1,0 +1,7 @@
+_id: !!python/unicode '6'
+comment: !!python/unicode '&gt;&gt;&gt; normally indicates the Python prompt ($ is
+  often used a shell prompt). To use this webserver in Python, you''ll need to create
+  a SocketServer first and then plug in the SimpleHTTPRequestHandler in there.'
+date: !!python/unicode '2013-07-30 08:01:06'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'Philipp'

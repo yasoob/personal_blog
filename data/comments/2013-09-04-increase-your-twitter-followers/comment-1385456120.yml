@@ -1,0 +1,12 @@
+_id: !!python/unicode '1119'
+comment: "YASOOB, any insight as to why I am getting this error?\n
+  <pre><code>>>> twitter_bot.auto_fav(\"#python\",\u20191\u2032)\ntaswarbhatti\nError: Twitter sent status 404 for URL:\
+  \ 1.1/favourites/create.json using parameters: (id=401405655812034560&amp;oauth_consumer_key=wrbBvjW7UP1JR2F2wkfBw&amp;oauth_nonce=7098331017675876433&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_timestamp=1384537602&amp;oauth_token=468924404-zBlNm2da4xZxIGpLj6zjBBxfplKlcwMYlfTGp0kH&amp;oauth_version=1.0&amp;oauth_signature=N33NU1bB3%2Bgdr6LwzQFf64NX%2BaI%3D)\n\
+  details: {\u201Cerrors\u201D:[{\"message\":\"Sorry, that page does not exist\",\"\
+  code\":34}]}\nTraceback (most recent call last):\nFile \u201C\u201D, line 1, in\n\
+  File \u201Ctwitter_bot.py\u201D, line 33, in auto_fav\nprint \u201CWe Favorited\
+  \ a total of %i out of %i tweets\u201D (success, len(results['statues']))\nKeyError:\
+  \ \u2018statues\u2019</code></pre>"
+date: !!python/unicode '2013-11-26 03:55:20'
+email: fc6ab4a5ae140e16f4680087cca01315
+name: !!python/unicode 'Drew Moffitt'

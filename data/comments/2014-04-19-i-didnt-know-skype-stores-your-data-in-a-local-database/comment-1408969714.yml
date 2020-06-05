@@ -1,0 +1,7 @@
+_id: !!python/unicode '2988'
+comment: !!python/unicode 'This doesn''t work when an employee uses company laptop.
+  My boss took my laptop without prior notification and now he is reading them.'
+date: !!python/unicode '2014-08-25 08:28:34'
+email: bbc075605fcddb50baa9a48248016b13
+name: !!python/unicode 'JT'
+reply_to: !!python/unicode '1900'

@@ -1,0 +1,6 @@
+_id: !!python/unicode '30170'
+comment: !!python/unicode 'There''s also a nice quirk in that since Python evaluates
+  left to right 1 + 2 + 3 + x would get fold optimised but x + 1 + 2 + 3 would not.'
+date: !!python/unicode '2019-02-27 05:51:40'
+email: bc501a1bdc0e9d4189f5ff7daeaad3b6
+name: !!python/unicode 'Hassaan Ali Wattoo'

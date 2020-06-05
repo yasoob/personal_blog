@@ -1,0 +1,12 @@
+_id: !!python/unicode '5197'
+comment: !!python/unicode 'I''ve always found namedtuple very useful. I have a slight
+  preference for the syntax:
+
+  <pre><code>
+  Animal = namedtuple(''Animal'', [''name'',''age'',''type''])
+  </code></pre>
+
+  Because it syntactically separates out the names of the fields.'
+date: !!python/unicode '2015-07-19 15:52:51'
+email: 6eeb8c67105326c2ebda4ea68b50941d
+name: !!python/unicode 'Jan Stoker'

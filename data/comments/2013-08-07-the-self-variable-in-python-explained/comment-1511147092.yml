@@ -1,0 +1,9 @@
+_id: !!python/unicode '12828'
+comment: !!python/unicode 'Once x becomes bound to the Restaurant class, x.bankrupt
+  is just the data attribute that stores whether x is bankrupt or not. Try calling
+  the class method, x.open_branch(), to have the code check x.bankrupt and then print
+  accordingly. For reference, https://docs.python.org/3/tutorial/classes.html#instance-objects'
+date: !!python/unicode '2017-11-19 22:04:52'
+email: 9355c1ab04c121850778a96bc5df4f9a
+name: !!python/unicode 'Alopex'
+reply_to: !!python/unicode '12727'

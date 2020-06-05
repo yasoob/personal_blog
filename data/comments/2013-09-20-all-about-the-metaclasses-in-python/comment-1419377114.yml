@@ -1,0 +1,6 @@
+_id: !!python/unicode '3872'
+comment: !!python/unicode 'Hey, I think python doesn''t call parent''s __metaclass__
+  attribute unfortunately'
+date: !!python/unicode '2014-12-23 18:25:14'
+email: e0848d12657cc66e4deb3a88eaa277f9
+name: !!python/unicode 'Arseniy'

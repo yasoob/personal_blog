@@ -1,0 +1,11 @@
+_id: !!python/unicode '12436'
+comment: !!python/unicode 'Yes, that''s the downside of chained comparisons. As a
+  general rule of thumb, you should use parentheses whenever you are not 100% sure:
+  Even if your code was right already, parentheses make it much more easier to read
+  for people who are less experienced than you.
+
+
+  By the way, don''t you mean that y is only evaluated once?'
+date: !!python/unicode '2017-10-15 09:31:41'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'phihag'

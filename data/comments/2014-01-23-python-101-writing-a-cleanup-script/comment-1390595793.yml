@@ -1,0 +1,18 @@
+_id: !!python/unicode '1260'
+comment: !!python/unicode 'No, Hamstagangsta, the "else: pass" is superfluous.  It''s
+  presence is a matter of taste.
+
+
+  Also, in the pretty print example, this would be (IMHO) more Pythonic:
+
+  if i.isfile():
+
+  . . . . files_loc.setdefault(i.dirname().basename(), []).append(i.basename())
+
+
+  (Ignore leading dots; they''re just to ensure indentation.)  Essentially, there''s
+  no need to check for the presence of  the key in files_loc first.  That''s the whole
+  purpose of setdefault().'
+date: !!python/unicode '2014-01-24 15:36:33'
+email: 3d42686395ce6b1ce6115fbb7470fd0f
+name: !!python/unicode 'James'

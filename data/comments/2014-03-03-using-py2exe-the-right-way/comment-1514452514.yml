@@ -1,0 +1,11 @@
+_id: !!python/unicode '13150'
+comment: !!python/unicode "Thank you so much! Creates a standalone executable file\
+  \ and no need for two folders with so many additional files.\n\nused your tip on\
+  \ the following example:\n<pre><code>#hello_w.py\nf = open('helloworld.txt','w')\nf.write('hello\
+  \ world')\nf.close()\n\n#setup.py\nfrom distutils.core import setup\nimport py2exe\n\
+  sys.argv.append('py2exe')\nsetup(\n    options = {'py2exe': {'bundle_files': 1,\
+  \ 'compressed': True}},\n    windows = [{'script': \"hello_w.py\"}],\n    zipfile\
+  \ = None\n)</code></pre>"
+date: !!python/unicode '2017-12-28 04:15:14'
+email: 1791a96fe3b3265be4e0ed184f080c60
+name: !!python/unicode 'Katya Bostaph'

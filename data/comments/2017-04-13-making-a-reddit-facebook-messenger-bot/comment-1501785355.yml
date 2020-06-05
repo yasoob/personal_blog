@@ -1,0 +1,9 @@
+_id: !!python/unicode '11692'
+comment: !!python/unicode "Hello, \n\nThanks for the detailed tutorial! \n\nHowever,\
+  \ I keep getting the error: \"The URL couldn't be validated. Callback verification\
+  \ failed with the following errors: HTTP Status Code = 503; HTTP Message = Service\
+  \ Unavailable\" after adding the callback URL when creating the Facebook app. Any\
+  \ thoughts?"
+date: !!python/unicode '2017-08-03 14:35:55'
+email: 1e0dbf14a82712e2fef2aad7d9622d59
+name: !!python/unicode 'Elly Meng'

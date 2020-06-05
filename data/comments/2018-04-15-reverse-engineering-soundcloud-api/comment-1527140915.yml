@@ -1,0 +1,9 @@
+_id: !!python/unicode '16644'
+comment: !!python/unicode "\"You can also create a browser extension which injects\
+  \ a download button to all of the soundcloud media pages.\" \n\nHow would you do\
+  \ that? With Python or JS? That's interesting, I used to create apps, but never\
+  \ browser extensions. Could you provide any links so I can read more about it please?\
+  \ Thanks for astonishing guide."
+date: !!python/unicode '2018-05-24 01:48:35'
+email: 2aa80c3bcdbb5e1b1fa567fc14b22b01
+name: !!python/unicode 'NewPlayer'

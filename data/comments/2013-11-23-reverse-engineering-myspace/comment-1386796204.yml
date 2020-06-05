@@ -1,0 +1,11 @@
+_id: !!python/unicode '1180'
+comment: !!python/unicode "Wow, great post indeed. But I had to remove the last part\
+  \ of the code              `\"stderr=subprocess.DEVNULL)\"` for it to work. If I had\
+  \ it in, it generated the error:\n<pre><code>Traceback (most recent call last):\nFile \"abc.py\"\
+  , line 14, in \nstderr=subprocess.DEVNULL)</code></pre>\nMy knowledge of programming is very\
+  \ limited, but it's exciting that it actually worked. I'll try to follow the whole\
+  \ procedure this weekend to find out how it actually works, but very interesting\
+  \ nonetheless, site favorited."
+date: !!python/unicode '2013-12-11 16:10:04'
+email: c293d65aeeb037402e1e806cd8c62cde
+name: !!python/unicode 'Jason'

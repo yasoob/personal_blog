@@ -1,0 +1,19 @@
+_id: !!python/unicode '901'
+comment: !!python/unicode "Hi, very nice post!!!\nBut I'm getting the following error:\n<pre><code>\
+  ----------- error --------------------------------\n[bot] setting up connection\
+  \ with Reddit\n[bot] Getting posts from Reddit\n[bot] Generating short link using\
+  \ goo.gl\n[bot] Posting this link on twitter\nPython + FFMPEG : read and write any\
+  \ Audio/Video format with just a few lines of code. http://goo.gl/uxpUF7 #Python\
+  \ #reddit #bot\nTraceback (most recent call last):\n  File \"C:/Users/Karma/Dropbox/ANDRE\
+  \ - AULAS/INFORMATICA/INE 5201/2013 - 1/PYTHON CODES/reddit_bot.py\", line 114,\
+  \ in \n    main()\n  File \"C:/Users/Karma/Dropbox/ANDRE - AULAS/INFORMATICA/INE\
+  \ 5201/2013 - 1/PYTHON CODES/reddit_bot.py\", line 96, in main\n    tweeter(post_dict,\
+  \ post_ids)\n  File \"C:/Users/Karma/Dropbox/ANDRE - AULAS/INFORMATICA/INE 5201/2013\
+  \ - 1/PYTHON CODES/reddit_bot.py\", line 107, in tweeter\n    api.update_status(post+\"\
+  \ \"+post_dict[post]+\" #Python #reddit #bot\")\n  File \"C:\\Python33\\lib\\site-packages\\\
+  tweepy-1.4-py3.3.egg\\tweepy\\binder.py\", line 153, in _call\n    raise TweepError(error_msg)\n\
+  tweepy.error.TweepError: Twitter error response: status code = 401\n-----------------------------------------------------</code></pre>\n\
+  I already check my tokens and all...\n\nAny clue ??\n\nThanks a ton!!!"
+date: !!python/unicode '2013-10-05 21:36:17'
+email: f218081bb8ce606c0e8ec696aa01c6bc
+name: "Andr\xE9"

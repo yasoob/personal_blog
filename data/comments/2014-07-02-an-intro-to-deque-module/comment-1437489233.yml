@@ -1,0 +1,11 @@
+_id: !!python/unicode '5233'
+comment: !!python/unicode 'Okay, yes I too think that converting into a list and then
+  inserting might not be a good idea . I thought insertion and deletion from a deque
+  is less expensive than from a list but I suppose that''s only true if I insert/delete
+  from the beginning or end. So maybe even the least computationally expensive way
+  to insert into an arbitrary position would be by using a list. Anyway, thank you
+  very much for your time.'
+date: !!python/unicode '2015-07-21 10:33:53'
+email: 3b54c0cead72f87b1e90ce3a5d86bf8c
+name: !!python/unicode 'AS'
+reply_to: !!python/unicode '5226'

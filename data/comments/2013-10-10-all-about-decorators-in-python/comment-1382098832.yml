@@ -1,0 +1,9 @@
+_id: !!python/unicode '994'
+comment: !!python/unicode "def wrapped():\n            print ()\n            return\
+  \ func()\n\nI think there shouldn't be a 'return'.\nIn the first a few listings,\
+  \ 'func()' is a part of wrapper. But after the 'evil' part, 'func()' becomes a return\
+  \ value of wrapper.\nIt confuses me and I believe it's a typo, isn't it?\nI am just\
+  \ a beginner, correct me if I'm wrong, thanks."
+date: !!python/unicode '2013-10-18 08:20:32'
+email: eb21ff6f0f033eca1e21c640011328ff
+name: !!python/unicode 'Dehuan Xin'

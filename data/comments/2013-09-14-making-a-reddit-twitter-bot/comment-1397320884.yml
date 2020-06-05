@@ -1,0 +1,9 @@
+_id: !!python/unicode '1840'
+comment: !!python/unicode 'Turns out if you tweet a URL with the .jpg extension (e.g
+  http://imgur123.jpg) then Twitter does not show the image in line. But if you put
+  the URL (e.g http://imgur123) without the .jpg extension then twitter does show
+  the image in line.'
+date: !!python/unicode '2014-04-12 12:41:24'
+email: b01067d28cfed62fef66a99cf04832a7
+name: !!python/unicode 'Pops'
+reply_to: !!python/unicode '1829'

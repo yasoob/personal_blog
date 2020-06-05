@@ -1,0 +1,7 @@
+_id: !!python/unicode '15029'
+comment: !!python/unicode "You seem to have a typo here:\nresponse = session.get('https://m.facebook.comesponse\
+  \ = session.post('https://m.facebook.com/login.phpata={\n  'email': email,\n  'pass':\
+  \ password\n}, allow_redirects=False)"
+date: !!python/unicode '2018-04-28 15:46:40'
+email: 630c8f9691bc37a093578a2ec6214434
+name: !!python/unicode 'Fake Name'

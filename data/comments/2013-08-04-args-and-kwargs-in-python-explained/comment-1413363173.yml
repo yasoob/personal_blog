@@ -1,0 +1,15 @@
+_id: !!python/unicode '3467'
+comment: !!python/unicode 'Python is dynamically typed language.
+
+  Python functions really doesn''t care about what you pass to them.
+
+  But you got it the wrong way... please re-read the post.
+
+  If you want to pass one thousand arguments to your function, then you can''t explicitly
+  define every parameter in your function definition. For the reason you will use
+  *args and your function will be automagically able to handle all the arguments you
+  pass to them for you.'
+date: !!python/unicode '2014-10-15 04:52:53'
+email: 47861438c06d2dceaf71d5fe600526e6
+name: !!python/unicode 'Mahan Marwat'
+reply_to: !!python/unicode '2528'

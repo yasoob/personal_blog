@@ -1,0 +1,15 @@
+_id: !!python/unicode '387'
+comment: !!python/unicode "That's a band-aid though. Instead of going into these crazy-deep\
+  \ (at least for Python, it would be another story in LISP or Haskell) recursions,\
+  \ you should rewrite your algorithm to an iterative one. If it is tail-recursive,\
+  \ a loop will suffice. In other cases, you can simply keep a list of tasks. For\
+  \ example, instead of\n\n```def fib(x):\n   if x < 2: return x\n   return\
+  \ fib(x-1) + fib(x-2)\n```\nyou can write it iteratively like\n\n```import\
+  \ collections\ndef fib(x):\n    tasks = collections.deque([x])\n    res = 0\n  \
+  \  while tasks:\n        v = tasks.pop()\n        if v < 2:\n            res\
+  \ += v\n            continue\n        tasks.append(v-1)\n        tasks.append(v-2)\n\
+  \    return res\n```\n\nAs you can see, the iterative variant is quite messy,\
+  \ but it makes the state explicit. (Full code at http://ideone.com/oqS0pY )"
+date: !!python/unicode '2013-08-30 21:56:29'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'phihag'

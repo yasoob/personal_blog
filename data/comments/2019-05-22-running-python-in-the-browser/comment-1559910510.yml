@@ -1,0 +1,9 @@
+_id: !!python/unicode '39379'
+comment: !!python/unicode 'Thanks Daniel, that''s really useful! I didn''t know there
+  was a Rust implementation of Python - I was thinking of starting one myself as a
+  hobby project, now I''m thinking of contributing. A great way to learn more about
+  Rust and Python at the same time!'
+date: !!python/unicode '2019-06-07 08:28:30'
+email: 0ac5d433216385bcda1b7370c0006945
+name: !!python/unicode 'Shaun Taylor-Morgan'
+reply_to: !!python/unicode '39234'

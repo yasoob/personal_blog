@@ -1,0 +1,18 @@
+_id: !!python/unicode '7365'
+comment: !!python/unicode 'Please help...
+
+
+  C:\Python27\python.exe C:\Python27\projects\setup.py py2exe
+
+
+  Windows10 / Python27 / Tkinter --
+
+  The following appear to be missing
+
+  [''PIL'']
+
+
+  ... and thanks'
+date: !!python/unicode '2015-12-05 03:55:39'
+email: 0e99fa5f0ca05a3a0830e7278c45af2b
+name: !!python/unicode 'Kirk-In-Toronto'

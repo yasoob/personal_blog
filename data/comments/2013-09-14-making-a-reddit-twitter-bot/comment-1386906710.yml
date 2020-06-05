@@ -1,0 +1,27 @@
+_id: !!python/unicode '1194'
+comment: !!python/unicode 'Hi, great post! It saved me some time writing my own Twitter
+  bot. A couple things:
+
+
+  1) Can you please post this code to www.github.com as a code repository with a license?
+  As-is, without a license, we legally cannot use, modify, nor share your code. The
+  added advantage to putting it on GitHub is that we can contribute code to this bot
+  in the future and make it better for everyone.
+
+
+  2) I have a bug fix to suggest. Currently in the function tweet_creator(subreddit_info),
+  the bot gathers all the IDs to tweet, gets the goo.gl shortlink, then later down
+  the pipeline checks if the ID has already been tweeted. This is inefficient on multiple
+  levels, but also bad because it generates goo.gl shortlinks for posts that may end
+  up not getting submitted (if the bot has already submitted them). As a fix, I suggest
+  moving the duplicate check code up to the for loop that originally gathers the submissions
+  in tweet_creator(subreddit_info).
+
+
+  Cheers,
+
+
+  r'
+date: !!python/unicode '2013-12-12 22:51:50'
+email: cecab0827e9286f0aa8056fdeb187a2d
+name: !!python/unicode 'Randy Olson (@randal_olson)'

@@ -1,0 +1,24 @@
+_id: !!python/unicode '9103'
+comment: !!python/unicode "I ran across this on and wanted to try this on Windows\
+  \ as well. Here's what I did if it helps anybody out there.\n\nStep #1\n\nEasiest\
+  \ way to obtain tesseract for Windows is here: https://github.com/UB-Mannheim/tesseract/wiki\n\
+  \nI did this with the tesseract-ocr-setup-3.05.00dev.exe download.\n\n\nStep #2\
+  \  Works as described.\n\npip install git+https://github.com/jflesch/pyocr.git\n\
+  \nIf you get a git not found error. Install git.\n\nhttps://git-scm.com/download\n\
+  \nAnd then go to System-&gt; Advanced system settings -&gt; Environment Variables\
+  \ and add to the PATH variable the location of the git binary. Mine was 'C:\\Program\
+  \ Files\\Git\\bin'\n\nLeave Environment Variables window open for now.\n\n\nStep\
+  \ #3 Works as described\n\nStep #4 Works as described\n\nStep #5 \n\nYou need to\
+  \ verify you have TESSDATA_PREFIX in your System Variables window in the Environment\
+  \ Variables window. It should lead to the installation directory of Tesseract from\
+  \ step #1.\n\nMine is C:\\Program Files (x86)\\Tesseract-OCR\\\n\nI had to make\
+  \ one change tesseract.py in pyocr. Even after mapping the value to a PATH variable\
+  \ I couldn't get it call tesseract correctly. I fixed it by changing the TESSERACT_CMD\
+  \ value to what is below\n\nTESSERACT_CMD =  os.environ[\"TESSDATA_PREFIX\"] + 'tesseract.exe'\
+  \ if os.name == 'nt' else 'tesseract'\n\n\nYou should be to run the code from Step\
+  \ #5 after that. I did have to change \n\ntool.get_available_languages()[1] because\
+  \ that wasn't english on my system."
+date: !!python/unicode '2016-09-12 03:07:05'
+email: 2c84b76b1646ffc257349556dd685a2a
+name: !!python/unicode 'This One Person'
+reply_to: !!python/unicode '8252'

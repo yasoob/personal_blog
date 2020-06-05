@@ -1,0 +1,7 @@
+_id: !!python/unicode '21'
+comment: !!python/unicode 'Your first example overshadows the in-built random. So
+  it is a really bad idea. Also wouldn''t you consider changing the theme? It is like
+  that I am reading a page through a magnifying glass.'
+date: !!python/unicode '2013-07-31 09:05:21'
+email: 531d5b0b38d5865451a18f9b7fadc8c8
+name: !!python/unicode 'ansh bansal'

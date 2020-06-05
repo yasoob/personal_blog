@@ -1,0 +1,8 @@
+_id: !!python/unicode '10399'
+comment: !!python/unicode "My friend, thanks for sharing. However if u load pickle\
+  \ u need to open file as 'rb' mode also, otherwise it will not work. \nSo add to:\
+  \ fileObject = open(file_Name,'r')  ---&gt; fileObject = open(file_Name,'rb')\n\
+  [Notice 'rb' in mode] :)\nYou explained it well, good job. Take care"
+date: !!python/unicode '2017-04-28 20:38:53'
+email: b36047d44d246e48a137ca9260da9bec
+name: !!python/unicode 'asd'

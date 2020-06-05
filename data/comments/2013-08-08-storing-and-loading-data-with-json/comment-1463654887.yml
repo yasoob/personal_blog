@@ -1,0 +1,13 @@
+_id: !!python/unicode '8628'
+comment: !!python/unicode 'if your object o is an object of a built-in class like
+  str or list (say an email address "me@example.org"), import json;json.dumps(o) is
+  literally everything you need. It sounds like your question would be better suited
+  to stackoverflow. Feel free to drop me (phihag@phihag.de) a note about your stackoverflow
+  question if it doesn''t get answered. Make sure to include all relevant details,
+  including the definition of what you understand as a "class object" (that would
+  be an object representing a class, which I don''t think you want) and "addresses"
+  (postal? email? memory? inodes? IP?).'
+date: !!python/unicode '2016-05-19 06:48:07'
+email: 6f92354195e8874dbee44d5c8714d506
+name: !!python/unicode 'phihag'
+reply_to: !!python/unicode '8627'

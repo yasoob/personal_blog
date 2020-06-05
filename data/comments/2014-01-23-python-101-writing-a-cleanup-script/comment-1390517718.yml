@@ -1,0 +1,7 @@
+_id: !!python/unicode '1257'
+comment: !!python/unicode 'Wow, very nice post! :) I think I''m going to use path.py
+  as os module replacement when possible. One question: do we really need "else: pass"
+  statement in code examples no 3 and 4?'
+date: !!python/unicode '2014-01-23 17:55:18'
+email: 96c60ab98b9009fb5f2c704fbb136ca7
+name: !!python/unicode 'hamstagangsta'

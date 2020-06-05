@@ -1,0 +1,8 @@
+_id: !!python/unicode '4873'
+comment: !!python/unicode "You can expand whats in the includes section for what ever\
+  \ missing modules error messages you are getting\n\n    options={\"py2exe\":{\"\
+  includes\":[\"sip\",\"sys\",\"decimal\"]}})"
+date: !!python/unicode '2015-07-03 13:09:59'
+email: 4ea5d951a5c3e4a7bec7a4ca332b0d28
+name: !!python/unicode 'johndlawlor'
+reply_to: !!python/unicode '2755'

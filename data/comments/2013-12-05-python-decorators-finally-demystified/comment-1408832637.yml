@@ -1,0 +1,7 @@
+_id: !!python/unicode '2978'
+comment: !!python/unicode "Many thanks!\nIt takes great care to write so little and\
+  \ say so much:\n \na_function_requiring_decoration = a_new_decorator( a_function_requiring_decoration)\n\
+  \nBetter for me than any example!"
+date: !!python/unicode '2014-08-23 18:23:57'
+email: 394a813a097950fbd48b4affcccc7ecf
+name: !!python/unicode 'Steve Newcomb'

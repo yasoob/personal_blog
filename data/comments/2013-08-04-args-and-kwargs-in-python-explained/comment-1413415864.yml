@@ -1,0 +1,10 @@
+_id: !!python/unicode '3472'
+comment: !!python/unicode "Awesome.... doubt cleared... thanks a lot.. :) \n\nNotice\
+  \ one thing: **kwargs arrange keys in alphabetical order\ne.g:\n\ndef print_it(f_arg,\
+  \ **kwargs):\n    print f_arg\n    for key,value in kwargs.iteritems():\n      \
+  \  print \"%s=%s\"%(key,value)\n\n\nprint_it('sumer',name='panda',age=12)\n\noutput:\n\
+  \nsumer\nage=12\nname=panda\n\n'age' gets printed before 'name'\n\nonce again....this\
+  \ post helped me a lot.... thanks dude."
+date: !!python/unicode '2014-10-15 19:31:04'
+email: 52fd1a5022ab76e4bbe5d6f5b2ca0b74
+name: !!python/unicode 'Sumer Sadawarti'

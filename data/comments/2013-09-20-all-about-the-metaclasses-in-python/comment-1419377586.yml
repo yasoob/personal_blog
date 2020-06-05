@@ -1,0 +1,8 @@
+_id: !!python/unicode '3873'
+comment: !!python/unicode 'Sorry, please update my comment, it does call parent''s
+  __metaclass__ but only if it is a class. If __metaclass__ is a function - it won''t
+  be called.'
+date: !!python/unicode '2014-12-23 18:33:06'
+email: e0848d12657cc66e4deb3a88eaa277f9
+name: !!python/unicode 'Arseniy'
+reply_to: !!python/unicode '3872'

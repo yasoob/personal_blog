@@ -1,0 +1,44 @@
+_id: !!python/unicode '10238'
+comment: !!python/unicode 'I hope this doesn''t add too much confusion, but I wanted
+  to note that in the most general case, Python allows all 4 forms of passing arguments
+  used together:
+
+
+  &gt;&gt;&gt; def f(a1, *args, a2=2, **kwargs): print(a1, args, a2, kwargs)
+
+  # we''ve defined function f that takes a1 as a positional argument, args as a collection
+  of any number of additional positional arguments, a2 as a keyworded argument, and
+  finally kwargs as an arbitrary dict of other keyworded arguments
+
+
+  # At a minimum, we have to supply a1 argument.  Note that args and kwargs are not
+  None, but are just empty tuple and dict, respectively
+
+  &gt;&gt;&gt; f(1)
+
+  1 () 2 {}
+
+
+  # Now let''s try specifying everything
+
+  &gt;&gt;&gt; f(1, 2, 3, a2=20, a3=30, a4=40)
+
+  1 (2, 3) 20 {''a4'': 40, ''a3'': 30}
+
+
+  # We can pass in all arguments by unrolling a tuple and a dict at the call site
+
+  &gt;&gt;&gt; f(1, *(2,), a2=20, **{''a3'': 30, ''a4'': 40})
+
+  1 (2,) 20 {''a4'': 40, ''a3'': 30}
+
+
+  # Notice how we can override a2 without using standard keyworded argument syntax
+  and how it does not appear in kwargs inside the function itself
+
+  &gt;&gt;&gt; f(1, *(2,), **{''a3'': 30, ''a4'': 40, ''a2'': 666})
+
+  1 (2,) 666 {''a4'': 40, ''a3'': 30}'
+date: !!python/unicode '2017-03-31 01:34:28'
+email: 021cf8c7cad8e0e0a4ac053770b53cbe
+name: !!python/unicode 'Alexey Z'

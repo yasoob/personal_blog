@@ -1,0 +1,9 @@
+_id: !!python/unicode '4375'
+comment: "The limits ARE the feature: We use lit.eval all the time for *secure*  (de)serializiation\
+  \ of structures into strings and back. The reason we prefer compared to json is\
+  \ this: \n<pre><code>>>> 'e\u0301' in json.loads(json.dumps(['e\u0301'])) \nFalse\n\
+  >>> 'e\u0301' in literal_eval(str(['e\u0301'])) \nTrue</code></pre>"
+date: !!python/unicode '2015-04-28 14:12:57'
+email: ab513f8a258f3c37216cfa6614d04e20
+name: !!python/unicode 'Gunther Klessinger'
+reply_to: !!python/unicode '4348'

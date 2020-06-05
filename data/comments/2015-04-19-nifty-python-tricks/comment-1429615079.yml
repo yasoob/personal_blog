@@ -1,0 +1,6 @@
+_id: !!python/unicode '4352'
+comment: !!python/unicode 'a[::-1] slicing is obtuse and made obsolete by the `reversed`
+  builtin: https://docs.python.org/2/library/functions.html#reversed'
+date: !!python/unicode '2015-04-21 07:17:59'
+email: ed2f1c38f27bc34b25ee3eb1e8156995
+name: !!python/unicode 'Ben (@deisum)'

@@ -1,0 +1,7 @@
+_id: !!python/unicode '7070'
+comment: !!python/unicode 'It does not make any sence. It is not about self at all.
+  You do not use self in the code. Only at one place so how it is about self variable.
+  What exactly about self variable you are trying explain?'
+date: !!python/unicode '2015-11-16 10:16:07'
+email: 4f058ff99243fff8470c248e4cb45174
+name: !!python/unicode 'Anna'

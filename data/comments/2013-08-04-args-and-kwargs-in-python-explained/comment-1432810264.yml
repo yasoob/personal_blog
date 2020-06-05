@@ -1,0 +1,9 @@
+_id: !!python/unicode '4449'
+comment: !!python/unicode "In the second paragraph, you've said:\n\n\"*args is used\
+  \ to send a non-keyworded variable length argument list to the function\".\n\nAs\
+  \ far as I understand, what you're passing is any number of non-keyworded arguments\
+  \ in the function call. But NOT in a list. Am I wrong? \n\nThanks for the article\
+  \ : )"
+date: !!python/unicode '2015-05-28 06:51:04'
+email: c3e4ddc33b7ad2218d903acff0dd4648
+name: !!python/unicode 'niteDrain'
