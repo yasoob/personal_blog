@@ -114,7 +114,7 @@ Step 4: Adding `staticman.yml` to Hugo
 
 Now we need to create a new file called `staticman.yml` in the root of our actual blog repo. This is used by staticman for configuration purposes and to actually keep track of which fields should be allowed in the form.
 
-My `staticman.yml` file looks like this:
+My [`staticman.yml`](https://github.com/yasoob/personal_blog/blob/master/staticman.yml) file looks like this:
 
 ```
 --- 
@@ -159,7 +159,7 @@ $ git push origin master
 Step 5: Adding Comment Partials in Hugo Theme
 ---------------------------------------------
 
-Now the next step is to actually create the partials which will display the comments. Create a `partials/comments.html` file in your theme's layout folder and add the following text in it:
+Now the next step is to actually create the partials which will display the comments. Create a [`partials/comments.html`](https://github.com/yasoob/personal_blog/blob/master/themes/hugo-zen/layouts/partials/comments.html) file in your theme's layout folder and add the following text in it:
 
 ```html
 {{ if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
@@ -229,7 +229,7 @@ Now the next step is to actually create the partials which will display the comm
 {{ end }}
 ```
 
-Now create a `partials/comment-replies.html` file and add the following text to it:
+Now create a [`partials/comment-replies.html`](https://github.com/yasoob/personal_blog/blob/master/themes/hugo-zen/layouts/partials/comment-replies.html) file and add the following text to it:
 
 ```html
 {{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) }}
@@ -263,7 +263,7 @@ Now go to `_default/single.html` or whichever template you use to render a blog-
 {{ partial "comments.html" .}}
 ```
 
-My `single.html` file looks like this:
+My [`single.html`](https://github.com/yasoob/personal_blog/blob/master/themes/hugo-zen/layouts/_default/single.html) file looks like this:
 
 ```
 {{ partial "header.html" . }}
@@ -408,6 +408,8 @@ I wrote most of this article from memory. If you get any error please write a co
 Till next time! :heart:
 
 **Edit:** Vin100 made some remarks about some of the issues I shared in this article. Make sure to check out [his comment](https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/#commentid-8a8f4650-c9e5-11e9-8238-9540886bfca2)!
+
+My blog is now open source. You can look at how I have implemented this [here](https://github.com/yasoob/personal_blog).
 
 ----
 
