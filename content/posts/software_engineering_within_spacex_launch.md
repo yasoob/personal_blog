@@ -77,3 +77,4 @@ Till next time, have a wonderful day, and stay safe! :wave: :heart:
 
 PS: SpaceX also [launched a simulator](https://iss-sim.spacex.com/) where you can try your hands at docking the Falcon 9 with the ISS :rocket:
 
+**Edit:** After this post was published the SpaceX software team did an AMA on Reddit (6th June 2020). It contains some good insights. Check it out [here](https://www.reddit.com/r/spacex/comments/gxb7j1/we_are_the_spacex_software_team_ask_us_anything/).
