@@ -231,6 +231,7 @@ pre code{
   color: white;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
 }
 .darkmode .git-source a{
   background: #e8e0e0;
