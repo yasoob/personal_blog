@@ -43,7 +43,6 @@ main {
 
 .container {
   width: 90%;
-  max-width: 620px;
 }
 
 .header-logo img {
@@ -468,6 +467,9 @@ body.darkmode{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 00px 90px;
+  }
+  .container {
+    width: 50%;
   }
   .toggle{
     display: none;
