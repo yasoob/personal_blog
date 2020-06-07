@@ -222,7 +222,7 @@ pre code{
   position: absolute;
   right: -5rem;
   top: 2em;
-  rotate: 90deg;
+  transform: rotate(90deg);
 }
 .git-source a{
   display: block;
