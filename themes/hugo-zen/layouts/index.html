@@ -2,7 +2,7 @@
 
 	<main class="homepage" role="main">
 		<span class="git-source">
-			<a href="https://github.com/yasoob/personal_blog/tree/master/content/{{.File.Path}}">Source</a>
+			<a href="https://github.com/yasoob/personal_blog/tree/master/content/{{ with .File }}{{ .Path }}{{ end }}">Source</a>
 		</span>
 		<div>
 			<h1><span class="emoji">👋</span> Hi everyone!</h1>

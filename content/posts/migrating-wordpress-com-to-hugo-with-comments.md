@@ -3,7 +3,10 @@ title: "Migrating from Wordpress.com to Hugo With Comments"
 date: 2020-06-06T03:16:17-04:00
 draft: false
 categories: ['wordpress', 'migration', 'hugo']
+featured_image: '/images/wordpress-migration/hero.png'
 ---
+
+<!-- ![Hero Image](/images/wordpress-migration/hero.png) -->
 
 Hi beautiful people! :wave: Recently I decided to go all-in on static site generator, Hugo, and move over my [Python Tips](https://pythontips.com) blog from Wordpress to Hugo. I will share the exact steps I took during this migration. It was slightly more involved than I would have liked. I will not share the reasoning behind why I moved to Hugo in this post, but rather just the details of how the process went.
 
