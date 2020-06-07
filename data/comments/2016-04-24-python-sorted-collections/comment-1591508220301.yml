@@ -1,0 +1,12 @@
+_id: e8aaa840-a880-11ea-83f5-33a8c4106545
+_parent: 'http://yasoob.me/2016/04/24/python-sorted-collections/'
+name: Grant Jenks
+email: 19597bf4ea8879e5210d6e6025e17111
+reply_to: '75266'
+comment: >-
+  The [issue](https://github.com/grantjenks/python-sortedcontainers/issues/147)
+  with "reference cycles" that Aliaksandr refers to has been fixed in version
+  2.2.0 of [sortedcontainers on
+  PyPI](https://pypi.org/project/sortedcontainers/) (released on June 6, 2020).
+name_try: ''
+date: '2020-06-07T05:37:00.294Z'
