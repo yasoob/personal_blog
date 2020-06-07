@@ -21,7 +21,7 @@ Files name `__init__.py` are used to mark directories on disk as Python package 
 
 ```
 mydir/spam/__init__.py
-midir/spam/module.py
+mydir/spam/module.py
 ```
 
 and `mydir` is on your path, you can import the code in `module.py` as
