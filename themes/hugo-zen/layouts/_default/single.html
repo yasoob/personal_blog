@@ -2,6 +2,9 @@
 
 	<main role="main" class="single-main">
 		<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+			<span class="git-source">
+				<a href="https://github.com/yasoob/personal_blog/tree/master/content/{{.File.Path}}">Source</a>
+			</span>
 			<h1 class="entry-title" itemprop="headline">{{ .Title | emojify}}</h1>
 			<span class="entry-meta">
 				{{ if not (.Params.showthedate) }}

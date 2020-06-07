@@ -84,6 +84,9 @@ h1.entry-title{
 .entry-title a {
   text-decoration: none;
 }
+article.single{
+  position: relative;
+}
 .single .entry-meta{
   display: block;
   text-align: center;
@@ -177,6 +180,9 @@ a.button.all-articles{
 main.homepage h1 .emoji, div.homepage-articles h1 .emoji, .all-articles .emoji{
   margin-right: 10px;
 }
+.homepage{
+  position: relative;
+}
 .homepage_signup{
   margin-bottom: 40px;
 }
@@ -212,7 +218,25 @@ code{
 pre code{
   padding-left: 10px !important;
 }
-
+.git-source{
+  position: absolute;
+  right: -5rem;
+  top: 2em;
+  rotate: 90deg;
+}
+.git-source a{
+  display: block;
+  padding: 4px 10px;
+  background: #000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.darkmode .git-source a{
+  background: #e8e0e0;
+  color: black;
+  text-decoration: none;
+}
 #hp{
   width: 100%;
 }
@@ -482,6 +506,7 @@ body.darkmode{
     border: 6px solid #9a6bcc;
     box-shadow: 6px -6px 0px #eae9e9;
     margin-right: -80px;
+    position: relative;
   }
   .darkmode main.single-main, .darkmode .homepage-articles,
   .darkmode .homepage, .darkmode main.all-articles{
