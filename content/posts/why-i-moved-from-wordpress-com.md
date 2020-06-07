@@ -55,7 +55,7 @@ With the basic version of Wordpress, I was locked into using the default analyti
 
 With no way to set up custom analytics on Wordpress.com, I had to figure out another way and the only course of action I could think of was to move away. I ended up setting up a custom [Shynet](https://github.com/milesmcc/shynet/) instance. It allows me to ethically track of important analytics. And just because the analytics endpoint is hosted at my domain and not on the domain of any well-known analytics company, the ad blockers don't block it. I have set this up for the [Intermediate Python](http://book.pythontips.com/) website as well and the difference is stark. At one point Google reported 18 active users whereas Shynet reported 40+ active users. Hopefully, after a week of testing, I will disable Google Analytics on my websites.
 
-And it only helps that Shynet has a gorgeous UI.
+And it only helps that Shynet has a gorgeous UI and I can see the important stats from all of my websites in one dashboard.
 
 ![Shy net UI](/images/why-exit-wordpress/shynet.png)
 
