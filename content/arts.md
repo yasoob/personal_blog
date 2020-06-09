@@ -67,5 +67,14 @@ For this project I decided to subvert the Washington Post and showcase how there
 
 This project was done soon after the shooting at a mosque in Christchurch, New Zealand in early 2019. The theme of this project was to promote religious harmony. I used English, Arabic and Urdu to write the same message on the placards. People feel uneasy when they see something new or unfamiliar. That is exactly what I am trying to get at here. This was my first attempt at doing any sort of organized wall spray painting and I am proud of how it turned out. I laser cut cardboard stencils for this project.
 
+<hr>
+
+**:point_right: [Pakistani Flag](/images/pakistan-flag.jpg)**
+
+![Pakistani Flag](/images/pakistan-flag.jpg)
+
+This project is from 2012. At the time when this whole thing was painted, it got listed in Guinness Book of World Records as the largest painted flag of a country. It was the size of a field hockey stadium. It was done as part of a large group of people. Last I heard, the record has since been broken by a different country.
+
 
 I will update this page with new arts projects soon. :+1:
+
