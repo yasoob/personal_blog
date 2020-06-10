@@ -1,0 +1,8 @@
+_id: 3175e3e0-aadf-11ea-82a7-db239b801488
+_parent: 'https://yasoob.me/posts/software_engineering_within_spacex_launch/'
+name: Rohan
+email: 803d4152ac581dc1e696fd70901abdb2
+reply_to: ''
+comment: "\"There are 3 processors (with dual cores) so that means each controller/sensor will get three different commands. The controllers then act as the judge and compare the three commands. If all three are in agreement, they carry out the operation. If even a single command is in disagreement, the controller carries out the command from the processor which had previously been sending the correct commands.\r\nThis means that at any given point there are 6 running processes of the flight software.\"\r\n\r\nFascinating! Carrying out the command from the processor that has been correct thus far makes a lot of sense intuitively, but I'm wondering if there's a more rigorous justification for this sort of redundancy management? Or if there are other strategies for redundancy also in place? Like I'm thinking of a scenario where you have 5 continuous scenarios where the processors aren't unanimous. Would you rely on the results from the processor that was correct upto the (n-5)th instance and use its results each time? That seems concerning. If not, is there a process for recalibration after a lack of unanimity? I get that such a scenario is probably extremely unlikely in the zero-margin-for-error industry SpaceX operates in, but it seems to me that they would have to account for something like this precisely because they're in a zero-margin-for-error industry."
+name_try: ''
+date: '2020-06-10T05:56:57.391Z'
