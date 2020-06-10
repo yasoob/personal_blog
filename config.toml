@@ -26,4 +26,5 @@ googleanalytics = "UA-97849776-1"
 
 [taxonomies]
   category = "categories"
+  tag = "tags"
 

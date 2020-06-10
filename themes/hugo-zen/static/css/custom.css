@@ -638,6 +638,7 @@ blockquote{
 }
 .post-comment .comment-message{
   font-size: 1.7rem;
+  word-break: break-word;
 }
 .post-comment-avatar {
    display: inline-block;

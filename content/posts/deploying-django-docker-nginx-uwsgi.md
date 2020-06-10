@@ -5,7 +5,7 @@ draft: true
 categories: ['sysadmin', 'python', 'django', 'nginx', 'docker']
 ---
 
-# Deploying Django project using NGINX, Docker and UWSGI
+# How to Deploy old Django project using NGINX, Docker and UWSGI
 
 I maintain an old website for a client which was originally developed in 2015. It hasn't been updated for the last 5 years and uses Django 1.7 and some Django extensions which haven't been updated for Django 3. I recently decided to move the website to a new server and had to repackage the Django code in a Docker container. It took me some time to get it working correctly so I hope this article can save some time for those who might be in the same boat.
 
@@ -53,7 +53,7 @@ In addition to that I had a separate `uwsgi.ini` file:
 
 ```config
 [uwsgi]
-project = fci_django
+project = project_name
 base = /app
 socket_dir = /shared
 
@@ -73,5 +73,82 @@ On the old server I was running UWSGI like this:
 
 ```
 uwsgi --ini ~/app/uwsgi.ini
+```
+
+This was then creating a socket called `project_name.sock` which was used by NGINX to send traffic to it. 
+
+My NGINX configuration looked something like this:
+
+```
+server {
+    server_name mydomain.com www.mydomain.com;
+
+    access_log /var/log/nginx/project.access.log;
+    error_log /var/log/nginx/project.error.log;
+    
+    location = /favicon.ico { access_log off; log_not_found off; }
+
+    location /static/ {
+        root /home/yasoob/project_name;
+    }
+
+    location /media/ {
+        alias /home/yasoob/project_name/static/;
+    }
+
+    location / {
+        include         uwsgi_params;
+        uwsgi_pass      unix:/home/yasoob/project_name/project_name.sock;
+    }
+}
+```
+
+This file usually resides in `/etc/nginx/sites-available/mydomain` and then symlinked to `/etc/nginx/sites-enabled/mydomain`. Let me break down what this script is doing:
+
+1. `server_name` makes sure that if we are serving multiple domains/sub-domains from the same server, nginx knows which domain this particular config deals with
+2. `access_log` and `error_log` tell NGINX where to save the log files for this particular website/app
+3.  `access_log off;` and `log_not_found off;` tell NGINX not to log access and error logs pertaining to this particular endpoint
+4.  `location /static/` mapping tells NGINX to find the static files in the `project_name` dir. It's the same with `location /media/`
+5.  `include uwsgi_params` tells NGINX to load the `uwsgi_params` file. It is distributed with the NGINX distribution and looks something [like this](https://uwsgi-docs.readthedocs.io/en/latest/Nginx.html#what-is-the-uwsgi-params-file).
+6.  `uwsgi_pass` tells NGINX to pass the incoming connection request to the `project_name.sock` socket. UWSGI will cater to this request. 
+
+Another important detail is that I was using a `sqlite` DB for this project so it was considerably easier for me to port this to docker. It is not hard to port Postgresql or some other DB but it requires a little extra configuration which I didn't have to do. The very next step was to write a `Dockerfile`. This is what I came up with:
+
+```
+FROM python:2
+
+RUN apt-get update && \
+    apt-get install -y build-essential python vim net-tools && \
+    pip install uwsgi
+
+WORKDIR /
+COPY . /app/
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+CMD [ "uwsgi", "--ini", "/app/uwsgi.ini" ]
+```
+
+This `Dockerfile` is based on the [Python 2](https://hub.docker.com/_/python) image. The steps in this docker file are:
+
+1. Install the required Python packages, uwsgi and helpful tools for debugging
+2. `Workdir /` specifies that we will be working in the `/` dir
+3. Copy everything from the current directory on the host to the `/app` directory in the container
+4. Install all the required dependencies using `pip` and the `requirements.txt` file
+5. Run `uwsgi` until the container terminates for some reason
+
+### TODO: Write the directory structure
+
+After creating the `Dockerfile` it was just a matter of building the Docker image:
+
+```
+docker build -t project .
+```
+
+If you have been paying attention then you may be thinking about where uwsgi is going to create the socket. In the `uwsgi.ini` file you can see that it creates  a socket in the `/shared` folder. 
+
+And now I could run a new Docker container using this newly created container image:
+
+```
+docker run --rm -d project
 ```
 
