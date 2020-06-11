@@ -1,6 +1,6 @@
 ---
 title: "How to Deploy old Django project using NGINX, Docker and UWSGI"
-date: 2020-06-011T02:01:59-04:00
+date: 2020-06-11T02:01:59-04:00
 draft: false
 categories: ['sysadmin', 'python', 'django', 'nginx', 'docker']
 featured_image: '/images/fci_docker/header.png'
