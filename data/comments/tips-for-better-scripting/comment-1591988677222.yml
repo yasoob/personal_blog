@@ -1,0 +1,8 @@
+_id: 8f510ec0-acdf-11ea-8536-4177ae6a8c83
+_parent: 'https://yasoob.me/posts/tips-for-better-scripting/'
+name: gandie
+email: 4238ce71152e8db4978aef85e7a71754
+reply_to: ''
+comment: "# Tip 3\r\n\r\nI do not agree with Tip 3. Do not invent your own logging, better use builtin logging module, setup is easy ( from docs ) :\r\n\r\n```\r\nimport logging\r\nlogging.basicConfig(format='%(asctime)s %(message)s')\r\nlogging.warning('is when this event was logged.')\r\n```\r\n\r\nCheck docs for usage and more examples, e.g. add file logging which may be an alternative to Tip 4.\r\n\r\n# Another Tip:\r\n\r\nUse argsparse to add command line arguments to your script, do not parse sys.argv by hand."
+name_try: ''
+date: '2020-06-12T19:04:37.217Z'
