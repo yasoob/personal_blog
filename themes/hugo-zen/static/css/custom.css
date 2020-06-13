@@ -853,4 +853,23 @@ input[type=checkbox].checkbox {
   section#privacy-button-links div{
     margin-left: initial;
   }
+  span.entry-meta{
+    float: none;
+  }
+  h2.entry-title{
+    margin-left: 0;
+  }
+  p.wordcount, p.teaser{
+    margin-left: 0;
+  }
+  p.teaser{
+    margin-top: 10px;
+  }
+  p.wordcount{
+    margin-top: 10px;
+    margin-bottom: 4rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
 }
