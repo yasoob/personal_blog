@@ -3,6 +3,7 @@ title: "Staticman Comment Notifications Setup Using Mailgun"
 date: 2019-06-26T17:54:58-04:00
 draft: false
 categories: ["programming"]
+teaser: 'We all like receiving email notifications whenever someone replies to our comments. Learn about how to setup email notifications for Staticman comments using Mailgun.'
 ---
 
 Hi people! :wave: This post is about how to set up email notifications for new comments on your blog using staticman. This way if someone posts a comment on an article can automatically get updated in case someone else makes a new comment on the same article.

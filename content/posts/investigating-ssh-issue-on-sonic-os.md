@@ -3,6 +3,7 @@ title: "Investigating SSH connection issue in SONiC"
 date: 2020-05-26T02:11:18-04:00
 draft: false
 categories: ["programming", "sysadmin", "internship"]
+teaser: 'SONiC is an open source network device operating system developed by Microsoft. In this article, I talk about an SSH connectivity issue I encountered on SONiC and how I was able to debug it and find the root cause.'
 ---
 
 Hi guys! :wave: During my internship at Microsoft I am working on an automated testing pipeline for configuration files for Microsoft's fleet of network devices across Azure Data Centers. The current goal is to test the configurations for [SONiC](https://azure.github.io/SONiC/) based devices. SONiC is an open-source Linux based operating system for network devices.

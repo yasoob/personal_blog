@@ -18,10 +18,10 @@ tags:
   - python in browser
   - skulpt
   - transcrypt
-
+teaser: "I wasn\'t aware about the different solutions for running Python in the browser so I invited Shaun from Anvil to give us a run-down of what is available out there."
 ---
 
-_Running Python in the web browser has been getting a lot of attention lately. Shaun Taylor-Morgan knows what he’s talking about here - he works for[Anvil][1], a full-featured application platform for writing full-stack web apps with nothing but Python. So I invited him to give us an overview and comparison of the open-source solutions for running Python code in your web browser._
+_Running Python in the web browser has been getting a lot of attention lately. Shaun Taylor-Morgan knows what he’s talking about here - he works for [Anvil][1], a full-featured application platform for writing full-stack web apps with nothing but Python. So I invited him to give us an overview and comparison of the open-source solutions for running Python code in your web browser._
 
 In the past, if you wanted to build a web UI, your only choice was JavaScript. 
 

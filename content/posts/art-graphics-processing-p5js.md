@@ -3,6 +3,7 @@ title: "First Step into the World of Generative Art"
 date: 2019-10-02T23:07:50+02:00
 draft: false
 categories: ["art", "processing", "p5js"]
+teaser: 'Have you used Processing before? It allows you to create sketches using programming. Take a look at some looping GIFs I made using Processing. I will share some resources that you can use to make your own perfectly looping GIFs.'
 ---
 
 Hi people! :wave: Hope everything is going well with you all. I recently started exploring graphics and [processing](https://processing.org/). Processing is a wonderful software which allows you to program graphics very easily. You can get some amazing results with only a few lines of code. I have produced some basic sketches so far. I am going to link them below. Hope you like (at least some) them :grin:

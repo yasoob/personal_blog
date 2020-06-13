@@ -4,6 +4,7 @@ date: 2020-06-13T04:11:51-04:00
 draft: false
 categories: ['privacy', 'analytics']
 featured_image: '/images/privacy-analytics/hero.png'
+teaser: "Learn about the potential Google Analytics alternatives that you can use to track useful metric without invading your user's privacy"
 ---
 
 Hi everyone! :wave: Lately I have been restructuring my online presence and that included running this blog using a static site generator. During this process, I decided to also look for privacy-preserving Google Analytics alternatives. When concerned with website analytics, the default solution most people reach out to is Google Analytics but there are [good reasons](https://plausible.io/blog/remove-google-analytics) for not using GA. This post will give you a rundown of the different alternatives I came across during my research. At the end of the post, I also talk about **why** and **why not** to use these alternatives.

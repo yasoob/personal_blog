@@ -15,6 +15,7 @@ tags:
   - github
   - github PR
   - pygithub
+teaser: 'My blog uses Staticman for comments and recently got a lot of fake comments. I used the GitHub API to filter out and mass-delete comments. Learn about how you can do something similar.'
 
 ---
 

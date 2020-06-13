@@ -3,6 +3,7 @@ title: "Creating Offline Custom Style Maps With tileserver-gl"
 date: 2019-04-27T14:33:31-04:00
 draft: false
 categories: ["programming", "maps"]
+teaser: "Tileserver-gl is an amazing project that allows you to make custom styles for maps. Learn about how to make beautiful styled map posters using tileserver-gl. The best part? It is completely open source!"
 ---
 
 Hi lovely people! :wave: Last year, I saw a [project on Product Hunt](https://www.producthunt.com/posts/hospitality-art) which allowed people to generate posters from maps. The website has since closed down and the company has been acquired by Airbnb. This is what the output looked like:

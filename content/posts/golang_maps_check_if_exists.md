@@ -3,6 +3,7 @@ title: "Golang: Check if a key exists in map"
 date: 2019-06-18T18:55:05-04:00
 draft: false
 categories: ["programming", "golang"]
+teaser: 'I have been working with Golang quite a lot. This is my first time working with it professionally. I share some methods for checking key existance in maps in Golang.'
 ---
 
 Hi people! I am working at [ASAPP](https://www.asapp.com/) and a lot of my work involves writing Golang code. This is the first time I am working with Golang full-time. I picked up a couple of tricks from my colleagues and mentors here and would like to share them with you. 

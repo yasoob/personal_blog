@@ -3,6 +3,7 @@ title: "My Internship Experience at ASAPP"
 date: 2019-09-16T13:21:13+02:00
 draft: false
 categories: ["internship", "personal"]
+teaser: 'In summer 2019, I interned at a communication startup called ASAPP in NYC. I talk about my experience and what I learned during my time there.'
 ---
 
 [![](/images/asapp.png)](https://www.asapp.com/)

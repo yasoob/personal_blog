@@ -3,6 +3,7 @@ title: "Running Staticman on Hugo Blog With Nested Comments"
 date: 2019-06-24T17:32:59-04:00
 draft: false
 categories: ["programming"]
+teaser: 'No blog is complete without comments. There are a lot of options out there which allow you to add comments to your static blog. In this article, I talk about how to setup Staticman for your Hugo blog. Process is similar for other static site generators.'
 ---
 
 Hi everyone! :wave: After transitioning to a static blog/website, I had one problem. My blog no longer had comments functionality. Yes, I could have used Disqus but I personally hate it. It is bloated with a lot of unwanted code. I did some search a while ago but couldn't find anything. I did a more serious search a couple of weeks ago and stumbled upon [staticman](https://staticman.net/) and holy moly it is the best thing ever! 

@@ -3,6 +3,7 @@ title: "Project Greenhouse Using Arduino, Raspberry Pi & Sensors"
 date: 2019-09-17T01:01:01+02:00
 draft: false
 categories: ["arduino", "electronics"]
+teaser: 'Take a look at the final project I made using Arduino, Raspberry Pi & a couple of sensors for a digital studio class. I have also written some in-process articles about this project in the past.'
 ---
 
 Hi lovely people! :wave: A couple of months ago I wrote a couple of articles on how to connect different sensors and an LCD to an Arduino. However, I didn't write one final article about how these things all fit together to form a greenhouse monitoring system. I don't think I will be able to get to it anytime soon (lack of time for a detailed tutorial). Therefore, I decided to just write about what the final project was and what it did and most importantly, where the inspiration for it came from.

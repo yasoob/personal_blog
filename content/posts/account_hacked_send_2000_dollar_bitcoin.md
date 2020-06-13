@@ -3,6 +3,7 @@ title: "Account Hacked, Send $2000 in Bitcoin"
 date: 2020-06-02T01:37:18-04:00
 draft: false
 categories: ["random", "hacking", "bitcoin"]
+teaser: 'A friend recently received an email from a Hacker demanding $2000 in Bitcoin. In this article you will learn how the hackers get the emails and passwords of unsuspecting users and whether you should actually send them $2000 or not.'
 ---
 
 ![Account hacked hero image](/images/hacked/you_have_been_hacked.png)

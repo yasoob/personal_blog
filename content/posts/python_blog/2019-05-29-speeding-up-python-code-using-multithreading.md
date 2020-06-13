@@ -16,7 +16,7 @@ tags:
   - multithreading
   - speed up python
   - threading
-
+teaser: 'Oftentimes people complain about Python being slow without realizing that there are simple solutions to their problems. Learn about how to leverage multiprocessing in Python and speed up some of your scripts by 10x or more.'
 ---
 Hi lovely people! 👋 A lot of times we end up writing code in Python which does remote requests or reads multiple files or does processing on some data. And in a lot of those cases I have seen programmers using a simple `for loop` which takes forever to finish executing. For example:
 

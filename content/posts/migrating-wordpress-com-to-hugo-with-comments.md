@@ -4,6 +4,7 @@ date: 2020-06-06T03:16:17-04:00
 draft: false
 categories: ['wordpress', 'migration', 'hugo']
 featured_image: '/images/wordpress-migration/hero.png'
+teaser: "If you are thinking about migrating from WordPress to Hugo (or any other static site generator) you can learn from my experience. I talk about the steps I took. You will be able to preserve the comments and SEO."
 ---
 
 <!-- ![Hero Image](/images/wordpress-migration/hero.png) -->

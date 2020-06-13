@@ -3,6 +3,7 @@ title: "Extracting Data from Nike Run Club & Visualizing It"
 date: 2019-05-01T00:00:00-00:00
 draft: false
 categories: ["running", "programming"]
+teaser: "I have been using Nike Run Club for years. I liked using it but was super unhappy with the fact that I wasn't officially allowed to export my data. I went ahead and reversed their API. Learn about how you too can extract your data from NRC."
 ---
 
 Hi lovely people! :wave: Most people who know me in person know that I love running. I try to run at least twice a week. I properly started running in May 2017 and have been running more or less consistently since then. I have been using the Nike Run Club app to log all of my run data. When I started using it I had no idea that I was getting sucked into a walled garden and there was no official way to move my data out of the Nike ecosystem.

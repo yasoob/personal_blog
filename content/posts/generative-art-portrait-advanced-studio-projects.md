@@ -3,6 +3,7 @@ title: "Making Generative Portraits Using Processing"
 date: 2020-02-05T13:35:26-05:00
 draft: false
 categories: ["generative-art", "processing", "algorithmic-art", "portrait"]
+teaser: 'Do you know what generative algorithms are? I talk about how I used generative algorithms and Processing to make portraits for my advanced studio projects class.'
 ---
 
 Hi everyone! :wave: Haven't talked to you guys for a while. Hope things are going well on your end. Last semester I was studying abroad in Budapest but now I am back at Colgate. I had the time of my life traveling all over Europe and meeting/staying with interesting people. I will try to write an article about that soon. Till then sit tight and enjoy this article about generative art.

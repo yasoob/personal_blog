@@ -3,6 +3,7 @@ title: "SONiC load vs reload headache"
 date: 2020-06-03T00:20:25-04:00
 draft: false
 categories: ["internship", "microsoft", "sonic"]
+teaser: "SONiC is an open source network device operating system developed by Microsoft. I talk about two similar sounding commands and how their difference caused me a lot of headache."
 ---
 
 Another day and yet another article about a problem I encountered during my internship and how I managed to solve it. This article is regarding [SONiC](https://github.com/Azure/SONiC) as well. I will talk about how there are fundamentally two different ways for loading a configuration in SONiC and how that difference caused me so much pain :cry:

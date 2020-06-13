@@ -4,6 +4,7 @@ date: 2020-06-12T00:17:55-04:00
 draft: false
 categories: ['python', 'sysadmin', 'programming']
 featured_image: '/images/scripting.png'
+teaser: "Learn about some general scripting tips that will help you level up your scripting game. I learned them the hard-way but you don't have to."
 ---
 
 During my day to day work, I have had to do a lot of scripting. This can range from running short tests in Docker containers to running super long processes in Azure Batch service. I have used Bash and Python for these purposes and learned quite a few useful techniques along the way. I am sharing them here in hopes that they might save you some time and you don't have to learn them the "hard" way. 

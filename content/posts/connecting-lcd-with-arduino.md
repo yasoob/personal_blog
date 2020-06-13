@@ -3,6 +3,7 @@ title: ":herb: Greenhouse Part 3: Connecting LCD With Arduino"
 date: 2019-04-21T01:11:12-04:00
 draft: false
 categories: ["arduino", "electronics", "LCD"]
+teaser: "Third part of my three part series about Arduinos and sensors. Learn how to conenct an LCD with Arduino and how to display data on it."
 ---
 
 Hi lovely people! :wave: In the last two posts, we learned how to use the temperature, light intensity, and soil moisture sensors. So far we have covered all of the sensors my greenhouse is going to have in the alpha version. I know I am missing out on the integral humidity sensor but I didn't have that one lying around :sweat_smile:. Well, 3 sensors are more than enough for our learning purposes. 

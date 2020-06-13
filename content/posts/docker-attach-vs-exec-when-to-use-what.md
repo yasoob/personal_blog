@@ -3,6 +3,7 @@ title: "Docker attach vs exec & When to Use What"
 date: 2020-06-04T00:00:16-04:00
 draft: false
 categories: ["sysadmin", "internship", "docker"]
+teaser: "I have been working quite a lot with Docker for my current project. If attach & exec have been giving you some trouble then this post will teach you the difference b/w both. You will also learn about when to use what."
 ---
 
 Hello lovely people! :wave: During my day to day work with [SONiC](https://github.com/Azure/SONiC/) I have to launch new Docker containers and run commands within those containers. I usually have an `ENTRYPOINT` or `CMD` defined in my `Dockerfile` which means that there is always a default process that starts when I run my Docker images. When I started working with Docker I would always use the `attach` command to connect to a running container. 

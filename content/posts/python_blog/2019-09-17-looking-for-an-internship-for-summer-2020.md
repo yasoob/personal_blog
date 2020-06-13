@@ -15,7 +15,7 @@ tags:
   - internship
   - internship search
   - summer 2020
-
+teaser: 'I wrote this article when I was looking for new internship opportunities. I got one with the Azure Cloud Networking team at Microsoft.'
 ---
 **Update:** Thank you so much! I got an amazing opportunity with Azure Cloud Networking team at Microsoft 🙂
 

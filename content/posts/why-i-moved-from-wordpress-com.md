@@ -3,6 +3,7 @@ title: " Why I Moved Away From Wordpress.com"
 date: 2020-06-08T00:00:04-04:00
 draft: false
 categories: ['wordpress','migration', 'hugo']
+teaser: "I recently moved pythontips.com from Wordpress to Hugo. I talk about the rationale for doing so and what benefits (if any) I have observed after this migration."
 ---
 
 Hi everyone! :wave: Quite a few of you got redirected to this website from my old [Python Tips](https://pythontips.com/?theme_preview=true) blog. The old blog was based on Wordpress and I recently moved everything to Hugo. I am still in the process of figuring certain things out but so far the transition has been fairly smooth. I alluded to this post a while ago and told you all that I will write down my reasoning for why I moved away from Wordpress.com. The wait is finally over :smile:Let's get on with the reasons then. ​

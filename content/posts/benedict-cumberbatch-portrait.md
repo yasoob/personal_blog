@@ -3,6 +3,7 @@ title: "Benedict Cumberbatch Digital Portrait (Procreate)"
 date: 2020-04-01T00:59:22-04:00
 draft: false
 categories: ["art", "procreate"]
+teaser: 'I recently started doing digital portraits a bit more seriously. Look at a portrait of Benedict Cumberbatch that I made in ProCreate using a borrowed iPad.'
 ---
 
 Hi everyone! :wave: It's a tough time for everyone and we are all doing what we can to stay sane. I haven't written on the blog in a long time and now I feel like I have all the time in the world to do it. I have started focusing more on my art and just made this portrait of Benedict Cumberbatch. 

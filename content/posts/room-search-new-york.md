@@ -3,6 +3,7 @@ title: "Looking for a Single in New York City"
 date: 2019-05-09T00:21:58-04:00
 draft: false
 categories: ["personal"]
+teaser: 'I am moving to New York for the summer and, therefore, I am looking for a single in the city. If you have any leads please send them my way!'
 ---
 
 **Update: I have found a super nice place and I am all set. Thank you everyone!**

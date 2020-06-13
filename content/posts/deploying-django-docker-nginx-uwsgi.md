@@ -4,6 +4,7 @@ date: 2020-06-11T02:01:59-04:00
 draft: false
 categories: ['sysadmin', 'python', 'django', 'nginx', 'docker']
 featured_image: '/images/fci_docker/header.png'
+teaser: "I talk about the steps I took to migrate a Django 1.7 (Python 2.8) project to Docker, UWSGI and NGINX on a new server. The steps for new Django projects are also similar."
 ---
 
 Hi everyone! :wave:  I maintain an old website for a client that was originally developed in 2015. It hasn't been updated for the last 5 years and uses Django 1.7 and some Django extensions which haven't been updated for Django 3. I recently decided to move the website to a new server and had to repackage the Django code in a Docker container. It took me some time to get it working correctly so I hope this article can save you some time if you ever find yourself in a similar situation.

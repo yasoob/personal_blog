@@ -17,7 +17,7 @@ tags:
   - numpy
   - scipy
   - setup.py develop
-
+teaser: 'Someone recently reached out and asked me how to setup a dev environment for SciPy. Read this article to find out how.'
 ---
 Hi everyone! 👋
 

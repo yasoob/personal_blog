@@ -3,6 +3,7 @@ title: "6 Tips Before You Write Your Next Bash Cronjob"
 date: 2019-04-22T19:59:49-04:00
 draft: false
 categories: ["sysadmin"]
+teaser: "I spent the full summer writing Bash cronjobs for a research project. I had to learn far too many things the hard way. I am hoping that this article will help you spend less time stumbling around and more time producing useful results."
 ---
 
 Hi lovely people! :wave: As part of a research I am doing I had to write some bash scripts which were supposed to run every couple of minutes. I made some embarrassing mistakes along the way. I will write about those mistakes in hopes that you don't make them if and when you write your own bash scripts as cronjobs.

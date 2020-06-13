@@ -3,6 +3,7 @@ title: ":herb: Greenhouse Part 2: Measuring Temperature & Light Intensity"
 date: 2019-04-20T20:12:17-04:00
 draft: false
 categories: ["arduino", "electronics", "sensor"]
+teaser: "Second part from my three part series about Arduinos and sensors. Learn about how to connect temperature and photo sensors with Arduino and extract useful data from them."
 ---
 
 Hi lovely people! :wave: In the [last article]({{< ref "yl-69-soil-sensor-arduino.md" >}}) we talked about the soil moisture sensor. In this article, we will take a look at how to measure temperature using DS18b20 and measure light intensity using a photocell.

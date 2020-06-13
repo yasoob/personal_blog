@@ -14,8 +14,9 @@ tags:
   - brain-teaser
   - mind-teaser
   - python challenge
-
+teaser: 'I came across this teaser on Reddit. It took me some time to figure out the solution. Look at the question and see if you can figure it out on your own before looking at my detailed writeup.'
 ---
+
 Hi everyone! 👋 I was browsing [/r/python][1] and came across [this post][2]:
 
 ![Image](/wp-content/uploads/2019/07/python.png)

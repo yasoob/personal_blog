@@ -3,6 +3,7 @@ title: "Setting Up Passwordless SSH and Alias For Remote Login"
 date: 2020-05-20T19:29:32-04:00
 draft: false
 categories: ["programming", "devops"]
+teaser: 'Whenever I set up a new server I make sure I set up passwordless SSH login. It makes it easy to get into a box without typing in the password every single time. Learn about how you can do something similar for your servers.'
 ---
 
 Hi lovely people! :wave: Long time! If you guys are wondering what I have been up-to, don't worry. I am doing well and currently in the process of writing a life update post. Till then enjoy this short tutorial. By the end of this tutorial you will be able to ssh into a remote machine without typing in its IP or the password in your terminal. This is extremely helpful when you are working with remote machines most of the time.
