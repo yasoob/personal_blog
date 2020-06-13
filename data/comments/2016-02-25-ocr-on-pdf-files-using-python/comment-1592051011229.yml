@@ -1,0 +1,8 @@
+_id: b14df4c0-ad70-11ea-a159-4da2739f2d4e
+_parent: 'https://yasoob.me/2016/02/25/ocr-on-pdf-files-using-python/'
+name: Mehul Shishodiya
+email: ba71c53ef39c744ef2a5dc78b8c32021
+reply_to: ''
+comment: "Traceback (most recent call last):\r\n  File \".py\", line 7, in <module>\r\n    tool = pyocr.get_available_tools()[0]\r\nIndexError: list index out of range\r\n\r\n\r\nhow to get rid of this error"
+name_try: ''
+date: '2020-06-13T12:23:31.225Z'
