@@ -85,6 +85,10 @@ h1.entry-title{
 h2.entry-title {
   margin-left: 12rem;
 }
+p.wordcount{
+  margin-left: 12rem;
+  color: grey;
+}
 .entry-title a {
   text-decoration: none;
 }
