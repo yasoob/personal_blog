@@ -1,0 +1,8 @@
+_id: a4e93160-ada0-11ea-81d3-51ddcf6a3d1e
+_parent: 'https://yasoob.me/posts/privacy-preserving-analytics-solutions/'
+name: Cristian
+email: b8c342f295da81fef808d3503a8c6456
+reply_to: ''
+comment: "Good list, and really nice that privacy seems to be on a upward trend recently!\r\n\r\nOne thing that that could be mentioned is that there is a step even further, by self-hosting your analytics dashboards. For example. the article could have also included self-hosted alternatives, like Matomo. I'm also working on a [cheaper alternative to Matomo called userTrack](https://www.userTrack.net), which might also be useful for the slightly more technical users who know how to setup their own web server."
+name_try: ''
+date: '2020-06-13T18:06:46.293Z'
