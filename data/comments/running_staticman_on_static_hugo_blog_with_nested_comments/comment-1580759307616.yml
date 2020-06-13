@@ -1,0 +1,13 @@
+_id: 257003d0-46be-11ea-bc18-1bc1ff1b25af
+_parent: >-
+  http://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Sean
+email: ac670dbf9dbe02f203469c4cd67a637b
+reply_to: ''
+comment: >-
+  Howdy, Yasoob. I have a question regarding which account you are logged into
+  (in GitHub) when you generate the personal access token. Are you logged into
+  the blog_repo itself, or the newly created yasoob_blog account when you click
+  'generate token'?
+name_try: ''
+date: '2020-02-03T19:48:27.611Z'
