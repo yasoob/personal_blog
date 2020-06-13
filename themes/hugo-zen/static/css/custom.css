@@ -82,24 +82,29 @@ h1.entry-title{
   font-weight: bold;
   font-size: 2.8rem;
 }
+h2.entry-title {
+  margin-left: 12rem;
+}
 .entry-title a {
   text-decoration: none;
 }
 article.single{
   position: relative;
 }
+.entry-meta {
+  font-size: 1.7rem;
+  color: #888;
+  float: left;
+}
 .single .entry-meta{
   display: block;
   text-align: center;
   margin-bottom: 3rem;
+  float: none;
 }
-.entry-meta {
-  display: inline-block;
-  margin-bottom: 2rem;
-  font-size: 1.7rem;
-  color: #888;
+main.all-articles article, .homepage-articles article{
+  margin-bottom: 20px;
 }
-
 .footer-link {
   margin: 2rem 0;
 }
