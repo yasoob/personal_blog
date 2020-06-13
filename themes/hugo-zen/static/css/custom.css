@@ -5,17 +5,17 @@ body {
 }
 
 h1 { font-size: 2.6rem; }
-h2 { font-size: 1.9rem;}
-h3 { font-size: 1.7rem; }
+h2 { font-size: 2.3rem;}
+h3 { font-size: 2.5rem; font-weight: bold;}
 h4,
 h5,
 h6 { font-size: 1.5rem; }
 
-article section h2 { font-size: 2.3rem; font-weight: bold;}
+article section h2 { font-size: 2.7rem; font-weight: bold;}
 
 
 p{
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 img {
   max-width: 100%;
@@ -80,7 +80,7 @@ h1.entry-title{
   text-align: center;
   font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
 }
 h2.entry-title {
   margin-left: 12rem;
@@ -96,7 +96,7 @@ article.single{
   position: relative;
 }
 .entry-meta {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #888;
   float: left;
 }
@@ -146,7 +146,12 @@ ul.index_category li a{
 }
 
 li  {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+li::marker{
+  background: silver;
 }
 
 li > P{
