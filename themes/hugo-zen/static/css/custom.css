@@ -19,7 +19,7 @@ article section h2 { font-size: 2.7rem; font-weight: bold;}
 
 
 p{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 img {
   max-width: 100%;
@@ -100,6 +100,14 @@ p.teaser{
 }
 .entry-title a {
   text-decoration: none;
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-bottom: 0px;
+  border-bottom: 3px solid transparent;
+  transition: all .5s;
+}
+.entry-title a:hover{
+  border-bottom-color: #51C9EE;
 }
 article.single{
   position: relative;
@@ -219,11 +227,14 @@ aside.toc{
 }
 .related a{
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   transition: all .4s;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
 }
 .related a:hover{
   color: #0d789a;
+  border-bottom-color: #1EAEDB;
 }
 .comment-subscribe input{
   margin-right: 10px;
@@ -382,7 +393,7 @@ section#privacy-button-links span {
 .tableOfContentContainer a {
   text-decoration: none;
   display: block;
-  padding: .125rem 0;
+  padding: 0;
   color: #999797;
   font-size: 1.6rem;
   cursor: pointer;
@@ -923,5 +934,13 @@ input[type=checkbox].checkbox {
   }
   p {
     font-size: 1.8rem;
+  }
+  .entry-title a{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .entry-title a:hover{
+    border-bottom: none;
   }
 }
