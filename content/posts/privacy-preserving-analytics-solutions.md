@@ -11,7 +11,7 @@ Hi everyone! :wave: Lately I have been restructuring my online presence and that
 
 ## 1. Plausible Analytics
 
-[Plausible]](https://plausible.io/) is developed by [Uku Täht](https://twitter.com/ukutaht). As far as I am aware, it started in 2019 and has already gained a lot of traction. The famous [Changelog](https://changelog.com/) podcast has also started [using it](https://github.com/thechangelog/changelog.com/commit/ac64638097bff5e8873b219303848decb420aaf2). The code behind this service is open source and it recently became officially possible to [self-host](https://plausible.io/blog/self-hosted-web-analytics-beta) it. "officially" means that previously the code was open source but there was no guidance for people who wanted to host it themselves. Now there are docs in place and hypothetically if you follow those you will have a working instance of Plausible Analytics up and running.
+[Plausible](https://plausible.io/) is developed by [Uku Täht](https://twitter.com/ukutaht). As far as I am aware, it started in 2019 and has already gained a lot of traction. The famous [Changelog](https://changelog.com/) podcast has also started [using it](https://github.com/thechangelog/changelog.com/commit/ac64638097bff5e8873b219303848decb420aaf2). The code behind this service is open source and it recently became officially possible to [self-host](https://plausible.io/blog/self-hosted-web-analytics-beta) it. "officially" means that previously the code was open source but there was no guidance for people who wanted to host it themselves. Now there are docs in place and hypothetically if you follow those you will have a working instance of Plausible Analytics up and running.
 
 It is written in Elixir using the Phoenix framework.
 
