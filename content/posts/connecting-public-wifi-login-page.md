@@ -13,7 +13,7 @@ It was telling me that there was an SSL error but even non-https websites were n
 
 ## Methods I tried
 
-I then tried an old and tested method of opening up [nonhttps.com]() but that too failed. Firefox just did not want me to use the internet that day (or maybe it was PopOS?). Next, I tried different variations of typical router management IP addresses: `192.168.1.1`, `127.1.1.1` & `localhost` but these too were failing. I hopped on the internet and found out another solution.
+I then tried an old and tested method of opening up [nonhttps.com](http://nonhttps.com/) but that too failed. Firefox just did not want me to use the internet that day (or maybe it was PopOS?). Next, I tried different variations of typical router management IP addresses: `192.168.1.1`, `127.1.1.1` & `localhost` but these too were failing. I hopped on the internet and found out another solution.
 
 ## Solution
 
