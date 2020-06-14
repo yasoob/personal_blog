@@ -1,0 +1,11 @@
+_id: 9d733fa0-ae1a-11ea-8ab9-a9f0f55e5ef6
+_parent: 'https://yasoob.me/posts/privacy-preserving-analytics-solutions/'
+name: François Best
+email: 5db4544a0fea11cdcdd285ea85eab937
+reply_to: 632ddba0-ad9a-11ea-aae6-6713dbff2734
+comment: >-
+  A live public dashboard would not work because of the encryption, but a demo
+  one with dummy data could be done, sure. Once the design is done, I'll add a
+  product screenshot on the landing page.
+name_try: ''
+date: '2020-06-14T08:39:52.407Z'
