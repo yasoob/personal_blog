@@ -402,6 +402,9 @@ section#privacy-button-links span {
 .tableOfContentContainer li ul li{
   margin-left: 2rem;
 }
+.tableOfContentContainer li.active a{
+  color: black;
+}
 .with-toc{
   display: grid;
   grid-template-columns: 1fr 15em;
