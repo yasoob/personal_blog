@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 10px;
+}
 body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #FCFCFC;
@@ -57,6 +61,7 @@ main {
 }
 .featured-image{
   margin: 0px 0px 30px 0px;
+  text-align: center;
 }
 #darkModeToggle{
   cursor: pointer;
@@ -361,7 +366,49 @@ section#privacy-button-links span {
   display: inline;
   margin: 0;
 }
-
+.tableOfContentWrapper {
+  position: sticky;
+  left: 100%;
+  top: 10em;
+}
+.tableOfContentContainer {
+  margin-top: 2rem;
+  position: absolute;
+  left: 100%;
+  margin-left: 20px;
+  padding-left: 0;
+  width: 250px;
+}
+.tableOfContentContainer a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #999797;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+.tableOfContentContainer a:hover {
+  color: black;
+}
+.tableOfContentContainer ul,.tableOfContentContainer  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tableOfContentContainer li {
+    margin:0;
+}
+.tableOfContentContainer li ul li{
+  margin-left: 2rem;
+}
+.with-toc{
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  max-width: 100em;
+  width: 90%;
+  margin: 0 auto;
+}
 #carbonads {
   display: inline-block;
   overflow: hidden;
@@ -505,6 +552,9 @@ body.darkmode{
   article.single{
     padding-bottom: 3rem;
   }
+  .tableOfContentContainer{
+    display: none;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -566,7 +616,6 @@ body.darkmode{
   main.single-main{
     border: 6px solid #9a6bcc;
     box-shadow: 6px -6px 0px #eae9e9;
-    margin-right: -80px;
     position: relative;
   }
   #carbonads{

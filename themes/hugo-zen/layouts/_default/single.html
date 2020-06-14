@@ -1,5 +1,12 @@
 {{ partial "header.html" . }}
-
+	{{ if gt (len .TableOfContents) 80}}
+	<div class="tableOfContentWrapper">
+		<aside class="hidden tableOfContentContainer" id="tableOfContentContainer">
+			<h3>Table of contents</h3>
+			{{ .TableOfContents }}
+		</aside>
+	</div>
+	{{ end }}
 	<main role="main" class="single-main">
 		<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
 			<span class="git-source">

@@ -35,6 +35,7 @@ function disableDarkmode(){
   document.getElementById("dark").rel="alternate stylesheet";
   console.log("removing darkmode");
 }
+
 document.addEventListener('DOMContentLoaded', (event) => {
   //the event occurred
   hljs.initHighlightingOnLoad();

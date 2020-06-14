@@ -3,10 +3,9 @@ title: "Software Engineering Within SpaceX"
 date: 2020-06-01T15:51:39-04:00
 draft: false
 categories: ['spacex', 'random', 'programming']
+featured_image: "/images/spacex/dragon-launch.jpg"
 teaser: 'Have you ever been curious about how Software engineering within SpaceX works? I did some research and compiled my notes in this article. There are also some insightful comments from the readers at the bottom.'
 ---
-
-![SpaceX Dragon launch](/images/spacex/dragon-launch.jpg)
 
 Hi everyone! :wave: I am sure quite a few of you must have seen the SpaceX launch this past Saturday. It was an amazing and historic event. Millions of people were watching it live on YouTube and elsewhere. With each passing day, we are getting closer to commercial space flights and I have to agree I am excited.
 
