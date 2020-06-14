@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-	{{ if gt (len .TableOfContents) 80}}
+	{{ if and (not .Params.disable_toc) (gt (len .TableOfContents) 80)}}
 	<div class="tableOfContentWrapper">
 		<aside class="hidden tableOfContentContainer" id="tableOfContentContainer">
 			<h3>Table of contents</h3>

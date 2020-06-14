@@ -5,6 +5,7 @@ draft: false
 hidefromhome: true
 showthedate: true
 disable_comments: true
+disable_toc: true
 ---
 
 During the last couple of years I have completed [numerous projects](https://github.com/yasoob), authored a widely read programming book, [Intermediate Python](https://book.pythontips.com), and written 150+ programming articles.
