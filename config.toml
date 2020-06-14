@@ -13,7 +13,7 @@ googleanalytics = "UA-97849776-1"
 	twitter = "https://twitter.com/yasoobkhalid"
 	github = "https://github.com/yasoob"
 	linkedin = "https://www.linkedin.com/in/yasoob/"
-	tagline = "A personal blog on all kinds of musings"
+	tagline = "Author, Blogger & artist who can't make up his mind."
 
 	[params.staticman]
 	endpoint = "https://staticman-blog.herokuapp.com/v2/entry"
