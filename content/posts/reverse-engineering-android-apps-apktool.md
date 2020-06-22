@@ -1,6 +1,6 @@
 ---
 title: "Let's Reverse Engineer an Android App!"
-date: 2020-06-21T22:45:46-04:00
+date: 2020-06-22T00:00:00-04:00
 draft: false
 categories: ['reverse-engineering', 'programming']
 teaser: "I had always wondered how Android apps are reverse engineered. If you have ever wondered the same then this article will guide you through the whole process. We will be unpacking, modifying, repacking, and installing an Android APK."
