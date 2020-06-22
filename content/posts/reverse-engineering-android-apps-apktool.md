@@ -98,7 +98,7 @@ move-result v2
 
 This is equivalent to calling the `hasNext` method of `java.util.Iterator`. `Z` tells us that this call returns a boolean. `p1` is called a parameter register and that is what the `hasNext()` is being called on. `move-result v2` moves the return value of this method call to the `v2` register. 
 
-It probably won't make a lot of sense right now but I will explain the required bits in a bit. This is just to give you an idea of what to expect. If you are interested, I highly recommend you to take a look at [this wonderful]((http://www.syssec-project.eu/m/page-media/158/syssec-summer-school-Android-Code-Injection.pdf)) presentation about Android code injection. It gives some useful details about smali code as well. 
+It probably won't make a lot of sense right now but I will explain the required bits in a bit. This is just to give you an idea of what to expect. If you are interested, I highly recommend you to take a look at [this wonderful](http://www.syssec-project.eu/m/page-media/158/syssec-summer-school-Android-Code-Injection.pdf) presentation about Android code injection. It gives some useful details about smali code as well. 
 
 There is also a [smali cheat-sheet](http://pages.cpsc.ucalgary.ca/~joel.reardon/mobile/smali-cheat.pdf) that was super helpful for me to understand the basics of smali.
 
