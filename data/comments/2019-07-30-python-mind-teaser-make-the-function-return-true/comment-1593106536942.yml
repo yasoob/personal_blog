@@ -1,0 +1,15 @@
+_id: 47a47e60-b70a-11ea-9696-03f6603965a1
+_parent: 'https://yasoob.me/2019/07/30/python-mind-teaser-make-the-function-return-true/'
+name: Justin T Washington
+email: 9d5750b848475bc7727c9b4e986a92de
+reply_to: ''
+comment: >-
+  Hi Yasoob! This was a super cool post. I love learning about the intricacies
+  of Python. Quick question: Some of the comments on the reddit post said that
+  the range of preallocated ints an implementation detail of the interpreter
+  CPython, rather than a feature of Python itself. I'm wondering what strategy
+  you use to partition elements of the language, the interpreter, and other
+  parts I might not be familiar with -- or if it's colloquially acceptable to
+  just bundle them all together. I'd love to hear your thoughts on this.
+name_try: ''
+date: '2020-06-25T17:35:36.937Z'
