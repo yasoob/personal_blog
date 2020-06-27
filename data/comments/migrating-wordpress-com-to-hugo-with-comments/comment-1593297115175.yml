@@ -1,0 +1,8 @@
+_id: 01209790-b8c6-11ea-b299-6f678f513d7e
+_parent: 'https://yasoob.me/posts/migrating-wordpress-com-to-hugo-with-comments/'
+name: Ryan
+email: 2eef8a5668abfaf6d1d2a0a27ab0932f
+reply_to: ''
+comment: "Thanks! I'm about to embark on this migration, and your guide is helpful. Especially helpful is: that you mentioned how that exporter handles the wp assets. I read a bunch of other guides, and none of them said if it includes the assets! Also helpful was your details about the permalinks, as well as staticman setup.\r\n\r\nOnly feedback I had is that you referred to netlify as \"netflix\" a couple times! Speaking of netlify, I'm having trouble figuring out how much space you have on their plans. I happen to have a music blog, with lots of 100mb zip files. Guessing they don't provide that much space. But what about a modest amount of space for regular images - or do you need to get a cdn?"
+name_try: ''
+date: '2020-06-27T22:31:55.171Z'
