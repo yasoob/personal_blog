@@ -95,7 +95,7 @@ Based on my previous experience with encryption, this seems to be an AES encrypt
 
 ## Intro to Frida
 
-According to the official website, Frida is a
+According to the [official website](https://frida.re/), Frida is a
 
 > Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
 
