@@ -1,7 +1,7 @@
 ---
 title: "Reverse Engineering Nike Run Club Android App Using Frida"
 date: 2020-07-05T17:08:46-04:00
-draft: true
+draft: false
 categories: ['reverse-engineering', 'programming', 'frida']
 teaser: "After using apktool for reverse-engineering android apps I learned about Frida. Ever wondered how you can use Frida to snoop around Android apps? Learn how to do that in this step-by-step tutorial where we take a look at the Nike Run Club app."
 featured_image: "/images/android-re/nrc-header.png"
