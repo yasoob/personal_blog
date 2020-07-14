@@ -11,7 +11,7 @@ Hi everyone! :wave: Today we are going to understand the JPEG compression algori
 
 ## Introduction
 
-Why write another article on JPEG when there are already hundreds of articles on the internet? Well, normally when you read articles on JPEG, the author just gives you details about what the format looks like. You don't implement any code to do the actual decompression and decoding. Even if you do write code, it is in C/C++ and not accessible to a wide group of people. I plan on changing that by showing you how a basic JPEG decoder works using Python 3. I will be basing my decoder on [this](https://github.com/aguaviva/micro-jpeg-visualizer/blob/master/micro-jpeg-visualizer.py) MIT licensed code but will be heavily modifying it for increased readability and ease of understanding. 
+Why write another article on JPEG when there are already hundreds of articles on the internet? Well, normally when you read articles on JPEG, the author just gives you details about what the format looks like. You don't implement any code to do the actual decompression and decoding. Even if you do write code, it is in C/C++ and not accessible to a wide group of people. I plan on changing that by showing you how a basic JPEG decoder works using Python 3. I will be basing my decoder on [this](https://github.com/aguaviva/micro-jpeg-visualizer/blob/master/micro-jpeg-visualizer.py) MIT licensed code but will be heavily modifying it for increased readability and ease of understanding. You can find the modified code for this article on my  [GitHub repo](https://github.com/yasoob/Baseline-JPEG-Decoder).
 
 ## Different parts of a JPEG
 
@@ -950,11 +950,13 @@ if __name__ == "__main__":
 
 Let's start with the `ColorConversion` and `Clamp` functions. `ColorConversion` takes in the Y, Cr, and Cb values, uses a formula to convert these values to their RGB counterparts, and then outputs the clamped RGB values. You might wonder why we are adding 128 to the RGB values. If you remember, before JPEG compressor applies DCT on the MCU, it subtracts 128 from the color values. If the colors were originally in the range [0,255], JPEG puts them into [-128,+128] range. So we have to undo that effect when we decode the JPEG and that is why we are adding 128 to RGB. As for the `Clamp`, during the decompression, the output value might exceed [0,255] so we clamp them between [0,255] .
 
-In the `DrawMatrix` method, we loop over each 8x8 decoded Y, Cr, and Cb matrices and convert each element of the 8x8 matrices into RGB values. After conversion, we draw each pixel on the Tkinter `canvas` using the `create_rectangle` method.
+In the `DrawMatrix` method, we loop over each 8x8 decoded Y, Cr, and Cb matrices and convert each element of the 8x8 matrices into RGB values. After conversion, we draw each pixel on the Tkinter `canvas` using the `create_rectangle` method. You can find the complete code on [GitHub](https://github.com/yasoob/Baseline-JPEG-Decoder). Now if you run this code, my face will show up on your screen :smile:
 
 ## Conclusion
 
-I hope you enjoyed this article. I learned a ton while writing this decoder. I never realized how much fancy math goes into the encoding of a simple JPEG image. I might work on a PNG image next and try writing a decoder for a PNG image. You should also try to write a decoder for a PNG (or some other format). I am sure it will involve a lot of learning and even more hex fun :sweat_smile: Either way, I am tired now. I have been staring at hex for far too long and I think I have earned a well-deserved break. You all take care and if you have any questions please write them in the comments below. I am super new to this JPEG coding adventure but I will try to answer as much as I possibly can :smile:
+Oh boy! Who would have thought it would take 6000 word+ explanation for showing my face on the screen. I am amazed by how smart some of these algorithm inventors are! I hope you enjoyed this article as much as I enjoyed writing it. I learned a ton while writing this decoder. I never realized how much fancy math goes into the encoding of a simple JPEG image. I might work on a PNG image next and try writing a decoder for a PNG image. You should also try to write a decoder for a PNG (or some other format). I am sure it will involve a lot of learning and even more hex fun :sweat_smile: 
+
+Either way, I am tired now. I have been staring at hex for far too long and I think I have earned a well-deserved break. You all take care and if you have any questions please write them in the comments below. I am super new to this JPEG coding adventure but I will try to answer as much as I possibly can :smile:
 
 Bye! :wave: :heart:
 
