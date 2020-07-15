@@ -1,0 +1,8 @@
+_id: 90c948d0-c6a7-11ea-850b-0de89833c8b1
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: Henning
+email: ba08a1813ff5e44f655ee9ea58d1c992
+reply_to: ''
+comment: "Perhaps struct.unpack could be replaced with ctypes.Structure to make the decoding more readable and C-like?\r\nhttps://stackoverflow.com/questions/1825715/how-to-pack-and-unpack-using-ctypes-structure-str"
+name_try: ''
+date: '2020-07-15T14:29:18.121Z'
