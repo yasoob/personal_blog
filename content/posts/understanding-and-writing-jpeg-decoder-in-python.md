@@ -19,7 +19,7 @@ Let's start with this nice image by [Ange Albertini](https://twitter.com/angealb
 
 ![JPEGRGB_dissected.png](/images/decoding_jpeg/JPEGRGB_dissected.png)
 
-At the very basic level, almost every binary file contains a couple of markers (or headers). You can think of these markers as sort of like bookmarks. They are very crucial for making sense of a file and are used by programs like `find` (on Mac/Linux) to tell us details about a file. These markers define where some specific information in a file is stored. Most of the markers are followed by `length` information for the particular marker segment. This tells us how long that particular segment is.
+At the very basic level, almost every binary file contains a couple of markers (or headers). You can think of these markers as sort of like bookmarks. They are very crucial for making sense of a file and are used by programs like `file` (on Mac/Linux) to tell us details about a file. These markers define where some specific information in a file is stored. Most of the markers are followed by `length` information for the particular marker segment. This tells us how long that particular segment is.
 
 ### File Start & File End
 
