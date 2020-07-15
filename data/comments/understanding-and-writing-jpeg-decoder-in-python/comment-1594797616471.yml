@@ -1,0 +1,8 @@
+_id: a1a050e0-c66b-11ea-9f55-afcc93a646ce
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: judge_c123c1c1
+email: 0a6eb05d7f26a495170624aab92a4b02
+reply_to: ''
+comment: "Beautiful deobfuscation  of some basic image format exchange expressed pragmatically using complicated c structs in a language python agrees with. \r\n\r\nI'm still trying to t odigest it, but I find myself understanding struct packing better with pieces like:\r\n\r\n```python\r\nheader, = struct.unpack('B', data[offset:offset+1])\r\noffset = offset + 1\r\n```  \r\n\r\nI'd be __nice__ to accomplish the same with bytesarray,  but i'm still trying to figure out scalar types."
+name_try: ''
+date: '2020-07-15T07:20:16.467Z'
