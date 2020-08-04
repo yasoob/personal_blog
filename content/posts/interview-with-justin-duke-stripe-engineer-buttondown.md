@@ -4,7 +4,7 @@ date: 2020-08-04T16:53:32-04:00
 draft: false
 categories: ['interview']
 featured_image: "/images/interviews/justin-duke.png"
-teaser: "I sat down with Justin Duke, an engineer at Stripe, and talked about tech, startups and time management. Justin runs two startups and manages two weekly newsletters. Come learn about how he does it all!"
+teaser: "I sat down with Justin Duke, an engineer at Stripe, and talked about tech, startups and time management. Justin runs two startups and manages two weekly newsletters (along with a plethora of other things). Come learn about how he does it all!"
 ---
 
 Hi everyone! :wave: I recently sat down with [Justin Duke](https://jmduke.com/), an engineer at [Stripe](https://stripe.com/), and talked about tech, startups and time management. Along with a full-time job, Justin runs two startups ([Buttondown](https://buttondown.email/), [Spoonbill](https://spoonbill.io/)), manages two weekly newsletters, runs, and volunteers. Come learn about how he does it all! 
