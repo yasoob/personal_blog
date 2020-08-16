@@ -7,7 +7,7 @@ featured_image: "/images/pandas/hero.png"
 teaser: "Have you ever had to process some messy data? I recently worked on a project where I had to tame some messy data using Pandas in Python. In this short tutorial, I will teach you some data wrangling basics that will help you process most datasets you will ever encounter in the wild."
 ---
 
-Hi lovely people! :wave: I am working on a project and had to wrangle some messy data using Pandas. New project means new ideas for articles and so here I am with an article about how to work with messy data using Pandas in Python. I will be covering only some of the basics that you will need to know for most of your data analysis projects. So without wasting any time let's begin!
+Hi lovely people! :wave: I am working on a project and had to wrangle some messy data using Pandas. New project means new ideas for articles and so here I am with an article about how to work with messy data using [Pandas](https://pandas.pydata.org/) in Python. I will be covering only some of the basics that you will need to know for most of your data analysis projects. So without wasting any time let's begin!
 
 ### Dataset
 
@@ -16,7 +16,7 @@ My dataset is a CSV file containing a seasonal game schedule for a particular ba
 
 ### Reading the data into a Pandas DataFrame
 
-This data is in a CSV file named `input_file.csv`. We can make use of the `read_csv` method of the Pandas library to load it in. Normally you would read a CSV like this:
+This data is in a CSV file named `input_file.csv`. We can make use of the [`read_csv`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html) method of the Pandas library to load it in. Normally you would read a CSV like this:
 
 ```python
 import pandas as pd
@@ -68,7 +68,7 @@ There are a couple of important things to note here. Pandas doesn't assign a hea
 
 ### Assigning Custom data header
 
-We can assign custom column names (header) as part of the `read_csv` method. There are 12 columns in my CSV so I will provide a list of 12 names:
+We can assign custom column names (header) as part of the [`read_csv`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html) method. There are 12 columns in my CSV so I will provide a list of 12 names:
 
 ```python
 schedule_dataframe = pd.read_csv('input_file.csv',
@@ -85,14 +85,14 @@ Now if we try to print this DataFrame we can see a header in the output:
 
 ### Replacing data
 
-For my project, I needed to remove those rows from the data whose `w` column contained "NR". Pandas provides us a method to drop those rows whose certain columns contain `NaN` values. However, NR is not equal to `NaN` so first, we need to replace every occurrence of NR with `NaN`. We can easily do that by using the `replace` method of the DataFrame:
+For my project, I needed to remove those rows from the data whose `w` column contained "NR". Pandas provides us a method to drop those rows whose certain columns contain `NaN` values. However, NR is not equal to `NaN` so first, we need to replace every occurrence of NR with `NaN`. We can easily do that by using the [`replace`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html) method of the DataFrame:
 
 ```python
 import numpy as np
 schedule_dataframe['w'] = schedule_dataframe['w'].replace('NR', np.nan)
 ```
 
-Now we can use the `dropna` method of the DataFrame to easily remove the rows whose `w` column contains `NaN`:
+Now we can use the [`dropna`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html) method of the DataFrame to easily remove the rows whose `w` column contains `NaN`:
 
 ```python
 schedule_dataframe = schedule_dataframe.dropna(axis=0, subset=['w'])
@@ -128,7 +128,7 @@ During this step, I went ahead and removed the last row as well. I didn't need i
 
 ### Converting column into a NumPy array
 
-Now our `w` column only contains integer values. Let's say I wanted to compare that whole sorted column with some other list. How can we do that? As it turns out, Pandas makes it incredibly easy for us to do exactly that. We just need to use the `to_numpy` method.
+Now our `w` column only contains integer values. Let's say I wanted to compare that whole sorted column with some other list. How can we do that? As it turns out, Pandas makes it incredibly easy for us to do exactly that. We just need to use the [`to_numpy`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.to_numpy.html) method.
 
 Here is how you do it:
 
