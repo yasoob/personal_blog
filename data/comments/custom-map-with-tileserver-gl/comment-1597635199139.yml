@@ -1,0 +1,8 @@
+_id: 64a28940-e03a-11ea-9267-6d13b4f2b9a3
+_parent: 'https://yasoob.me/posts/custom-map-with-tileserver-gl/'
+name: Yasoob
+email: b342b1c4e83326b85e31640c8f21d58d
+reply_to: c2f5bf10-dbff-11ea-91cc-ad373727f77f
+comment: "Hi Manda,\r\n\r\nI manually added the legend using Photoshop. You can either do that or you can use PIL to overlay a legend PNG file at the bottom of the map. Hope this helps."
+name_try: ''
+date: '2020-08-17T03:33:19.133Z'
