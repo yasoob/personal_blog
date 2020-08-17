@@ -1,0 +1,8 @@
+_id: 05dbe1d0-e03b-11ea-9267-6d13b4f2b9a3
+_parent: 'https://yasoob.me/posts/reverse-engineering-android-apps-apktool/'
+name: Yasoob
+email: b342b1c4e83326b85e31640c8f21d58d
+reply_to: 0833aec0-dafc-11ea-8e21-d5b47636ada5
+comment: "Hi Khalid,\r\n\r\nTheoretically you can but Smali isn't as easy as Java so you will have to put in a lot more effort than developing a simple app. If you want to add logging and do something super simple then Smali is fine but for anything more complex you will have to spend a lot of time with the Smali reference manual. Hope it helps :)"
+name_try: ''
+date: '2020-08-17T03:37:49.575Z'
