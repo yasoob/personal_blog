@@ -4,7 +4,7 @@ author: yasoob
 type: post
 date: 2018-07-02T22:17:48+00:00
 url: /2018/07/02/practical-python-projects-book/
-featured_image: /wp-content/uploads/2018/07/cover-big-1200x1553.png
+featured_image: /images/practical-python-projects/front-cover.png
 timeline_notification:
   - 1530569872
 publicize_twitter_user:
@@ -25,6 +25,8 @@ tags:
 
   
 Hi everyone! I am super proud to announce that my second book 🎉🎉"**Practical Python Projects**"🎉🎉 is alhamdulillah almost halfway done content-wise. This book is a direct result of a market gap which I found when I started programming a couple of years back. Most programming beginners have access to multiple resources to teach themselves the basics of Python (or any other language) but they don't have access to those books/tutorials where they are taught to create end-to-end projects in a specific language. A fair amount of online tutorials and beginner textbooks teach the reader only the basics of a language without real-life concrete project development.
+
+### Edit: The book is released! Learn more about it in [this post](https://yasoob.me/posts/practical-python-projects-book-released/). You can buy it from [Feldroy.com](https://feld.to/ppp).
   
 📨 Please sign up for my newsletter to get updates on the book (I send less than 2 emails per month): http://newsletter.pythontips.com/
 
@@ -54,7 +56,7 @@ I have completed 🎉10 chapters 🎉 (each chapter == 1 project) amounting to a
   
 ~~Currently, I am looking for those beginner Python programmers who have recently learned this language to help me as beta testers. If you are one of them and would like to help by critiquing different chapters of the book please let me know.~~
   
-**Edit:** I have enough people to help me with the beta testing right now. I will reach out to you guys when I am nearing completion. Do stay tuned for the publish announcement of the book!
+~~**Edit:** I have enough people to help me with the beta testing right now. I will reach out to you guys when I am nearing completion. Do stay tuned for the publish announcement of the book!~~
 
 If you have a project idea please share that with me as well. I am planning on making this the perfect book where you can learn about various different tools, packages, and techniques which might end up being useful at some point in your career.
   
