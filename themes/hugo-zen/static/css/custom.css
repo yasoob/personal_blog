@@ -195,6 +195,17 @@ header h1{
 .nav-links img.rss{
   width: 20px;
 }
+.book-promo h4{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.book-promo p{
+  font-size: 1.5rem;
+  text-align: left;
+}
 .toggle{
   width: 0;
   height: 0;
@@ -562,6 +573,15 @@ body.darkmode{
     position: absolute;
     right: -30px;
     top: 10px;
+  }
+  .book-header{
+    text-align: left;
+  }
+  .book-promo{
+    text-align: left;
+  }
+  .book-promo img{
+    max-width: 200px;
   }
   article.single{
     padding-bottom: 3rem;
