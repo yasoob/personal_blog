@@ -1,5 +1,5 @@
 ---
-title: "How to Listen to Trunked Police Radio (2020)"
+title: "How to Listen to Trunked Police Radio (Video 2020)"
 date: 2020-08-30T14:42:02-04:00
 draft: false
 categories: ['radio']
