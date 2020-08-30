@@ -1,7 +1,7 @@
 ---
 title: "How to Listen to Trunked Police Radio (2020)"
 date: 2020-08-30T14:42:02-04:00
-draft: true
+draft: false
 categories: ['radio']
 teaser: "If you are bummed to find out that your local PD and FD have moved to a digital or trunked mode then you aren't alone. In this post, I will show you how to use a cheap RTL-SDR dongle and the SDRTrunk software to snoop the trunked radio traffic in your area."
 featured_image: "/images/radio/sdrtrunk-hero.png"
