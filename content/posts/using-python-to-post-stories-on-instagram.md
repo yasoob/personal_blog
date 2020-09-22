@@ -72,4 +72,4 @@ If you decide to automate interactions with Instagram, make sure that you don't 
 Conclusion
 ----------
 
-That's it! I hope you find this super short tutorial useful. If you are interested in making more fun stuff similar to this, make sure you buy my book: [Practical Python Projects](https://feld.to/ppp). I will see you in the next article! :joy: :wave:
+That's it! I hope you find this super short tutorial useful. If you are interested in making more fun stuff similar to this, make sure you buy my book: [Practical Python Projects](https://feld.to/ppp). I will see you in the next article! :wave:
