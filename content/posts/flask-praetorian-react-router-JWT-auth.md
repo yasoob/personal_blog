@@ -12,6 +12,8 @@ Hi everyone! :wave: I was working on a React project these last couple of weeks 
 
 In this article, I am going to take you from a fresh React project to a project with a fully functional login backed by flask-praetorian. I hope this article helps you fill all the knowledge gaps that you might have.
 
+**Note:** All the code from this article can be found in [this GitHub repository](https://github.com/yasoob/Flask-React-JWT).
+
 ## New React project
 
 I am assuming that you already have `npx` installed and have access to the `create-react-app` command. Let's start by creating a new `sample-app` project:
@@ -913,5 +915,7 @@ There are a bunch of things I skipped on the API side. Our API is open to all so
 This is all that I had planned for this post. You can check out Miguel's blog for more fun stuff about React and Flask. He is an authority when it comes to Flask stuff and his [React + Flask deployment](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application) [articles](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react--flask-project) have been a huge help to many (including me). If you want to dive deeper into how `react-token-auth` works, give [this article](https://www.codementor.io/@obabichev/react-token-auth-12os8txqo1) a read. It is written by the author of the package. 
 
 I tried to keep all the React and Python code in single files so that it is easier to write an article about them. With that being said, I am still a beginner when it comes to front-end development using React so if you see any glaring issues in this article please let me know in the comments below. I will make sure to fix these issues.
+
+**Note:** All the code from this article can be found in [this GitHub repository](https://github.com/yasoob/Flask-React-JWT).
 
 Have a wonderful day everyone! :wave: I will see you in the next article :heart:
