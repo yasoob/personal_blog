@@ -1,0 +1,9 @@
+_id: 5ae097d0-1aa0-11eb-aa1b-554aea244335
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Rupal
+email: 93768ee32684448c0f4eb0ac9f7088e0
+reply_to: ''
+comment: "Hello,\r\n\r\nonce i write authFetch instead of Fetch, it shows me the cors error. I have already implemented flaks_cors and also init_app with the cors object. It would be great it you help me out. I have completely followed your code"
+name_try: ''
+date: '2020-10-30T11:09:18.799Z'
