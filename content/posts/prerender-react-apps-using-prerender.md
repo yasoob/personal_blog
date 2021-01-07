@@ -56,7 +56,7 @@ Save this code to a `server.js` file and run it using node:
 $ node server.js
 ```
 
-At this point you can go ahead and test whether the prerender service is working correctly or not by opening [http://localhost:3000/render/?url=https://google.com/]([http://localhost:3000/render/?url=https://google.com/]). This should display the Google homepage. If the images don't show up correctly, don't worry. The issue will be fixed when we serve the prerender service via NGINX.
+At this point you can go ahead and test whether the prerender service is working correctly or not by opening [http://localhost:3000/render/?url=https://google.com/](http://localhost:3000/render/?url=https://google.com/). This should display the Google homepage. If the images don't show up correctly, don't worry. The issue will be fixed when we serve the prerender service via NGINX.
 
 ## Run prerender on system start
 
