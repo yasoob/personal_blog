@@ -1,0 +1,9 @@
+_id: bf590600-752e-11eb-80ea-37349de1fd67
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Alexey Brambalov
+email: 8c5d425d0a941c88b8b9a83933e5658e
+reply_to: ''
+comment: "Another bug is return {message: f'protected endpoint (allowed user {flask_praetorian.current_user().username})'}\r\n\r\nshould be return {\"message\": f'protected endpoint (allowed user {flask_praetorian.current_user().username})'}\r\n\r\nas I got an error before"
+name_try: ''
+date: '2021-02-22T16:55:20.514Z'
