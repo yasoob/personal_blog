@@ -7,7 +7,7 @@ featured_image: '/images/practical-python-projects/book-hero.png'
 teaser: "I just released the alpha version of my much anticipated Practical Python Projects book! It has been two years in the making and I am super excited about its release. In 320+ pages we will implement 12 different projects. I wish I had access to a similar book when I started learning Python."
 ---
 
-Hi everyone! :wave: I have big news! The alpha version of my Practical Python Projects book is out! It took me two years and countless hours to get to this stage and I am so proud of it. You can buy it now at [Feldroy.com](https://feld.to/ppp).
+Hi everyone! :wave: I have big news! The alpha version of my Practical Python Projects book is out! It took me two years and countless hours to get to this stage and I am so proud of it. You can buy it now [from here](https://practicalpython.yasoob.me).
 
 The final version of the book will be more expensive than the alpha price of $29.99. Moreover, the first 25 people to use the code `ppp-yasoob-blog` will get the book at an extra 15% off. This is a wonderful opportunity to buy the book at a lower cost and get all future updates to this version for free!
 
@@ -38,7 +38,7 @@ During the COVID era, this is the best way to learn some new skills and build so
 
 My favorite part about the book is that each chapter ends with a "Next Steps" section. This is where I give you ideas about how to extend the project and make it truly yours. This is extremely helpful if you want to show these projects to friends and potential future employers!
 
-You can buy the book at [Feldroy.com](https://feld.to/ppp).
+You can buy the book [from here](https://practicalpython.yasoob.me).
 
 ## Reviews
 
@@ -65,8 +65,8 @@ The back cover:
 [![Book back cover](/images/practical-python-projects/back-cover.png)](/images/practical-python-projects/back-cover.png)
 
 
-I hope you enjoy reading the book as much as I enjoyed writing it. If you encounter any problems, please open an issue on [GitHub](https://git.io/ppp-issues). If you can not afford the book for economic reasons please send an email to hi [at] feldroy.com. The fine folks over at [Feldroy](https://www.feldroy.com/) will make sure personal finances don't become a hindrance for you in getting access to this book.
+I hope you enjoy reading the book as much as I enjoyed writing it. If you encounter any problems, please open an issue on [GitHub](https://git.io/ppp-issues). If you can not afford the book for economic reasons please send an email to hi [at] yasoob.me. I will make sure personal finances don't become a hindrance for you in getting access to this book.
 
-**You can buy the book at [Feldroy.com](https://feld.to/ppp).**
+**You can buy the book at [from here](https://practicalpython.yasoob.me).**
 
 Please share your comments, suggestions, and feedback in the comment section below or email them to me at hi [at] yasoob.me. See you in a future article! :wave: :heart:
