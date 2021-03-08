@@ -141,7 +141,10 @@ main.all-articles article, .homepage-articles article{
 .footer-link a{
   padding: 10px;
 }
-
+ul ul{
+  margin: 0;
+  padding-left: 0px;
+}
 ul.index_category{
   margin: 0;
   float: left;
