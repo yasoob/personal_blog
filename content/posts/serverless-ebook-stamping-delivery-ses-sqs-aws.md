@@ -469,7 +469,7 @@ def process_book(event, context):
     return
 ```
 
-I create a stamped PDF and upload it to S3 with the name stored in `client_ref` variable. I call a `generate_links` function that uses the `client_ref` and an s3 client to generate PDF, EPUB, MOBI, and KPF links. And finally, I send an email using a `send_mail` function. The current handler code generates `client_ref` slightly differently. I talk about it [Renaming S3 bucket data](#rename-s3-bucket-data) section.
+I create a stamped PDF and upload it to S3 with the name stored in `client_ref` variable. I call a `generate_links` function that uses the `client_ref` and an s3 client to generate PDF, EPUB, MOBI, and KPF links. And finally, I send an email using a `send_mail` function. The current handler code generates `client_ref` slightly differently. I talk about it in the Renaming S3 bucket data section.
 
 ### Generating S3 links
 
