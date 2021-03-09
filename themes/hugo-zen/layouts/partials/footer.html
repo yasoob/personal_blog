@@ -2,12 +2,12 @@
     <footer role="contentinfo">
         <div class="hr"></div>
         <div class="footer-link">
-            {{ with .Site.Params.email }}<a href="mailto:{{ . }}" target="_blank">Email</a>{{ end }}
-            {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank">Twitter</a>{{ end }}
-            {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank">Facebook</a>{{ end }}
-            {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank">LinkedIn</a>{{ end }}
-            {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
-            {{ with .Site.Params.gitlab }}<a href="{{ . }}" target="_blank">GitLab</a>{{ end }}
+            {{ with .Site.Params.email }}<a href="mailto:{{ . }}" rel="me" target="_blank">Email</a>{{ end }}
+            {{ with .Site.Params.twitter }}<a href="{{ . }}" rel="me" target="_blank">Twitter</a>{{ end }}
+            {{ with .Site.Params.facebook }}<a href="{{ . }}" rel="me" target="_blank">Facebook</a>{{ end }}
+            {{ with .Site.Params.linkedin }}<a href="{{ . }}" rel="me" target="_blank">LinkedIn</a>{{ end }}
+            {{ with .Site.Params.github }}<a href="{{ . }}" rel="me" target="_blank">GitHub</a>{{ end }}
+            {{ with .Site.Params.gitlab }}<a href="{{ . }}" rel="me" target="_blank">GitLab</a>{{ end }}
         </div>
         <div class="copyright">
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
