@@ -1,0 +1,8 @@
+_id: 87af3ed0-80bf-11eb-9c94-8ba07a00e182
+_parent: 'https://yasoob.me/posts/reverse-engineering-nike-run-club-using-frida-android/'
+name: Andrew
+email: 2aeabe2892f55547e2fb3e15382c548f
+reply_to: ''
+comment: "When trying $ frida-utils           \r\nI get                                                             \r\n/system/bin/sh: frida-utils: not found"
+name_try: ''
+date: '2021-03-09T10:09:26.970Z'
