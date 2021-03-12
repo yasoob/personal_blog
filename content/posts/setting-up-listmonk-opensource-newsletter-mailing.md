@@ -26,6 +26,8 @@ Listmonk checked all of these boxes. There were a couple of rough edges but it m
 
 For this tutorial, I am assuming that you are running an ubuntu machine and already have it up and going. And I am also assuming that you have docker installed.
 
+**TLDR:** You can get the final setup code from [this repository](https://github.com/yasoob/listmonk-setup)
+
 ## Setting up docker-compose
 
 Listmonk helpfully has an image up on Dockerhub that we can use. The [GitHub repository](https://github.com/knadh/listmonk) contains a sample [docker-compose.yml](https://github.com/knadh/listmonk/blob/master/docker-compose.yml) file for us:
@@ -589,5 +591,7 @@ Everything is in place and we can run the `init-letsencrypt.sh` file. It will ge
 ## Conclusion
 
 I wanted to contribute to the open-source mailing list ecosystem by writing this article. We need more open source tools in this area. I am currently testing out listmonk in production on this blog. I am not sure if the lack of bounce tracking and granular list management will become an issue in the future but I will try to make sure I give listmonk a proper try before moving on. I hope you all learned something new and I made it a little bit easier for you to set up listmonk. If you have any questions you can head over to the [listmonk GitHub page](https://github.com/knadh/listmonk) and open an issue. The developers are super responsive. [Kailash Nadh](https://nadh.in/) has done a commendable job with this software. 
+
+You can also get the final setup code from [this repository](https://github.com/yasoob/listmonk-setup). 
 
 If you have any feedback, comments, or suggestions please comment below 😊
