@@ -132,17 +132,17 @@ By default listmonk sends out this email when someone tries signing up to a news
 
 - Without the logo
 
-![Default Opt in email](/Users/yasoob/Library/Application Support/typora-user-images/image-20210311104230357.png)
+![Default Opt in email](/images/listmonk/default-optin.png)
 
 - With the logo
 
-![image-20210311104410480](/Users/yasoob/Library/Application Support/typora-user-images/image-20210311104410480.png)
+![image-20210311104410480](/images/listmonk/optin-with-logo.png)
 
 I did not like this opt-in email. I wanted to give it more character and freshen it up a little bit. The solution is pretty simple. The listmonk GitHub repo contains a [`static` directory](https://github.com/knadh/listmonk/tree/master/static) with these templates. Download the static directory and place it right next to the `docker-compose.yml` file. Now go ahead and make whatever changes you want to the templates.
 
 I updated the `subscriber-optin.html` file and the result was this:
 
-![image-20210311105857013](/Users/yasoob/Library/Application Support/typora-user-images/image-20210311105857013.png)
+![image-20210311105857013](/images/listmonk/modified-optin.png)
 
 That looks much nicer than the original optin email. But how do we tell listmonk to use these custom templates? Listmonk can take a `--static-dir` argument that specifies a custom static files directory. We can modify the `docker-compose.yml` file and update the `app` service definition like this:
 
@@ -201,11 +201,11 @@ Thankfully, listmonk supports subscriber import. You have the option to either c
 
 The GUI looks like this:
 
-![image-20210311124400371](/Users/yasoob/Library/Application Support/typora-user-images/image-20210311124400371.png)
+![image-20210311124400371](/images/listmonk/subscriber-input.png)
 
 If you add a subscriber via the online wizard, they will receive an opt-in email. Their status in the GUI will look like this:
 
-![image-20210311124512796](/Users/yasoob/Library/Application Support/typora-user-images/image-20210311124512796.png) 
+![image-20210311124512796](/images/listmonk/unconfirmed.png) 
 
 Notice the "Unconfirmed". That just tells us that the user hasn't clicked on "confirm" in the opt-in email they received. As far as I know, we can't currently add a user via the wizard and have listmonk not send them an opt-in email. So what's the alternative? CSV imports!
 
