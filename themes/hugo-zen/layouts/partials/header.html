@@ -60,15 +60,19 @@
     </div>
     <h1 class="site-title"><a href="/"><img alt="website logo" src="/images/logo.png" /></a>{{ .Site.Title }}<span class="toggle"></span></h1>
     <p class="tag-line">{{.Site.Params.tagline}}</p>
-    <nav class="nav-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/arts">Art Projects</a></li>
-      <li><a href="https://yasoob.github.io/learn-git" target="_blank">Learn Git</a></li>
-      <li><a href="/about">About</a></li>
-      <li>
-        <a id="darkModeToggle">🌓</a>
-        <a href="/index.xml"><img alt="rss" class="rss" src="/images/rss.ico"></a>
-      </li>
+    <div class="nav-links">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/arts">Art Projects</a></li>
+          <li><a href="https://yasoob.github.io/learn-git" target="_blank">Learn Git</a></li>
+          <li><a href="/about">About</a></li>
+          <li>
+            <a id="darkModeToggle">🌓</a>
+            <a href="/index.xml"><img alt="rss" class="rss" src="/images/rss.ico"></a>
+          </li>
+        </ul>
+      </nav>
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7IP53Y&placement=yasoobme" id="_carbonads_js"></script>
       <h3 class="book-header">My Books</h3>
       <div class="book-promo">
@@ -81,5 +85,5 @@
         <h4><a href="https://book.pythontips.com/">Intermediate Python</a></h4>
         <p>In this free, open-source, and widely-read book, you will learn some intermediate Python concepts.</p>
       </div>
-    </nav>
+    </div>
   </header>
