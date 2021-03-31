@@ -1,0 +1,9 @@
+_id: 0eadbf00-72ca-11eb-b8d7-63b08a23d805
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Alexey Brambalov
+email: 8c5d425d0a941c88b8b9a83933e5658e
+reply_to: ''
+comment: "Great tutorial!\r\n\r\nPS Line \"Now replace everything in src/app.py with this: \" - should be like this\r\n\"Now replace everything in src/app.js with this:\""
+name_try: ''
+date: '2021-02-19T15:49:32.163Z'
