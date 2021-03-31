@@ -1,0 +1,8 @@
+_id: 7336e8c0-9241-11eb-8dbb-21c69da1eb75
+_parent: 'https://yasoob.me/posts/using-python-to-post-stories-on-instagram/'
+name: Yasoob Khalid
+email: b342b1c4e83326b85e31640c8f21d58d
+reply_to: a8d69610-8fda-11eb-933d-7b70087231fc
+comment: "Hi Morteza,\r\n\r\nMost of these apps use this https://developers.facebook.com/docs/instagram-api The primary difference is that the Graph API only works for business accounts. It doesn't work with normal user accounts."
+name_try: ''
+date: '2021-03-31T16:52:16.957Z'
