@@ -1,0 +1,8 @@
+_id: 9553d320-900f-11eb-a485-97022966a005
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: kristoff
+email: d6d447fe9f9a74ad938b439036dd35ee
+reply_to: ''
+comment: "Very interesting blog. I am working on code to send jpeg over a radiolink (i.e. make it more resilient to biterrors) and your article is a good basis for this.\r\nTwo questions:\r\n- what happens if the height/width of the image is not a multiple of 8?\r\n- your code only seems to work for images that have a 1:1 sampling factor). I guess this is 4:4:4 chroma subsampling.\r\nDo you have any reference to information how the files are formatted for images that have (e.g.) 4:2:2 or 4:2:0 chroma subsampling?"
+name_try: ''
+date: '2021-03-28T21:50:17.062Z'
