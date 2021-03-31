@@ -1,0 +1,8 @@
+_id: b8912440-9254-11eb-80f5-fb29939231e8
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: Kristoff Bonne
+email: d6d447fe9f9a74ad938b439036dd35ee
+reply_to: fdb253a0-9191-11eb-9f6d-9f58a15c2360
+comment: "Mohamad, as far as I know, this is related to the sampling factor. I propose to modify the python code and print out these values and experiment a little bit.\r\nI've used the simplejpeg python library to convert jpegs to the correct format so it can be decoded by yasoob's code."
+name_try: ''
+date: '2021-03-31T19:10:13.757Z'
