@@ -418,7 +418,7 @@ Let's focus on the front-end for a bit. We will be using `react-router-dom` for 
 $ npm install react-router-dom
 ```
 
-Now replace everything in `src/app.py` with this:
+Now replace everything in `src/App.js` with this:
 
 ```
 import React, { useEffect } from "react";
