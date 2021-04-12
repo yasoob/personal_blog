@@ -27,6 +27,10 @@ img {
   vertical-align: middle;
   border: 0;
 }
+p img{
+  margin: 0 auto;
+  display: block;
+}
 ul{
   list-style: disc;
   padding-left: 1em;
@@ -262,6 +266,7 @@ pre {
 code{
   border-radius: 0;
   white-space: normal;
+  word-break: break-word;
 }
 
 pre code{
