@@ -52,7 +52,19 @@ main {
 .container {
   width: 90%;
 }
-
+.announcement{
+  padding: 10px;
+  color: white;
+  background: #0095a8;
+  text-align: center;
+}
+.announcement p{
+  margin: 0 auto;
+}
+.announcement a{
+  color: white;
+  font-weight: bold;
+}
 .header-logo img {
   width: 80px;
   height: 80px;

@@ -51,9 +51,10 @@
   <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | emojify}}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 </head>
 <body>
-
+<div class="announcement">
+  <p>Practical Python Projects book is <a href="https://practicalpython.yasoob.me/">now available!</a> Learn how to implement 12 end-to-end projects to enhance your Python knowledge.</p>
+</div>
 <div class="container">
-
   <header onclick="nav_display()" id="nav" class="hide-nav" role="banner">
     <div class="header-logo">
       <a href="/"><img alt="website logo" src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
