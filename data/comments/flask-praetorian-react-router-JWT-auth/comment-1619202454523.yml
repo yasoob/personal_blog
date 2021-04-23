@@ -1,0 +1,9 @@
+_id: 92a8c890-a461-11eb-8c86-c763f27e0978
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Micky
+email: 5ba0527658a2c3990c987a57edeb5967
+reply_to: ''
+comment: "Hi Yasoob,\r\n\r\nI've got the issue.\r\n\r\nYou're importing the request module in the refreshing route of api.py, but it's not declared.\r\n\r\n\r\nThanks!"
+name_try: ''
+date: '2021-04-23T18:27:34.522Z'
