@@ -1,0 +1,9 @@
+_id: 6b709200-a45f-11eb-8c86-c763f27e0978
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Micky
+email: 5ba0527658a2c3990c987a57edeb5967
+reply_to: ''
+comment: "Hi Yassob,\r\n\r\nGreat Tutorial!\r\n\r\nThe only problem I see is when the access token expires; it's not getting refreshed using the Auth function component.\r\nI changed the JWT access token expiry to 5 mins, and after 5 mins passed, I reloaded the secret route and login route. But It did not work, and the flask debugger threw this error:\r\n\r\nNameError: name 'request' is not defined\r\n\r\nHow can I refresh the token after it is expired?\r\n\r\nThanks"
+name_try: ''
+date: '2021-04-23T18:12:09.778Z'
