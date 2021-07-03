@@ -1,0 +1,11 @@
+_id: 5259a420-d8ec-11eb-8985-9b6e3d1d5505
+_parent: >-
+  https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Michael Scepaniak
+email: 78f19ce13b02a35143fd11d00600fa33
+reply_to: ''
+comment: >-
+  Thank you for writing this! I make use of Staticman with an Eleventy-generated
+  site instead of Hugo, but this was still helpful.
+name_try: ''
+date: '2021-06-29T15:11:47.263Z'
