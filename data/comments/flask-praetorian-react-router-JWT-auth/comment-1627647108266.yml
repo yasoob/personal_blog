@@ -1,0 +1,9 @@
+_id: 5079ab40-f12f-11eb-aa9b-df23961970bf
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Al Naji
+email: 0cbf560a3987c0f484962103078a4fa4
+reply_to: ''
+comment: "Thanks for this great tutorial.\r\nHow do we register a new user. I can't implement the registering process.\r\nand also is it safe to save the token on local storage ?"
+name_try: ''
+date: '2021-07-30T12:11:48.263Z'
