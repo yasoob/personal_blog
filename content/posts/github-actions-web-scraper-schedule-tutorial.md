@@ -384,7 +384,7 @@ jobs:
           html_body: file://ppra.html
 ```
 
-We start by naming the Action. In our case, we named it `Scrape`. Next, we tell GitHub when to execute this action. The first time is via a cron schedule and the second is via the online workflow dispatcher. The cron value is similar to the crontab you might have used on Linux. You can use [Crontab Guru](crontab.guru/) to explore crontabs. The one I am using will cause the workflow to run every day at 4 o'clock. This is in UTC. The `workflow_dispatch` is used just for testing. This way we don't have to wait until 4 o'clock just to test it and can trigger the workflow manually using the online interface.
+We start by naming the Action. In our case, we named it `Scrape`. Next, we tell GitHub when to execute this action. The first time is via a cron schedule and the second is via the online workflow dispatcher. The cron value is similar to the crontab you might have used on Linux. You can use [Crontab Guru](https://crontab.guru/) to explore crontabs. The one I am using will cause the workflow to run every day at 4 o'clock. This is in UTC. The `workflow_dispatch` is used just for testing. This way we don't have to wait until 4 o'clock just to test it and can trigger the workflow manually using the online interface.
 
 Next, we create an environment variable to which our execution environment will have access. `ACTIONS_ALLOW_UNSECURE_COMMANDS` is required for Python on GitHub due to a bug. I am not sure if it is fixed or not.  Afterward, we install Python, install the requirements and run the scraper. Then we set the `DATE` variable to the current server time. This will be used in the subject of our email. 
 
