@@ -9,7 +9,7 @@ teaser: "I recently got to work on a web scraping project that I deployed on Git
 
 Hi everyone! :wave: It's been a long time since I last posted on this blog. I was busy graduating from college and moving places and that didn't leave enough time for fun new projects. I am still in the middle of it all but recently did a project that gave me a tutorial idea to write about. I was asked to create a web scraper that would scrape a certain website, filter the data and then send an email with that data. I will show you what I was tasked with, how I developed it, and how I deployed it for free using GitHub Actions.
 
-**Note:** You can find the corresponding GitHub repo [here]()
+**Note:** You can find the corresponding GitHub repo [here](github.com/yasoob/github-action-scraper-tutorial/)
 
 ## Requirements
 
@@ -406,7 +406,7 @@ I will use Actions again in the future when I have similar projects. The only th
 
 ## Conclusion
 
-I hope you all enjoyed this tutorial. I had a ton of fun working on it. If you have any questions, comments, or suggestions, please feel free to comment below or send me an email (hi @ yasoob.me) or a [tweet](https://twitter.com/yasoob). I do plan on writing about a bunch of other stuff but time is at a premium these days. However, I am hoping the situation would soon change :smile: I will see you in the next article :heart:
+I hope you all enjoyed this tutorial. You can find the corresponding GitHub repo [here](github.com/yasoob/github-action-scraper-tutorial/). I had a ton of fun working on it. If you have any questions, comments, or suggestions, please feel free to comment below or send me an email (hi @ yasoob.me) or a [tweet](https://twitter.com/yasoob). I do plan on writing about a bunch of other stuff but time is at a premium these days. However, I am hoping the situation would soon change :smile: I will see you in the next article :heart:
 
 
 
