@@ -1,0 +1,9 @@
+_id: 2d396c20-1195-11ec-ab8a-1b3abfab281e
+_parent: >-
+  https://yasoob.me/posts/understanding-and-generating-upc-a-barcode-using-python/
+name: Matt
+email: 51324d23dc368fba7e40f8088e83fe22
+reply_to: ''
+comment: "Ran across this looking for some UPC info.  Overall, pretty cool.  I do want to point out that it seems that your assertion that that extended guards are optional is incorrect.  GS1 General Specification 5.2.3.2 Symbol height clearly states \"In EAN-13, EAN-8, UPC-A, and UPC-E barcodes, the bars (dark bars) forming the left, centre, and\r\nright guard bar patterns SHALL be extended downward by 5x (e.g., 1.65 millimetres (0.065 inch).\"\r\n\r\nhttps://gs1go2.azureedge.net/cdn/ff/mTugzXOdBT2AunS2AYC-a_Raz8C3fhmB0Urhkl_9D9M/1627291955/public/2021-07/gs1_general_specifications.pdf"
+name_try: ''
+date: '2021-09-09T17:41:34.900Z'
