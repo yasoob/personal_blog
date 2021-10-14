@@ -1,0 +1,11 @@
+_id: 4837b120-2ca8-11ec-b833-c95e53e9e360
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Brad
+email: 4e3b2ce1a5b338a22326ab9fee89b577
+reply_to: ''
+comment: >-
+  In the createAuthProvider,  OnUpdateToken: the body should be
+  token.refreshToken per the documentation
+name_try: ''
+date: '2021-10-14T04:36:22.033Z'
