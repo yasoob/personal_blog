@@ -1,0 +1,8 @@
+_id: fca55d00-302d-11ec-aaf7-b562b2e65646
+_parent: 'https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/'
+name: BIBHA SAHU
+email: 889b3deeee694b529d4579dfc0d85f6f
+reply_to: ''
+comment: "good article \r\nBut  if you define the function with 3 arguments    ex:    def test_args_kwargs(arg1, arg2, arg3):\r\nThen take 4 values in variable arguments   ex: args = [1,2,3,4]\r\nand call the function  test_args_kwargs (*args)\r\nIt will throw the below error \r\nTypeError: test_args_kwargs() takes 3 positional arguments but 4 were given"
+name_try: ''
+date: '2021-10-18T16:11:01.357Z'
