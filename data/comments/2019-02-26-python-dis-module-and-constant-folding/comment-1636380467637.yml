@@ -1,0 +1,8 @@
+_id: 40597390-409d-11ec-bb5a-330876c06c45
+_parent: 'https://yasoob.me/2019/02/26/python-dis-module-and-constant-folding/'
+name: Lucas Diniz
+email: 7606f332d9b1186cbc22b80676c3a157
+reply_to: ''
+comment: "\"I am still trying to figure out an answer for this so if you have any suggestions please drop them in the comments section below.\"\r\n\r\nI believe you might find your answer here: https://github.com/python/cpython/blob/3.6/Python/peephole.c#L304\r\nIn terms of why this is in place, probably to set some boundaries in regards to size of pyc files."
+name_try: ''
+date: '2021-11-08T14:07:47.633Z'
