@@ -1,0 +1,12 @@
+_id: 5aa84e90-41ad-11ec-96d6-0b40a6b801da
+_parent: 'https://yasoob.me/posts/custom-map-with-tileserver-gl/'
+name: BigBoi
+email: 1347e57b00cf16bb0fd81eb63e2cc314
+reply_to: ''
+comment: >-
+  I was wondering if anyone knows how to store the .png files created after
+  hitting the "Raster" button? Trying to store map tiles for offline use. It
+  seems that Raster-ing will call the GET function already to get .png files to
+  show each individual map tile
+name_try: ''
+date: '2021-11-09T22:35:34.919Z'
