@@ -18,7 +18,7 @@ My book and articles have been read by 5+ Million people in 189+ countries.
 
 If you are interested in learning more about how I got into programming please read [this article](https://pythontips.com/2017/12/01/how-i-got-into-programming/).
 
-I am currently (Summer 2020) interning at Microsoft with the Azure Cloud Networking team and working on some really cool stuff. You can check out my infrequently updated résumé [here](/resume.pdf) if you want. 
+I am currently working on some cool stuff at Microsoft with the Azure Cloud Networking team. You can check out my infrequently updated résumé [here](/resume.pdf) if you want. 
 
 ## Let's Talk
 
