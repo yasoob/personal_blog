@@ -1,0 +1,8 @@
+_id: 98884610-9be0-11ec-a8db-25c3d203c87c
+_parent: 'https://yasoob.me/posts/using-python-to-post-stories-on-instagram/'
+name: Muhammad Zaheer
+email: 49945bd365b3320126f69571444e58d0
+reply_to: a8d69610-8fda-11eb-933d-7b70087231fc
+comment: "A.o.a\r\nBro how are you. Fitst of all I wanna thank you because of your python practicals book I got a grip on programming.\r\nI have a problem with InstagramAPI . It gives me the following output.\r\nFail to import moviepy. Need only for Video upload.\r\nRequest return 405 error!\r\n{'message': '', 'status': 'fail'}\r\nRequest return 404 error!\r\nLogin success!"
+name_try: ''
+date: '2022-03-04T17:29:07.711Z'
