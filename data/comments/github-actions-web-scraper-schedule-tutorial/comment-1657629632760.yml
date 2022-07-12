@@ -1,0 +1,8 @@
+_id: d1bdb900-01df-11ed-bd51-d3ba1cf9d6a3
+_parent: 'https://yasoob.me/posts/github-actions-web-scraper-schedule-tutorial/'
+name: kyaw
+email: afc4a3105998405c3456ed3c0e9c54b8
+reply_to: ''
+comment: "Dear Yasoob!\r\nThanks for sharing this tutorial which is very useful for me. Is there any way to save the html file in a folder inside the current repository.  In my case I am downloading an image with tables which is sent to another site to extract tables as dataframe. I still want to keep the downloaded table image which is gone after the scrap session is completed."
+name_try: ''
+date: '2022-07-12T12:40:32.757Z'
