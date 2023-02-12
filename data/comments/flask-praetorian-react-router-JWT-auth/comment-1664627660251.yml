@@ -1,0 +1,9 @@
+_id: 5f2cf0f0-4185-11ed-ac67-65e73b070f84
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Laurentpm
+email: 379fcd1bef493a070f7f2d51a4aece8b
+reply_to: ''
+comment: "Hi, \r\nPlease note that in 2022, the file /auth/index.js must contain the const in curly brackets in order to be imported\r\n\r\n/auth/index.js\r\nexport const {useAuth, authFetch, login, logout} \r\n\r\n\r\nin order to do\r\nApp.js\r\nimport { login } from './auth';"
+name_try: ''
+date: '2022-10-01T12:34:20.246Z'
