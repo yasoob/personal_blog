@@ -4,7 +4,7 @@ date: 2023-02-12T23:32:12+05:00
 draft: false
 categories: ['programming', 'database']
 featured_image: "/images/reorder-items/header.png"
-teaser: "Ever wondered how Jira and Trello store the order of tasks or issues? How they can efficiently reorder items in the database even when there are a million items? In this article, you will learn all about reordering and/or reranking and how to store the order information in the database to facilitate efficient reordering."
+teaser: "Ever wondered how Jira and Trello store the order of tasks or issues? How they can effortlessly reorder items in the database even when there are a million items? In this article, you will gain an understanding of reordering and reranking techniques and how to store order information in the database to facilitate efficient reordering."
 ---
 
 
