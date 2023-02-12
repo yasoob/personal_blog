@@ -126,7 +126,7 @@ url: /python-resources/
   * [Geek Feminism Python Posts][110]
   * [Tarah Wheeler Van Vlack Videos][111]
 
-## Why Python? {#why-python-}
+## Why Python? {#why-python}
 
   * [Python Success Stories][112]
   * [Why Python &#8211; Slideshare][113]
@@ -554,7 +554,7 @@ url: /python-resources/
   * [The newboston site tutorial][353]
   * [Python Programming Tutorials][354]
 
-## Editors and IDE's for Python programming {#editors-and-ide-s-for-python-programming}
+## Editors and IDE's for Python programming {#editors-and-ides-for-python-programming}
 
   * [Setting up Sublime Text for Python Development][355]
   * [Sublime Text 2 Love by Kenneth Reitz][356]
@@ -653,7 +653,7 @@ source: [pycrumbs github][396]
  [39]: #resources
  [40]: #libraries
  [41]: #gui-programming
- [42]: #Android
+ [42]: #android
  [43]: #sl4a
  [44]: #wsgi
  [45]: #databases
