@@ -16,7 +16,7 @@ googleanalytics = "UA-97849776-1"
 	tagline = "Author, Blogger & artist who can't make up his mind."
 
 	[params.staticman]
-	endpoint = "https://staticman-blog.herokuapp.com/v2/entry"
+	endpoint = "https://staticman-blog.fly.dev/v2/entry"
 	username = "yasoob"
 	repository = "personal_blog"
 	branch = "master"
