@@ -1,0 +1,11 @@
+_id: 417f89f0-ff99-11ed-be21-57c98b44311c
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: David Parfitt
+email: 12be31bdf95e9084e13815f3cf96a4d5
+reply_to: ''
+comment: >-
+  This is an excellent tutorial. Can I just ask why you included the last line
+  "data = data[offset:]" in the function decodeHuffman()? The program seems to
+  work ok without it.
+name_try: ''
+date: '2023-05-31T09:55:21.565Z'
