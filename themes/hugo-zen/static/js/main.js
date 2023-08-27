@@ -1,5 +1,5 @@
-function changeValue(elementName, newValue){
-  document.getElementsByName(elementName)[0].value=newValue;
+function changeValue(elementName, newValue) {
+  document.getElementsByName(elementName)[0].value = newValue;
   window.location.hash = "#comment-form";
 };
 
@@ -12,7 +12,7 @@ function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
+  for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
@@ -24,15 +24,15 @@ function getCookie(cname) {
   return "";
 }
 
-function enableDarkmode(){
-  document.getElementById("dark").rel="stylesheet";
-  document.getElementById("light").rel="alternate stylesheet";
+function enableDarkmode() {
+  document.getElementById("dark").rel = "stylesheet";
+  document.getElementById("light").rel = "alternate stylesheet";
   console.log("setting darkmode");
 }
 
-function disableDarkmode(){
-  document.getElementById("light").rel="stylesheet";
-  document.getElementById("dark").rel="alternate stylesheet";
+function disableDarkmode() {
+  document.getElementById("light").rel = "stylesheet";
+  document.getElementById("dark").rel = "alternate stylesheet";
   console.log("removing darkmode");
 }
 
@@ -70,13 +70,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   var closeNewsletterBtn = document.getElementById('close-btn');
   closeNewsletterBtn.addEventListener("click", function () {
-      document.getElementById('mc_embed_signup').style.display = 'none';
+    document.getElementById('mc_embed_signup').style.display = 'none';
 
-      var date = new Date();
-      var days = 10;
-      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-      document.cookie =
-          "hidesubscribe=true; expires=" + date.toGMTString() + "; path=/";
+    var date = new Date();
+    var days = 10;
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie =
+      "hidesubscribe=true; expires=" + date.toGMTString() + "; path=/";
   });
 
   if (getCookie("hidesubscribe") == "true") {

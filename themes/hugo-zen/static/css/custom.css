@@ -270,7 +270,7 @@ aside.toc{
   margin-right: 10px;
 }
 pre {
-  background: linear-gradient(to bottom, #bcd08c, #cc6b78);
+  background: linear-gradient(to bottom, #bcd08c, #cc6b78) !important;
   padding-left: 3px;
   background-size: 50% 100%;
   background-repeat: no-repeat;
