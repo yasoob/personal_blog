@@ -28,11 +28,11 @@ These sensors were connected to an Arduino which itself was connected to a Raspb
 
 I had an amazing time learning about Arduino through this project. The feeling of actually shipping a product is unlike any other. I am pretty sure I will be working more with the Arduino in the future. Here is a video showing the product in action:
 
-<div style="width:100%;height:480px;background-color:black;text-align:center;">
+<!-- <div style="width:100%;height:480px;background-color:black;text-align:center;">
   <video style="height:100%;" controls>
     <source src="https://lh3.googleusercontent.com/-Pw0J04e6swHvT_ZAdJMmUOpt6UTeEro27_hmYJGZ12MT_lE21nSMdSLZtCKbACrBkl42hzl74Zazc9lhL6uh-HmWlwA8h_59RnHrnrwDQh4jN9kBWPoKjmlRXEDSBVy7ZtgtWlUew=m37" type="video/mp4">
   </video>
-</div>
+</div> -->
 
 <br>
 
