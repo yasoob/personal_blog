@@ -1,0 +1,8 @@
+_id: 7ed1a270-5a52-11ee-be21-57c98b44311c
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: MyName
+email: dc43716a79388a04bd5b92c6ded6deaa
+reply_to: ''
+comment: "You printed the same quantization table twice instead of the two tables\r\nSecond one is:\r\n     3     4     4     5     4     5     9     5\r\n     5     9    20    13    11    13    20    20\r\n    20    20    20    20    20    20    20    20\r\n    20    20    20    20    20    20    20    20\r\n    20    20    20    20    20    20    20    20\r\n    20    20    20    20    20    20    20    20\r\n    20    20    20    20    20    20    20    20\r\n    20    20    20    20    20    20    20    20"
+name_try: ''
+date: '2023-09-23T20:48:05.975Z'
