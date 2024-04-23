@@ -1,0 +1,8 @@
+_id: d8563e50-01af-11ef-bcdc-cf2562e2cfa8
+_parent: 'https://yasoob.me/posts/extracting-whatsapp-messages-from-ios-backup/'
+name: Monk22
+email: dfb0d2276cd94944832ccef805c7e44d
+reply_to: ''
+comment: "Greetings,\r\n\r\nI was trying to follow up your snippets code to decrypt the manifest.db but now I'm stuck at point where some variable are not begin defined. Could you please shed the lights on me since I'm newbie with Python. thanks! \r\n\r\n```\r\nfrom biplist import readPlist\r\nimport os\r\nimport struct\r\n\r\nplist = readPlist(\"Manifest.plist\")\r\n\r\nmanifest_class = struct.unpack('<l', plist['ManifestKey'][:4])[0]\r\nmanifest_key = plist['ManifestKey'][4:]\r\n\r\n\r\nkb = Keybag(plist['BackupKeyBag'])\r\n\r\nkb.unlockWithPassphrase('mypassword')\r\nkey = kb.unwrapKeyForClass(manifest_class, manifest_key)\r\n\r\nwith open('Manifest.db', 'rb') as f:\r\n    encrypted_db = f.read()\r\n\r\ndecrypted_data = AESdecryptCBC(encrypted_db, key)\r\n\r\nwith open('decrypted_manifest.db', 'wb') as f:\r\n    f.write(decrypted_data)\r\n```\r\n\r\nReturns:\r\n```\r\nTraceback (most recent call last):\r\n  File \"s1.py\", line 11, in <module>\r\n    kb = Keybag(plist['BackupKeyBag'])\r\nNameError: name 'Keybag' is not defined\r\n```"
+name_try: ''
+date: '2024-04-23T20:27:03.448Z'
