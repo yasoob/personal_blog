@@ -1,0 +1,10 @@
+_id: 9baf2aa0-1f8e-11ef-bcdc-cf2562e2cfa8
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: Jonah
+email: 7b97542e4edd41703083d78363d03c65
+reply_to: ''
+comment: >-
+  I believe there is a missing ```self.huffman_tables[header] = hf``` at the end
+  of decodeHuffman
+name_try: ''
+date: '2024-05-31T20:44:43.221Z'
