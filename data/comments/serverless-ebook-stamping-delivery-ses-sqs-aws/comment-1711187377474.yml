@@ -1,0 +1,10 @@
+_id: a9261f60-e8fa-11ee-97cf-0f694516bc55
+_parent: 'https://yasoob.me/posts/serverless-ebook-stamping-delivery-ses-sqs-aws/'
+name: Mike
+email: fa68e40089e20f9b6249bab1eca1a239
+reply_to: ''
+comment: >-
+  Also, I just ran the py script (using pdfrw) and it doesn't appear to preserve
+  links in the document. It does however preserve the TOC in Preview (Mac)
+name_try: ''
+date: '2024-03-23T09:49:37.473Z'
