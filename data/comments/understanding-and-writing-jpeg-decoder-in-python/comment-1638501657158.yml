@@ -1,0 +1,8 @@
+_id: 07d4fe00-53e8-11ec-abb1-95dc9cedaa86
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: Rob Van Wyck
+email: f8b76ee8dd28700e8fbbb4c65437caf1
+reply_to: ''
+comment: "In the BuildMatrix method, I'm getting a dictionary key error the second time the code gets here:\r\ncode = self.huffman_tables[0 + idx].GetCode(st)\r\n\r\nThe '0' key of self.huffman_tables[0 + idx] doesn't exist. Any help will be appreciated."
+name_try: ''
+date: '2021-12-03T03:20:57.154Z'
