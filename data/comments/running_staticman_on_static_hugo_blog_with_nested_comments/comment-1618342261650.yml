@@ -1,0 +1,12 @@
+_id: c7b614a0-9c8e-11eb-ae72-5f256fc664a5
+_parent: >-
+  https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/
+name: Nick
+email: 936b1b9b174d91d0a1b75773dcca8ea3
+reply_to: 1f210850-5ca1-11ea-b3cf-5b35febb22ca
+comment: >-
+  Yes, it's not working with V3... due fact the isLegacyAuth variable is true
+  for V1 and V2 - never for V3. the options.oauthToken is undefined... only way
+  to define config.get('githubAppID') && config.get('githubPrivateKey')
+name_try: ''
+date: '2021-04-13T19:31:01.646Z'
