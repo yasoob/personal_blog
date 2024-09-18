@@ -1,0 +1,8 @@
+_id: 6f85fd10-7609-11ef-bcdc-cf2562e2cfa8
+_parent: 'https://yasoob.me/posts/reverse-engineering-android-apps-apktool/'
+name: Vlad
+email: 63c88ae33d4ff81df685930742b96317
+reply_to: ''
+comment: "Thank you for this post, very inspiring!\r\n\r\nStarting with Android 11, signing v2 should be done like:\r\n```\r\nzipalign -p 4 my.apk my-aligned.apk\r\napksigner sign  --ks ~/.android/debug.keystore my-aligned.apk\r\n```\r\nThe zipalign is before signing, yes."
+name_try: ''
+date: '2024-09-18T22:00:37.191Z'
