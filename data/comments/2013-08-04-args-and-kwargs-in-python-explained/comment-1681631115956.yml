@@ -1,0 +1,8 @@
+_id: a0725ce0-dc2a-11ed-8fc1-a55ac59411fb
+_parent: 'https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/'
+name: Masino
+email: 2381fa2738254cd48c72fa729faba3ec
+reply_to: ''
+comment: "Now you can use *args or **kwargs to pass arguments to this little function. Here’s how to do it:\r\n\r\nI did not understand the coding style in this. Python has changed over time.\r\nDoes not work in my terminal."
+name_try: ''
+date: '2023-04-16T07:45:15.954Z'
