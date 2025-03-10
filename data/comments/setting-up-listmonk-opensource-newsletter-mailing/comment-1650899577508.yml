@@ -1,0 +1,8 @@
+_id: 30331020-c4aa-11ec-b10b-2b3cfb5be9ab
+_parent: 'https://yasoob.me/posts/setting-up-listmonk-opensource-newsletter-mailing/'
+name: Alendo
+email: c5e207e8e22d3fedf42fd10a3e1bafca
+reply_to: ''
+comment: "I'm not docker expert, but I followed these instructions and I receive at the end this error: 2022/04/25 15:00:12 [emerg] 11#11: host not found in upstream \"app\" in /etc/nginx/conf.d/nginx.conf:26\r\nnginx: [emerg] host not found in upstream \"app\" in /etc/nginx/conf.d/nginx.conf:26"
+name_try: ''
+date: '2022-04-25T15:12:57.506Z'
