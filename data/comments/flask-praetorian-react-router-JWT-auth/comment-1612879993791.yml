@@ -1,0 +1,9 @@
+_id: f2658490-6ae0-11eb-bbcd-9de30077067d
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Kieron Spearing
+email: fe93f7f9e22b8ed5d0d775beee498c18
+reply_to: ''
+comment: "Hello,\r\n\r\nAfter following the tutorial with regards to implementing this I am finding that the current_user().username is remaining the same across different accountseven after logging out of one account and into another and not quite sure why this is could you let me know why this might be?"
+name_try: ''
+date: '2021-02-09T14:13:13.786Z'
