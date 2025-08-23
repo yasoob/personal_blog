@@ -1,0 +1,12 @@
+_id: 8ee4b140-6f93-11eb-9b37-ddbb0e1549e6
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: xoubih
+email: 87ea00b71e16cbb9855034e7e72179dd
+reply_to: ''
+comment: >-
+  Hi, That's a nice tuto. You should change the comment on the refresh route in
+  python; the implementation is a POST and the example with the curl call is a
+  GET.
+name_try: ''
+date: '2021-02-15T13:41:51.404Z'
