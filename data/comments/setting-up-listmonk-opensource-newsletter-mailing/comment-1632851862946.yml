@@ -1,0 +1,11 @@
+_id: 940d94e0-2085-11ec-a1fe-77963d45ed42
+_parent: 'https://yasoob.me/posts/setting-up-listmonk-opensource-newsletter-mailing/'
+name: Varun Sharma
+email: 5fe44e025846ef38bf2970f1d420fad9
+reply_to: ''
+comment: >-
+  Where does the data fed into listmonk (such as email addresses of subscribers
+  and email content) resides? Does the data is stores in listmonk servers? Also
+  where are the servers located? (Which region in case of cloud servers?)
+name_try: ''
+date: '2021-09-28T17:57:42.942Z'
