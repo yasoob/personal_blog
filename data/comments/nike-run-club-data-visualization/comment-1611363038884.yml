@@ -1,0 +1,12 @@
+_id: 02c7d880-5d15-11eb-9f8f-1dc076b72aaa
+_parent: 'https://yasoob.me/posts/nike-run-club-data-visualization/'
+name: Adam
+email: a1c3555711cad7437324488a10616eea
+reply_to: f42f40e0-1a1e-11ea-bab8-ddd12236f0d2
+comment: >-
+  Hey, Yasoob. I tried to run your project in my computer, but I can't execute
+  any of the lines in your code without getting a message error. Is it written
+  to be executed in a Linux terminal? I tried it in Jupyter notebook and in my
+  windows 10 cmd
+name_try: ''
+date: '2021-01-23T00:50:38.880Z'
