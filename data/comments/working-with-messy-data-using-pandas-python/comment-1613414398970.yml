@@ -1,0 +1,14 @@
+_id: 34b4ac50-6fbd-11eb-8045-e595e941cfcc
+_parent: 'https://yasoob.me/posts/working-with-messy-data-using-pandas-python/'
+name: Robin Andrews
+email: 1358b42d013fe27b4ea3926657f22f9f
+reply_to: ''
+comment: >-
+  Nice article! Pandas is such a powerful library. One great features is the
+  ability to load data directly from a url. In the modern world is is so
+  important for people to be competent at working with data. I wrote an
+  introduction to data literacy with Python which some of your readers might
+  find helpful. I hope you don't mind me sharing.
+  <https://compucademy.net/data-literacy-with-python-part-1/>
+name_try: ''
+date: '2021-02-15T18:39:58.966Z'
