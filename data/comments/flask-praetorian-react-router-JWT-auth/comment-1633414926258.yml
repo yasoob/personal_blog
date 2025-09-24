@@ -1,0 +1,14 @@
+_id: 8ff4c490-25a4-11ec-8c34-677ac6b8ac15
+_parent: >-
+  https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/
+name: Joseph Walsh
+email: f00750b4cb78a47a834ff44ee4f7f866
+reply_to: ''
+comment: >-
+  Hello, my app has a blueprint structure and I use the create_app pattern in
+  flask.  Because of this I have to put my 'from app import models' after my
+  create_app function (which returns 'app') and thus I can't import User into
+  create_app so as to initialize praetorian.  Any workarounds that don't involve
+  getting away from create_app?
+name_try: ''
+date: '2021-10-05T06:22:06.255Z'
