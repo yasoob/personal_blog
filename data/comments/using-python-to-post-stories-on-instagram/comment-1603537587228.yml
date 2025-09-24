@@ -1,0 +1,8 @@
+_id: f6196ef0-15e8-11eb-ac67-9b73b4828988
+_parent: 'https://yasoob.me/posts/using-python-to-post-stories-on-instagram/'
+name: Victor
+email: 7c0f642808546ebb96bbe641fcc962fc
+reply_to: ''
+comment: "Hi!\r\nError in line:\r\nInstagramAPI.uploadPhoto (photo_path, is_story = True)\r\n\r\nStatus is not equal to 200:\r\nresponse = self.s.post (self.API_URL + \"upload / photo /\", data = m.to_string ())\r\n        if response.status_code == 200:\r\n\r\nThe article seems to be new, but it doesn't work!"
+name_try: ''
+date: '2020-10-24T11:06:27.224Z'
