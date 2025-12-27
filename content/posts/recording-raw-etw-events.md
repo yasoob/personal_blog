@@ -2,7 +2,7 @@
 title: "Debugging ETW Event Drops in High-Throughput Applications"
 date: 2025-12-27T13:44:17-08:00
 draft: false
-categories: [debugging, c#]
+categories: [debugging, csharp]
 teaser: "We were losing millions of diagnostic events in production, but I couldn't touch the active monitoring agent. How do you fix a system you can't pause? In this post, I share a technique for running parallel ETW sessions to \"spy\" on your application's telemetry and diagnose high-frequency event drops without breaking the existing pipeline."
 ---
 
