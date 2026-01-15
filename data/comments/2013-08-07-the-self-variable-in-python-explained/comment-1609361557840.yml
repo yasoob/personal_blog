@@ -1,0 +1,8 @@
+_id: f31d3740-4ae0-11eb-9679-7fa93b1ae198
+_parent: 'https://yasoob.me/2013/08/07/the-self-variable-in-python-explained/'
+name: 'Chris (he, him)'
+email: 5f9410a3f7038f4dd1304959b3bc9b07
+reply_to: ''
+comment: "This is a short and sweet explanation that I really appreciate. Thanks, it was very helpful! I do have a question and a comment.\r\n\r\nMy question is about your statement that x.bankrupt and Restaurant().bankrupt are the same. Should the second one be Restaurant(x).bankrupt?\r\n\r\nMy comment is that Victoria and Molly do have a point. I try to avoid using wording like \"guys\" and \"fellas\" when I could just as easily use \"folks\". Sure, there is a gender-neutral interpretation of the first two, but then again folks used to argued that \"men\" referred to \"all humans\" and now we're done with that. I'm not saying I always remember to use \"folks\" instead of \"guys\", but I don't also discount others' observance that they hear one gender in the word."
+name_try: ''
+date: '2020-12-30T20:52:37.835Z'
