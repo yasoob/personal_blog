@@ -1,0 +1,14 @@
+_id: 7fa0b5a0-1a4f-11ec-b422-b95d6d4d225c
+_parent: 'https://yasoob.me/posts/raspberry-pi-eduroam-wifi/'
+name: Lisa
+email: 28cb7bdff144773ca6db3f6a6b885c8c
+reply_to: ''
+comment: >-
+  Thanks for the awesome tutorial! I managed to connect to the eduroam using it.
+  However, I'm having the issue that the command making the connection never
+  seems to complete.  It says "wlan0...connection to 00:81:c4:.......:f3
+  completed" and then doesn't terminate. If I interrupt the command, the
+  internet connection is gone again. Is that normal, and if not, what could be
+  the reason? Thanks!
+name_try: ''
+date: '2021-09-20T20:15:28.856Z'
