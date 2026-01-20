@@ -1,0 +1,8 @@
+_id: 63d048f0-52a8-11eb-b0c6-338a9ffcd73c
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: maryam
+email: 5bf1077d34c444b17ef1b6d1fc4aee7d
+reply_to: ''
+comment: "thank you . this article was totally life saver 4 me .\r\nbtw i ran this on my pc and the every last line was incorrect . would you check it?\r\n    img = JPEG('profile.jpg')\r\nTypeError: JPEG() takes no arguments\r\nthe error is this . just in case"
+name_try: ''
+date: '2021-01-09T18:27:54.884Z'
