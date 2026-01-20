@@ -1,0 +1,9 @@
+_id: 91cabe80-92fc-11ec-b127-37fee5c41a6e
+_parent: >-
+  https://yasoob.me/posts/understanding-and-generating-upc-a-barcode-using-python/
+name: Oleksandr
+email: 113063a049386b73cd7cb145c35e2a60
+reply_to: ''
+comment: "check = (evensum + oddsum * 3) % 10 is incorrect\r\ncheck = (evensum*3 + oddsum) % 10 is correct"
+name_try: ''
+date: '2022-02-21T09:56:41.836Z'
