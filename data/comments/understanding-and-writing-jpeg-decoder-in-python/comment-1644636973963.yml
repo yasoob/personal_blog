@@ -1,0 +1,22 @@
+_id: ed9ebc60-8bb4-11ec-9524-e5c41ae425e8
+_parent: 'https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/'
+name: Nick
+email: 6b823b9b3cc8bae9f6c328512748b75d
+reply_to: ''
+comment: >-
+  Hello.  I appreciate the work you put into this.  Essential lessons.  But Im
+  actually testing your code one bit at a time, and am running into trouble.  I
+  dont understand the comments youre getting in this article... people are
+  giving high praise here, criticizing your choice of packages there. Everyones
+  a critic or else they're blind.  Seems to me no one has actually cared enough
+  about your work - your code - as it is, unadulterated, to try it out.
+  Otherwise they'd know there was a problem.  Id appreciate a little help
+  resolving it, if you can.  The BuildMatrix function in the JPEG class,
+  specifically the line "code = self.huffman_tables[0 + idx].GetCode(st), is
+  returning a KeyError type of error that I cant track down.  My code here is
+  literally just a copy-paste of yours, following your instructions and
+  replacing code as necessary. I dont know jpeg format enough, or some of these
+  packages youre using well enough, to grasp what might be happening.  I need it
+  to work before I can start experimenting with it.  Thanks.
+name_try: ''
+date: '2022-02-12T03:36:13.963Z'
