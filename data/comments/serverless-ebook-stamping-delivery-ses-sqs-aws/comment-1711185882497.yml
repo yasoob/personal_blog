@@ -1,0 +1,8 @@
+_id: 2e0bde80-e8f7-11ee-97cf-0f694516bc55
+_parent: 'https://yasoob.me/posts/serverless-ebook-stamping-delivery-ses-sqs-aws/'
+name: mike
+email: fa68e40089e20f9b6249bab1eca1a239
+reply_to: ''
+comment: "I found this whilst looking for a similar solution. I want to have a download URL for my ebook but with a query string appended to it which is then used for the stamping. \r\n\r\nSo when a customer buys, they get an email from my CRM with the ebook download link in with the recipients email (a dynamic tag in the CRM)\r\n\r\nhttps://region.amazonaws.com/download-pdf?customer_email=JohnDoe@gmail.com\r\n\r\nIs this possible?"
+name_try: ''
+date: '2024-03-23T09:24:42.494Z'
