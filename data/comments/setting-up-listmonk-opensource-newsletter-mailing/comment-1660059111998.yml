@@ -1,0 +1,12 @@
+_id: 642be540-17f8-11ed-bb0a-e3c36d496dd7
+_parent: 'https://yasoob.me/posts/setting-up-listmonk-opensource-newsletter-mailing/'
+name: Clint
+email: b9e28d3c6722b7f8ee50aa7d1c13f7f6
+reply_to: ''
+comment: >-
+  Hi Yasoob, I enjoyed your tutorial or example, but unfortunately for a newbie
+  I am lost.  Firstly where do I find the .yml file, secondly how do I configure
+  the .toml file, lol... I spent alot of time just getting a container and
+  getting docker compose to work, now I am just lost... please help...
+name_try: ''
+date: '2022-08-09T15:31:51.994Z'
