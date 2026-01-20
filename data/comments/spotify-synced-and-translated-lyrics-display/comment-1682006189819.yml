@@ -1,0 +1,13 @@
+_id: e9dbdc00-df93-11ed-8fc1-a55ac59411fb
+_parent: 'https://yasoob.me/posts/spotify-synced-and-translated-lyrics-display/'
+name: Henry Johnson
+email: c6b4746f7c85b6d80a954b19dddffb02
+reply_to: ''
+comment: >-
+  Hey Yasoob. Awesome work with this code, it should do exactly what I was
+  looking for. I am having issues getting it running though; I tried to set up a
+  conda environment and guess the dependencies but I've had no luck so far. Is
+  there any chance you could document the python environment you are running
+  this in, the modules and versions you are using?
+name_try: ''
+date: '2023-04-20T15:56:29.816Z'
