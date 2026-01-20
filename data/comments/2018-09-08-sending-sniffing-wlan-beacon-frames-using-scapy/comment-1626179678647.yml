@@ -1,0 +1,12 @@
+_id: b03ce760-e3d6-11eb-8b66-93d1b52c2706
+_parent: 'https://yasoob.me/2018/09/08/sending-sniffing-wlan-beacon-frames-using-scapy/'
+name: Sebu Mathew
+email: ff58dfbfccc51bb2564546bcb917b4f9
+reply_to: ''
+comment: >-
+  Hi can you please explain how to craft an AMPDU frame which consists of at
+  least 10 Sub-frames. I am able to generate such kind of a frame by adjusting
+  packet length using iperf. But I want to generate the same using scapy. So can
+  you please help me
+name_try: ''
+date: '2021-07-13T12:34:38.642Z'
