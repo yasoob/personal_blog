@@ -1,0 +1,8 @@
+_id: 9be21a90-50f8-11eb-83af-cfbac84105fd
+_parent: 'https://yasoob.me/posts/using-python-to-post-stories-on-instagram/'
+name: Gallagher
+email: 676f68f4c493e254abdbfd757f8d4f16
+reply_to: ''
+comment: "I get\r\nTypeError: uploadPhoto() got an unexpected keyword argument 'is_story'\r\nHow can I fix this"
+name_try: ''
+date: '2021-01-07T14:57:06.692Z'
