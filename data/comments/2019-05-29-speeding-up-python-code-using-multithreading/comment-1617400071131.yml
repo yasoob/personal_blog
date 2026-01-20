@@ -1,0 +1,12 @@
+_id: 1255e480-93fd-11eb-a026-3d550a3024b5
+_parent: 'https://yasoob.me/2019/05/29/speeding-up-python-code-using-multithreading/'
+name: Noah F. San d'Xorvutz
+email: fd60595212849ab51c1d30035136156b
+reply_to: ''
+comment: >-
+  DB backed Web applications labor under a double-whammy, DB latency Plus Web
+  latency. This link shows how to marry concurrent.futures with green threads to
+  scale up to thousands of 'simultaneous' workers.
+  https://github.com/zopefiend/green-concurrent.futures-with-eventlet/blob/master/greenConcurrentFutures.txt
+name_try: ''
+date: '2021-04-02T21:47:51.123Z'
