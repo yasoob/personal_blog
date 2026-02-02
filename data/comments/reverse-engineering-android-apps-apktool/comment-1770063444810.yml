@@ -1,0 +1,14 @@
+_id: 2fe85e40-0074-11f1-8c28-215169b3e56c
+_parent: 'https://yasoob.me/posts/reverse-engineering-android-apps-apktool/'
+name: Ethan
+email: 7aa284491a778b930d17df2c9e3a46dd
+reply_to: ''
+comment: >-
+  Great deep dive into Android APK reverse engineering, especially the smali
+  logging part, very insightful. Reading this actually helped me understand how
+  APKs are structured and how apps work under the hood. I’ve been exploring APKs
+  lately like Smart Play APK, a free video streaming platform, just to learn
+  more about Android app behavior and performance. Really enjoyed this technical
+  breakdown https://www.smrtplayapk.net/
+name_try: ''
+date: '2026-02-02T20:17:24.806Z'
