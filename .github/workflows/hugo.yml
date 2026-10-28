@@ -1,0 +1,51 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Staticman comments can land in quick succession; only the latest push needs to deploy.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  HUGO_VERSION: 0.88.1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Hugo
+        run: |
+          wget -qO "${{ runner.temp }}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+
+      - uses: actions/checkout@v4
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
