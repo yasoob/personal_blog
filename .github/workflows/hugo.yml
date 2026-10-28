@@ -36,6 +36,21 @@ jobs:
       - name: Build
         run: hugo
 
+      # Netlify matched URLs case-insensitively (e.g. /arts/a1/ served /arts/A1/), GitHub Pages doesn't.
+      # Publish lowercase copies of mixed-case paths, plus the /Resume.pdf spelling linked from old posts.
+      - name: Add case aliases for URLs Netlify served
+        shell: python3 {0}
+        run: |
+          import os, shutil
+          for d, _, files in os.walk("public"):
+              for f in files:
+                  src = os.path.join(d, f)
+                  dst = src.lower()
+                  if dst != src and not os.path.exists(dst):
+                      os.makedirs(os.path.dirname(dst), exist_ok=True)
+                      shutil.copy2(src, dst)
+          shutil.copy2("public/resume.pdf", "public/Resume.pdf")
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
