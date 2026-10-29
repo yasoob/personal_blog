@@ -17,6 +17,7 @@ capitalizeListTitles = false
 	tagline = "Author, Blogger & artist who can't make up his mind."
 	authorName = "Yasoob Khalid"
 	homeTitleSuffix = "Python Author & Software Engineer"
+	rssFullContentLimit = 20
 	description = "Yasoob Khalid, author of Intermediate Python & Practical Python Projects, writes in-depth guides on Python, reverse engineering, and hardware hacking."
 
 	[params.staticman]
