@@ -6,6 +6,7 @@ theme = "hugo-zen"
 copyright = "CC-by-NA"
 enableEmoji = true
 googleanalytics = "UA-97849776-1"
+enableGitInfo = true
 
 [params]
 	logo = "/images/profile.jpg"
@@ -14,6 +15,9 @@ googleanalytics = "UA-97849776-1"
 	github = "https://github.com/yasoob"
 	linkedin = "https://www.linkedin.com/in/yasoob/"
 	tagline = "Author, Blogger & artist who can't make up his mind."
+	authorName = "Yasoob Khalid"
+	homeTitleSuffix = "Python Author & Software Engineer"
+	description = "Yasoob Khalid, author of Intermediate Python & Practical Python Projects, writes in-depth guides on Python, reverse engineering, and hardware hacking."
 
 	[params.staticman]
 	endpoint = "https://staticman-blog.fly.dev/v2/entry"
@@ -23,6 +27,26 @@ googleanalytics = "UA-97849776-1"
 
 [markup.goldmark.renderer]
   unsafe= true
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+[sitemap]
+  changefreq = "monthly"
 
 [taxonomies]
   category = "categories"

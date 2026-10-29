@@ -28,7 +28,10 @@ jobs:
             "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb"
           sudo dpkg -i "${{ runner.temp }}/hugo.deb"
 
+      # Full history so enableGitInfo can set accurate lastmod dates for the sitemap.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/configure-pages@v5
 

@@ -4,51 +4,28 @@
 
 
   <meta charset="utf-8">
-  <meta name="author" content="Muhammad Yasoob Ullah Khalid">
-  <meta name="keywords" content="Yasoob, Yasoob Khalid, Python Tips, Intermediate Python, Pakistan, Programmer, Blogger, Muhammad Yasoob Ullah Khalid, Software Engineer">
-  {{if isset .Params "featured_image" }}
-    <meta property="og:image" content="{{ index .Params "featured_image" | absURL }}">
-  {{ else }}
-    <meta property="og:image" content="https://yasoob.me/images/profile.jpg">
-  {{ end }}
-  <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | emojify}}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
-  <meta property="og:type" content="profile">
-  {{ if .Summary }}
-  <meta name="description" content="{{ .Summary }}">
-  <meta property="og:description" content="{{ .Summary }}">
-  <meta name="twitter:description" content="{{ .Summary }}">
-  {{ else }}
-  <meta name="description" content="Yasoob Khalid is the author of Intermediate Python and the Practical Python Projects books. Millions of people have read his work. He helps programmers level up by writing blog posts, giving talks, and leading workshops.">
-  <meta property="og:description" content="Yasoob Khalid is the author of Intermediate Python and the Practical Python Projects books. Millions of people have read his work. He helps programmers level up by writing blog posts, giving talks, and leading workshops.">
-  <meta name="twitter:description" content="Yasoob Khalid is the author of Intermediate Python and the Practical Python Projects books. Millions of people have read his work. He helps programmers level up by writing blog posts, giving talks, and leading workshops.">
-  {{ end }}
-  <meta name="twitter:site" content="@yasoobkhalid">
-  <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | emojify}}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
-  <meta name="twitter:card" content="summary">
-  <meta property="profile:first_name" content="Muhammad Yasoob Ullah">
-  <meta property="profile:last_name" content="Khalid">
-  <meta property="profile:gender" content="male">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ partial "seo.html" . }}
   <meta name="google-site-verification" content="h-RrQYj6aNBgcXU7M49xoUoksuI0WuJnbcJbFPJMqc4">
-  
+
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="apple-touch-icon" href="/images/logo.png">
 
 
-  <meta charset="utf-8">
-  {{ .Hugo.Generator }}
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+  {{ hugo.Generator }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css">
   <link id="light" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/github.min.css">
   <link id="dark" rel="alternate stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/dracula.min.css">
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/custom.css">
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="alternate" href="{{ "index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
   <link rel="webmention" href="https://webmention.io/yasoob.me/webmention" />
   <link rel="pingback" href="https://webmention.io/yasoob.me/xmlrpc" />
-  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | emojify}}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 </head>
 <body>
 <div class="announcement">
@@ -57,32 +34,33 @@
 <div class="container">
   <header onclick="nav_display()" id="nav" class="hide-nav" role="banner">
     <div class="header-logo">
-      <a href="/"><img alt="website logo" src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
+      <a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
     </div>
-    <h1 class="site-title"><a href="/"><img alt="website logo" src="/images/logo.png" /></a>{{ .Site.Title }}<span class="toggle"></span></h1>
+    <div class="site-title"><a href="/"><img alt="" src="/images/logo.png" width="25" height="25"></a>{{ .Site.Title }}<span class="toggle"></span></div>
     <p class="tag-line">{{.Site.Params.tagline}}</p>
     <div class="nav-links">
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/arts">Art Projects</a></li>
-          <li><a href="https://yasoob.github.io/learn-git" target="_blank">Learn Git</a></li>
+          <li><a href="/posts/">Articles</a></li>
+          <li><a href="https://yasoob.github.io/learn-git" target="_blank" rel="noopener">Learn Git</a></li>
           <li><a href="/about">About</a></li>
           <li>
             <a id="darkModeToggle">🌓</a>
-            <a href="/index.xml"><img alt="rss" class="rss" src="/images/rss.ico"></a>
+            <a href="/index.xml"><img alt="RSS feed" class="rss" src="/images/rss.ico"></a>
           </li>
         </ul>
       </nav>
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7IP53Y&placement=yasoobme" id="_carbonads_js"></script>
       <h3 class="book-header">My Books</h3>
       <div class="book-promo">
-        <a href="https://practicalpython.yasoob.me/"><img src="/images/practical-python.png"/></a>
+        <a href="https://practicalpython.yasoob.me/"><img src="/images/practical-python.png" alt="Practical Python Projects book cover" loading="lazy"></a>
         <h4><a href="https://practicalpython.yasoob.me/">Practical Python Projects</a></h4>
         <p>In 325+ pages I will help you implement 12 end-to-end projects to enhance your Python knowledge.</p>
       </div>
       <div class="book-promo">
-        <a href="https://book.pythontips.com/"><img src="/images/intermediate-python.png"/></a>
+        <a href="https://book.pythontips.com/"><img src="/images/intermediate-python.png" alt="Intermediate Python book cover" loading="lazy"></a>
         <h4><a href="https://book.pythontips.com/">Intermediate Python</a></h4>
         <p>In this free, open-source, and widely-read book, you will learn some intermediate Python concepts.</p>
       </div>
