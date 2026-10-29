@@ -16,5 +16,5 @@ And then just run:
 hugo serve
 ```
 
-to see a live build of the blog.
+to see a live build of the blog. Use the Hugo extended version pinned in `HUGO_VERSION` in the workflow (currently 0.169.0) so local builds match production.
 

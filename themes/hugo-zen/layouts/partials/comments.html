@@ -5,13 +5,13 @@
 	<section class="staticman-comments post-comments">
 
 		{{ $comments := readDir "data/comments" }}
-		{{ $.Scratch.Add "hasComments" 0 }}
+		{{ $.Store.Add "hasComments" 0 }}
 		{{ $postSlug := .File.BaseFileName }}
 
 		{{ range $comments }}
 		{{ if eq .Name $postSlug }}
-			{{ $.Scratch.Add "hasComments" 1 }}
-			{{ range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
+			{{ $.Store.Add "hasComments" 1 }}
+			{{ range $index, $comments := (index hugo.Data.comments $postSlug ) }}
 				{{ if not .reply_to }}
 
 		<div id="commentid-{{ ._id }}" class="post-comment">
@@ -32,7 +32,7 @@
 		        <button id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ ._id }}')">Reply to {{ .name }}</button>
             </div>
 		</div>
-		{{ partial "comment-replies" (dict "entryId_parent" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }}
+		{{ partial "comment-replies" (dict "entryId_parent" $postSlug "SiteDataComments_parent" hugo.Data.comments "parentId" ._id "parentName" .name "context" .) }}
 
 				{{ end }}
 			{{ end }}
@@ -40,7 +40,7 @@
 	{{ end }}
 
 		<form id="comment-form" class="post-new-comment" method="post" action="{{ .Site.Params.staticman.endpoint }}/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/comments">
-			{{ if eq ($.Scratch.Get "hasComments") 0 }}
+			{{ if eq ($.Store.Get "hasComments") 0 }}
 				<p>Be the first to leave a comment! 🎉</p>
 			{{ end }}
 			<h3 class="prompt">Say something</h3>

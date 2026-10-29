@@ -1,12 +1,12 @@
 baseURL = "https://yasoob.me/"
-languageCode = "en-us"
+locale = "en-US"
 title = "Yasoob Khalid"
 author = "yasoob"
 theme = "hugo-zen"
 copyright = "CC-by-NA"
 enableEmoji = true
-googleanalytics = "UA-97849776-1"
 enableGitInfo = true
+capitalizeListTitles = false
 
 [params]
 	logo = "/images/profile.jpg"
@@ -24,6 +24,9 @@ enableGitInfo = true
 	username = "yasoob"
 	repository = "personal_blog"
 	branch = "master"
+
+[services.googleAnalytics]
+  id = "UA-97849776-1"
 
 [markup.goldmark.renderer]
   unsafe= true

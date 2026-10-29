@@ -1,3 +1,1 @@
-{{- $eager := not ($.Page.Scratch.Get "renderedFirstImage") -}}
-{{- $.Page.Scratch.Set "renderedFirstImage" true -}}
-<img src="{{ .Destination | safeURL }}" alt="{{ with .Text }}{{ . }}{{ else }}{{ $.Page.Title }}{{ end }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if not $eager }} loading="lazy"{{ end }} decoding="async">
+<img src="{{ .Destination | safeURL }}" alt="{{ with .Text }}{{ . }}{{ else }}{{ .Page.Title }}{{ end }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if gt .Ordinal 0 }} loading="lazy"{{ end }} decoding="async">

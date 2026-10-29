@@ -13,9 +13,9 @@ I am taking an advanced studio projects class at Colgate. For this class, I had 
 ![Scribble Art](/images/generative-art-project/breaking-bad.jpg)
 
 
-<video controls loop src="/images/processing/art11.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+<video controls loop src="/images/processing/art11.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true"></video>
 
-<video controls loop src="/images/processing/art10.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+<video controls loop src="/images/processing/art10.mp4" width="50%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true"></video>
 
 Instead of deciding to pick up one of these I decided to challenge myself by picking both! I asked myself, is it possible to come up with an algorithm that can generate scribble art from a source image? Early research suggested that it was doable and for the first assignment I settled on working with generative scribble art for this class.
 
@@ -33,7 +33,7 @@ The other night I sat down and decided to come up with an algorithm for this (in
 
 If you re-run the algorithm it will produce a slightly different output (this is where the term generative comes in):
 
-<video controls loop src="/images/generative-art-project/output.mp4" width="100%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true" />
+<video controls loop src="/images/generative-art-project/output.mp4" width="100%" style="margin: 0 auto; display: block; margin-bottom: 50px;" autoplay="true"></video>
 
 My algorithm varies slightly from Jason's algorithm in the way it generates scribbles outside the main portrait. I like these kinds of scribbles so I explicitly tried to add them in at random locations.
 
