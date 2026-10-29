@@ -13,7 +13,7 @@ Hi everyone! :wave: Remember I wrote a [post](/posts/using-baofeng-ht-radio-as-p
 
 You have two options. You will either have to buy an expensive scanner or radio that supports digital trunking, or you can use a $30-$40 RTL-SDR dongle with your computer. In this post, I will show you how to do the latter using [SDRTrunk](https://github.com/DSheirer/sdrtrunk), a free and open-source program that runs on Windows, Mac and Linux.
 
-When I first published this post in 2020, it was just a short video. SDRTrunk has changed quite a bit since then, so I have rewritten it as a complete step-by-step guide. The original video is still at the end of the post if you prefer watching over reading.
+When I first published this post in 2020, it was just a short video. SDRTrunk has changed quite a bit since then, so I have rewritten it as a complete step-by-step guide. The original video is still at the end of the post if you prefer watching over reading. The screenshots in this post are taken from that video, so the SDRTrunk interface in them is from an older version (0.5.0). Things have moved around a little bit but everything I show here still exists.
 
 ## The short answer
 
@@ -82,13 +82,21 @@ bin\sdr-trunk.bat
 
 You don't need to install Java either because each release comes with its own bundled Java runtime. That was one of my biggest annoyances when I first tried SDRTrunk in 2020, so I am happy they did this.
 
+On a Mac, the first time you run SDRTrunk, macOS might refuse to open the bundled Java with a warning saying that the developer can not be verified. This is not malware. Apple just doesn't like apps that haven't been notarized.
+
+![macOS warning saying java cannot be opened because the developer cannot be verified](/images/radio/sdrtrunk-macos-java-warning.png)
+
+Click **Cancel**, open **System Settings > Privacy & Security**, scroll down to the message about java being blocked and click **Open Anyway**. Now run `bin/sdr-trunk` again and click **Open** when macOS asks you one last time.
+
 If your dongle is plugged in, you should see it listed under the **Tuners** tab at the bottom of the main window.
 
 ## Step 4: Build the JMBE library for digital audio
 
-This is the step most people miss. SDRTrunk can decode the P25 and DMR control channels out of the box, but it **can't play digital voice audio** without the JMBE library. SDRTrunk doesn't ship with it, but thankfully it can build it for you.
+This is the step most people miss. SDRTrunk can decode the P25 and DMR control channels out of the box, but it **can't play digital voice audio** without the JMBE library. Because of licensing concerns, SDRTrunk doesn't ship with it, but thankfully it can build it for you.
 
 Open **View > User Preferences**, go to the **Decoder** section and click on **JMBE Audio Library**. Click **Create Library** and SDRTrunk will download the JMBE source code and compile it for you. Once it is done, SDRTrunk will remember the library location.
+
+![SDRTrunk User Preferences window showing the JMBE Audio Library section with the Create Library button](/images/radio/sdrtrunk-jmbe-create-library.png)
 
 If you skip this step, everything will look like it is working (you will see calls showing up) but you won't hear any audio.
 
@@ -102,6 +110,12 @@ Open the system and note down:
 2. **System Voice** - if it says "APCO-25 Common Air Interface Exclusive" or similar, you are good. If it says encrypted, you will hear little or nothing.
 3. **The site closest to you** and its frequencies. The frequencies in **red** are control channels and the ones in **blue** are alternate control channels.
 4. **Talkgroups** - the list of talkgroups with their descriptions. Talkgroups with an "E" in the Mode column (like "DE" or "TE") are encrypted.
+
+When I made the video, I was living in Hamilton, NY, which is in Madison County. This is what the Madison County page looked like:
+
+![RadioReference page for Madison County, New York listing the CNYICC Project 25 Phase II system and Madison County Public Safety P25 frequencies](/images/radio/radioreference-madison-county.jpg)
+
+You can see that the county operates on the CNYICC Project 25 Phase II trunked system. The two Madison County Public Safety frequencies at the bottom (460.125 and 460.400 MHz) are listed with the P25 mode. There is no "E" next to them, so they are not encrypted. I picked 460.400 MHz for my setup.
 
 If you have a RadioReference Premium subscription, SDRTrunk can pull all of this information directly (see the next step). If you don't, you can enter it by hand. It only takes a few minutes.
 
@@ -128,7 +142,23 @@ SDRTrunk stores everything you configure in a **playlist**. Open the Playlist Ed
 6. Set **Max Traffic Channels** to the number of voice frequencies at the site if your computer can handle it. The default is 3.
 7. Click **Save**.
 
+This is what my channel configuration looked like for Madison County:
+
+![SDRTrunk Playlist Editor with a P25 Phase 1 channel for Madison County, site Hamilton, frequency 460.4 MHz, C4FM modulation](/images/radio/sdrtrunk-playlist-editor-p25-channel.png)
+
 Now select your new channel and click **Play**. Go back to the main window and you should see the channel in the **Now Playing** list. After a few seconds, if everything is configured correctly, events will start showing up in the **Events** and **Messages** tabs, and you will hear audio as soon as someone talks on a talkgroup that isn't encrypted.
+
+### What it looked like for me
+
+When I first clicked Play, the channel just sat there as **IDLE**. Looking at the spectrum, there was no strong constant signal at 460.400 MHz. There was one at roughly 460.475 MHz though:
+
+![SDRTrunk spectrum and waterfall around 460 MHz with the P25 channel idle at 460.400 MHz and a strong signal near 460.475 MHz](/images/radio/sdrtrunk-spectrum-idle.jpg)
+
+A control channel transmits all the time, so it shows up as a solid line in the waterfall. I stopped the channel, changed the frequency to 460.473 MHz, and pressed Play again. This time SDRTrunk locked on to it as the **CONTROL** channel and started following calls to the traffic channels on 460.250 and 460.175 MHz:
+
+![SDRTrunk Now Playing table showing a P25 CONTROL channel at 460.473 MHz and two ACTIVE traffic channels with talkgroups](/images/radio/sdrtrunk-control-channel-calls.jpg)
+
+In the video I blamed this on the dongle drifting, but a 73 kHz difference at 460 MHz is about 160 PPM, which is way more than an RTL-SDR drifts. Most likely the site was simply using a different control channel frequency than the one I picked. This is exactly why I now recommend adding all of the control and alternate control channel frequencies for your site (Step 6). SDRTrunk will then find the active one on its own. If your channel stays idle, look for the solid line in the waterfall near your frequencies.
 
 ## Step 7: Calibrate the dongle (PPM correction and gain)
 
@@ -176,7 +206,7 @@ In the US, it is generally legal to listen to unencrypted public safety radio. H
 
 ## Video
 
-Here is the original video I made in 2020. The SDRTrunk interface looks slightly different in newer versions but the overall process is still the same.
+Here is the original video I made in 2020 that the screenshots above are taken from. The SDRTrunk interface looks slightly different in newer versions but the overall process is still the same.
 
 {{< youtube 9853EAISk2c >}}
 
