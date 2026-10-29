@@ -1,5 +1,6 @@
 ---
-title: "Understanding and Decoding a JPEG Image using Python"
+title: "JPEG File Format Explained: Writing a JPEG Decoder in Python"
+description: "How the JPEG format works: file headers and markers, Huffman coding, quantization, zigzag and the DCT, explained by writing a JPEG decoder in Python."
 date: 2020-07-14T00:00:00-04:00
 draft: false
 featured_image: '/images/decoding_jpeg/hero-image.png'

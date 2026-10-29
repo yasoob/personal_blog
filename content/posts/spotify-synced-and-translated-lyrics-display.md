@@ -1,5 +1,6 @@
 ---
-title: "Project Write-up: Display Spotify lyrics on external display"
+title: "Building a Synced Spotify Lyrics Display in Python"
+description: "How I built a Python app that reads Spotify's current song and playback position and shows synced, translated lyrics across two screens."
 date: 2022-08-11T01:43:58+05:00
 featured_image: "/images/spotify-lyrics/header.png"
 draft: false

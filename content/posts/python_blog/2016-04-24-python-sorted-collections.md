@@ -1,5 +1,6 @@
 ---
-title: Python Sorted Collections
+title: "Python SortedList and SortedDict: Using sortedcontainers"
+description: "Python has no built-in sorted list or dict. Learn how SortedList, SortedDict and SortedSet from sortedcontainers work and how they compare to OrderedDict."
 author: yasoob
 type: post
 date: 2016-04-24T05:57:47+00:00

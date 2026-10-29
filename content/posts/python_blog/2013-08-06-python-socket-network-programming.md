@@ -1,5 +1,6 @@
 ---
-title: Python socket network programming
+title: "Python Socket Programming: Simple Server and Client Example"
+description: "Learn Python socket programming with the built-in socket module: connect to a server, build a simple TCP server, and write a client that talks to it."
 author: yasoob
 type: post
 date: 2013-08-05T21:06:28+00:00

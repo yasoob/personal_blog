@@ -1,5 +1,6 @@
 ---
-title: "Using BaoFeng UV-5X3 HT as Police Scanner"
+title: "How to Use a Baofeng Radio as a Police Scanner"
+description: "Can a Baofeng listen to police? Yes, if they still use analog radio. Find your local police and fire frequencies and program them into a Baofeng UV-5X3."
 date: 2020-08-17T01:36:31-04:00
 draft: false
 categories: ['amateur-radio','ham']

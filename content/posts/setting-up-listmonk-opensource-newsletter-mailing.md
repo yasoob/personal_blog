@@ -1,5 +1,6 @@
 ---
-title: "Setting up listmonk, an open-source newsletter & mailing list manager"
+title: "How to Self-Host listmonk, an Open-Source Newsletter Manager"
+description: "Set up listmonk, a free self-hosted alternative to Mailchimp, with docker-compose, NGINX and certbot SSL, import your subscribers, and send for $0."
 date: 2021-03-12T00:00:53-05:00
 featured_image: "/images/listmonk/listmonk-header.png"
 draft: false
