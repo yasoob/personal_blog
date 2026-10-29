@@ -2,7 +2,7 @@
 title: "How to Listen to Trunked Police Radio Using SDRTrunk"
 description: "Step-by-step guide to listening to trunked P25 and DMR police radio with a cheap RTL-SDR dongle and the free SDRTrunk software on Windows, Mac and Linux."
 date: 2020-08-30T14:42:02-04:00
-lastmod: 2026-10-28T19:00:00-07:00
+lastmod: 2026-10-28T21:45:00-07:00
 draft: false
 categories: ['radio']
 teaser: "If you are bummed to find out that your local PD and FD have moved to a digital trunked radio system then you aren't alone. In this post, I will show you how to use a cheap RTL-SDR dongle and the free SDRTrunk software to listen to the trunked radio traffic in your area."
@@ -24,7 +24,7 @@ Yes, you can listen to most trunked police radio systems with an RTL-SDR dongle 
 
 Here is what you need:
 
-- An RTL-SDR dongle and an antenna (the [RTL-SDR Blog V4](https://www.rtl-sdr.com/V4/) kit is a good choice)
+- An RTL-SDR dongle and an antenna (the RTL-SDR Blog V3 kit is a good choice, see Step 1)
 - A computer with a 4-core CPU and ideally 8GB of RAM
 - SDRTrunk (free)
 - The frequencies of your local trunked system from [RadioReference](https://www.radioreference.com/db/) (free to browse)
@@ -43,7 +43,13 @@ Most modern public safety systems in the US use **APCO P25** (Phase 1 or Phase 2
 
 An RTL-SDR is a cheap USB dongle that was originally made for watching TV on a computer. People figured out that it can be used as a general-purpose software defined radio (SDR) that receives everything from roughly 24 MHz to 1.7 GHz. That covers the frequencies used by almost all public safety radio systems.
 
-I recommend getting the [RTL-SDR Blog V4](https://www.rtl-sdr.com/V4/) kit. It comes with a dipole antenna that works well enough to get started. SDRTrunk has supported the V4 (it uses the R828D tuner chip) since version 0.6.0. Older dongles based on the R820T/R820T2 chips also work.
+I recommend getting an RTL-SDR Blog dongle kit. It comes with a dipole antenna that works well enough to get started. A quick note on which version to get:
+
+- The **RTL-SDR Blog V3** (R820T2 tuner chip) is still in production and works great with SDRTrunk. This is the safe choice.
+- The **RTL-SDR Blog V4** (R828D tuner chip) is [end of line](https://www.rtl-sdr.com/rtl-sdr-blog-v4-end-of-line/) because the tuner chip is no longer made. SDRTrunk has supported it since version 0.6.0, so if you already have one or can find a genuine one from a reseller listed on the [RTL-SDR Blog store page](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/), it works fine. Be careful with marketplace listings though. According to RTL-SDR Blog, a lot of the "V4" listings out there are fakes with V3-clone hardware inside.
+- RTL-SDR Blog has announced a **V4L** that uses a different tuner chip and needs a driver update, so check that SDRTrunk supports it before buying one.
+
+Older and generic dongles based on the R820T/R820T2 chips also work, but the cheapest no-name ones tend to drift more and get hot.
 
 One thing to keep in mind is bandwidth. An RTL-SDR can "see" a little over 2 MHz of spectrum at a time. SDRTrunk listens to the control channel and then needs to tune to the voice frequencies as calls come in. If all of your system's frequencies fit within about 2 MHz, one dongle is enough. If the frequencies are spread out more than that, you will need two (or more) dongles so that SDRTrunk can cover the whole range. SDRTrunk manages multiple dongles automatically.
 
@@ -162,7 +168,7 @@ In the video I blamed this on the dongle drifting, but a 73 kHz difference at 46
 
 ## Step 7: Calibrate the dongle (PPM correction and gain)
 
-If the channel shows up but nothing decodes, the most likely reason is that your dongle isn't tuned exactly to the frequency it thinks it is tuned to. Cheap dongles drift a little bit and this offset is measured in PPM (parts per million). The RTL-SDR Blog V4 has a temperature-compensated oscillator so it drifts a lot less than older dongles, but it is still worth checking.
+If the channel shows up but nothing decodes, the most likely reason is that your dongle isn't tuned exactly to the frequency it thinks it is tuned to. Cheap dongles drift a little bit and this offset is measured in PPM (parts per million). The RTL-SDR Blog V3 and V4 have a 1 PPM temperature-compensated oscillator (TCXO) so they drift a lot less than generic dongles, but it is still worth checking.
 
 1. In the **Tuners** tab, select your dongle and click **View Spectrum**. Let it run for a few minutes so that it warms up.
 2. Find a signal with a known frequency. A NOAA weather radio station (162.400-162.550 MHz in the US) or your P25 control channel works well.
@@ -220,7 +226,7 @@ Links mentioned in this post:
 
 - SDRTrunk: https://github.com/DSheirer/sdrtrunk/releases
 - SDRTrunk documentation: https://github.com/DSheirer/sdrtrunk/wiki
-- RTL-SDR Blog V4: https://www.rtl-sdr.com/V4/
+- RTL-SDR Blog store and resellers: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
 - Radio Reference: https://www.radioreference.com/db/
 
 If you have any questions please post them in the comments below. I am also relatively new to this but I will try to answer as many of your questions as possible. I will see you in the next post.
