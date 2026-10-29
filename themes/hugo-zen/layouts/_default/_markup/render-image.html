@@ -1,0 +1,1 @@
+<img src="{{ .Destination | safeURL }}" alt="{{ with .Text }}{{ . }}{{ else }}{{ .Page.Title }}{{ end }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if gt .Ordinal 0 }} loading="lazy"{{ end }} decoding="async">

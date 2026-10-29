@@ -1,0 +1,76 @@
+{{- /*
+  Based on Hugo's embedded RSS template. Differences:
+  - <description> is plain text (teaser/description front matter, else the summary).
+  - <content:encoded> carries the full post HTML (for the newest rssFullContentLimit items) with the featured image prepended and
+    root-relative/#anchor URLs made absolute, since feeds have no base URL.
+*/ -}}
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
+{{- $pages := slice }}
+{{- if or $.IsHome $.IsSection }}
+	{{- $pages = $pctx.RegularPages }}
+{{- else }}
+	{{- $pages = $pctx.Pages }}
+{{- end }}
+{{- $limit := .Site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+	{{- $pages = $pages | first $limit }}
+{{- end }}
+{{- $baseURL := strings.TrimSuffix "/" site.BaseURL }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		{{- $channelTitle := .Site.Title }}
+		{{- if ne .Title .Site.Title }}{{ with .Title }}{{ $channelTitle = printf "%s on %s" . site.Title }}{{ end }}{{ end }}
+		<title>{{ $channelTitle }}</title>
+		<link>{{ .Permalink }}</link>
+		<description>{{ if .IsHome }}{{ site.Params.description }}{{ else }}Recent content {{ with .Title }}in {{ . }} {{ end }}on {{ .Site.Title }}{{ end }}</description>
+		<generator>Hugo</generator>
+		<language>{{ site.Language.Locale }}</language>
+		{{- with .Site.Copyright }}
+		<copyright>{{ . }}</copyright>
+		{{- end }}
+		{{- with site.Params.logo }}
+		<image>
+			<url>{{ . | absURL }}</url>
+			<title>{{ $channelTitle }}</title>
+			<link>{{ $.Permalink }}</link>
+		</image>
+		{{- end }}
+		{{- if not .Date.IsZero }}
+		<lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+		{{- end }}
+		{{- with .OutputFormats.Get "RSS" }}
+		{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+		{{- end }}
+		{{- $fullContentLimit := site.Params.rssFullContentLimit | default 20 }}
+		{{- range $i, $p := $pages }}
+		{{- $summary := "" }}
+		{{- with .Params.description }}{{ $summary = . }}{{ else }}{{ with .Params.teaser }}{{ $summary = . }}{{ else }}{{ $summary = .Summary }}{{ end }}{{ end }}
+		{{- $summary = trim ($summary | plainify | htmlUnescape | replaceRE `\s+` " ") " " }}
+		{{- if and (not $summary) (eq .Kind "term") }}
+			{{- $summary = printf "Articles tagged %q on %s." .Title site.Title }}
+		{{- end }}
+		{{- $content := .Content }}
+		{{- with .Params.featured_image }}
+			{{- $content = printf `<p><img src="%s" alt="%s"></p>%s` (htmlEscape .) (htmlEscape ($p.Params.featured_image_alt | default $p.Title)) $content }}
+		{{- end }}
+		{{- $content = replaceRE `(\s(?:src|href|poster)=["'])/([^/])` (printf "${1}%s/${2}" $baseURL) $content }}
+		{{- $content = replaceRE `(\shref=["'])#` (printf "${1}%s#" .Permalink) $content }}
+			<item>
+				<title>{{ .Title | emojify }}</title>
+				<link>{{ .Permalink }}</link>
+				<pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+				<dc:creator>{{ site.Params.authorName }}</dc:creator>
+				<guid>{{ .Permalink }}</guid>
+				{{- range .Params.categories }}
+				<category>{{ . }}</category>
+				{{- end }}
+				<description>{{ $summary | htmlEscape | transform.XMLEscape | safeHTML }}</description>
+				{{- if and (lt $i $fullContentLimit) (trim $content " \n") }}
+				<content:encoded>{{ $content | transform.XMLEscape | safeHTML }}</content:encoded>
+				{{- end }}
+			</item>
+		{{- end }}
+	</channel>
+</rss>

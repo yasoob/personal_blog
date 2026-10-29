@@ -85,6 +85,11 @@ main {
 }
 
 .site-title{
+  position: relative;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
   color: black;
   text-decoration: none;
@@ -96,6 +101,9 @@ main {
 }
 .entry-title {
   margin-bottom: 0;
+}
+h2.section-title{
+  font-size: 2.6rem;
 }
 h1.entry-title{
   text-align: center;
@@ -239,7 +247,7 @@ header h1{
 a.button.all-articles{
   margin-top: 35px;
 }
-main.homepage h1 .emoji, div.homepage-articles h1 .emoji, .all-articles .emoji{
+main.homepage h1 .emoji, div.homepage-articles h2.section-title .emoji, .all-articles .emoji{
   margin-right: 10px;
 }
 .homepage{
@@ -254,6 +262,13 @@ aside.toc{
   width: 200px;
   text-align: left;
   padding-right: 28px;
+}
+.related ul{
+  margin-left: 0;
+}
+.related li{
+  list-style: none;
+  margin-bottom: 1rem;
 }
 .related a{
   text-decoration: none;
@@ -494,7 +509,7 @@ section#privacy-button-links span {
 body.darkmode{
   background: #1e1d1d;
 }
-.darkmode h1.site-title{
+.darkmode .site-title{
   color: white;
 }
 
@@ -661,7 +676,7 @@ body.darkmode{
   div.homepage-articles article:last-of-type span, main.all-articles article:last-of-type span{
     margin-bottom: 0px;
   }
-  div.homepage-articles h1 {
+  div.homepage-articles h2.section-title {
     margin-bottom: 30px;
   }
   article.single{

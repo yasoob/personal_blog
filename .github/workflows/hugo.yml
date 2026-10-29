@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  HUGO_VERSION: 0.88.1
+  HUGO_VERSION: 0.169.0
 
 jobs:
   build:
@@ -25,10 +25,13 @@ jobs:
       - name: Install Hugo
         run: |
           wget -qO "${{ runner.temp }}/hugo.deb" \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb"
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
           sudo dpkg -i "${{ runner.temp }}/hugo.deb"
 
+      # Full history so enableGitInfo can set accurate lastmod dates for the sitemap.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/configure-pages@v5
 

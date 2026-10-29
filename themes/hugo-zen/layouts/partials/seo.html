@@ -1,0 +1,167 @@
+{{- $noindex := or .Params.noindex (eq .Kind "taxonomy") (eq .Kind "404") (and (eq .Kind "term") (lt (len .Pages) 3)) -}}
+{{- $isArticle := and .IsPage (not .Params.hidefromhome) (in (slice "posts" "post") .Type) -}}
+
+{{- $title := .Title | emojify -}}
+{{- if .IsHome -}}
+  {{- $title = printf "%s – %s" .Site.Title (.Site.Params.homeTitleSuffix | default .Site.Params.tagline) -}}
+{{- else -}}
+  {{- $title = printf "%s - %s" $title .Site.Title -}}
+{{- end -}}
+
+{{- $description := "" -}}
+{{- with .Params.description -}}
+  {{- $description = . -}}
+{{- else -}}
+  {{- with .Params.teaser -}}
+    {{- $description = . -}}
+  {{- else -}}
+    {{- if .IsHome -}}
+      {{- $description = .Site.Params.description -}}
+    {{- else if .IsPage -}}
+      {{- $description = .Summary | plainify | htmlUnescape -}}
+      {{- $description = replaceRE `^\s*(Hi|Hello|Hey)[^!.]{0,40}[!.]\s*(:wave:|👋)?\s*` "" $description -}}
+    {{- else if eq .Kind "404" -}}
+      {{- $description = .Site.Params.description -}}
+    {{- else -}}
+      {{- $description = printf "Articles about %s by %s." .Title .Site.Title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $description = trim ($description | plainify | htmlUnescape | replaceRE `\s+` " ") " " -}}
+{{- if gt (len $description) 160 -}}
+  {{- $description = printf "%s…" (strings.TrimRight " ,.;:" (substr $description 0 157)) -}}
+{{- end -}}
+{{- if not $description -}}
+  {{- $description = .Site.Params.description -}}
+{{- end -}}
+
+{{- $image := "" -}}
+{{- with .Params.featured_image -}}
+  {{- $image = . -}}
+{{- else -}}
+  {{- if .IsPage -}}
+    {{- with index (findRE `<img[^>]+src="[^"]+"` .Content 1) 0 -}}
+      {{- $image = replaceRE `.*src="([^"]+)".*` "$1" . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $hasPageImage := ne $image "" -}}
+{{- if not $hasPageImage -}}
+  {{- $image = .Site.Params.logo -}}
+{{- end -}}
+{{- $image = $image | absURL -}}
+
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $description }}">
+  {{- if ne .Kind "404" }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- end }}
+  <meta name="author" content="{{ .Site.Params.authorName }}">
+  {{- if $noindex }}
+  <meta name="robots" content="noindex, follow">
+  {{- else }}
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  {{- end }}
+
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:image" content="{{ $image }}">
+  {{- with .Params.featured_image_alt | default .Title }}
+  <meta property="og:image:alt" content="{{ . }}">
+  {{- end }}
+  {{- if $isArticle }}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta property="article:author" content="{{ "about/" | absURL }}">
+  {{- range .Params.categories }}
+  <meta property="article:tag" content="{{ . }}">
+  {{- end }}
+  {{- else if .IsHome }}
+  <meta property="og:type" content="website">
+  {{- else }}
+  <meta property="og:type" content="website">
+  {{- end }}
+
+  <meta name="twitter:card" content="{{ if $hasPageImage }}summary_large_image{{ else }}summary{{ end }}">
+  <meta name="twitter:site" content="@yasoobkhalid">
+  <meta name="twitter:creator" content="@yasoobkhalid">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $description }}">
+  <meta name="twitter:image" content="{{ $image }}">
+
+{{- $person := dict
+  "@type" "Person"
+  "@id" (printf "%s#person" .Site.BaseURL)
+  "name" .Site.Params.authorName
+  "alternateName" .Site.Title
+  "url" .Site.BaseURL
+  "image" (.Site.Params.logo | absURL)
+  "jobTitle" "Software Engineer"
+  "sameAs" (slice .Site.Params.twitter .Site.Params.github .Site.Params.linkedin "https://book.pythontips.com/" "https://practicalpython.yasoob.me/")
+-}}
+
+{{- if .IsHome }}
+{{- $website := dict
+  "@context" "https://schema.org"
+  "@graph" (slice
+    (dict
+      "@type" "WebSite"
+      "@id" (printf "%s#website" .Site.BaseURL)
+      "url" .Site.BaseURL
+      "name" .Site.Title
+      "description" $description
+      "inLanguage" "en-US"
+      "publisher" (dict "@id" (printf "%s#person" .Site.BaseURL))
+    )
+    $person
+  )
+}}
+  <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- else if $isArticle }}
+{{- $section := .Site.GetPage "/posts" -}}
+{{- $keywords := slice -}}
+{{- range .Params.categories }}{{ $keywords = $keywords | append . }}{{ end -}}
+{{- range .Params.tags }}{{ $keywords = $keywords | append . }}{{ end -}}
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@graph" (slice
+    (dict
+      "@type" "BlogPosting"
+      "@id" (printf "%s#article" .Permalink)
+      "mainEntityOfPage" .Permalink
+      "headline" (.Title | emojify)
+      "description" $description
+      "image" (slice $image)
+      "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "wordCount" .WordCount
+      "keywords" (delimit $keywords ", ")
+      "inLanguage" "en-US"
+      "author" $person
+      "publisher" (dict "@id" (printf "%s#person" .Site.BaseURL))
+      "isPartOf" (dict "@id" (printf "%s#website" .Site.BaseURL))
+    )
+    (dict
+      "@type" "BreadcrumbList"
+      "itemListElement" (slice
+        (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL)
+        (dict "@type" "ListItem" "position" 2 "name" "Articles" "item" $section.Permalink)
+        (dict "@type" "ListItem" "position" 3 "name" (.Title | emojify) "item" .Permalink)
+      )
+    )
+  )
+}}
+  <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- else if eq .RelPermalink "/about/" }}
+{{- $profile := dict
+  "@context" "https://schema.org"
+  "@type" "ProfilePage"
+  "url" .Permalink
+  "mainEntity" $person
+}}
+  <script type="application/ld+json">{{ $profile | jsonify | safeJS }}</script>
+{{- end }}

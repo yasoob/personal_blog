@@ -1,13 +1,20 @@
-{{if not .Page.Params.hidefromhome}}
+{{ if not .Page.Params.hidefromhome }}
+{{ $related := first 5 (.Site.RegularPages.Related .) }}
 <div class="related">
 	<h2>You might also like</h2>
 	<ul>
-        {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}">👉 {{.Title}}</a><br>
-        {{ end }}
-        {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}">👉 {{.Title}}</a>
-        {{ end }}
+	{{ if $related }}
+		{{ range $related }}
+		<li><a href="{{ .RelPermalink }}">👉 {{ .Title | emojify }}</a></li>
+		{{ end }}
+	{{ else }}
+		{{ with .PrevInSection }}
+		<li><a class="previous" href="{{ .RelPermalink }}">👉 {{ .Title | emojify }}</a></li>
+		{{ end }}
+		{{ with .NextInSection }}
+		<li><a class="next" href="{{ .RelPermalink }}">👉 {{ .Title | emojify }}</a></li>
+		{{ end }}
+	{{ end }}
 	</ul>
 </div>
-{{end}}
+{{ end }}

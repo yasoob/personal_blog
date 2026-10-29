@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+	<main role="main" class="all-articles">
+		<h1 class="list-title"><span class="emoji">🧭</span>Page not found</h1>
+		<p>Sorry, the page you were looking for doesn't exist (anymore). Here are some of my latest articles instead, or you can browse <a href="/posts/">all articles</a>.</p>
+		{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+		<article>
+			<span class="entry-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time></span>
+			<h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a></h2>
+		</article>
+		{{ end }}
+	</main>
+
+{{ partial "footer.html" . }}
