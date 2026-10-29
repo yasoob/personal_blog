@@ -1,5 +1,6 @@
 ---
-title: "Setting Up Passwordless SSH and Alias For Remote Login"
+title: "How to Create an SSH Alias and Set Up Passwordless SSH Login"
+description: "Create an SSH alias in ~/.ssh/config so you can type ssh myserver instead of user@host, and set up key-based passwordless login with ssh-keygen."
 date: 2020-05-20T19:29:32-04:00
 draft: false
 categories: ["programming", "devops"]

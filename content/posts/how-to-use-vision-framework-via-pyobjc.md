@@ -1,5 +1,6 @@
 ---
-title: "How to Use Apple Vision Framework via PyObjC for Text Recognition"
+title: "Apple Vision Framework OCR in Python Using PyObjC"
+description: "Recognize text in images with Apple's Vision framework from Python. A practical PyObjC guide to VNRecognizeTextRequest and VNImageRequestHandler."
 date: 2023-08-26T20:03:31-07:00
 draft: false
 categories: ['python']

@@ -1,5 +1,6 @@
 ---
-title: "How to Prerender React Apps Using Prerender"
+title: "How to Prerender a React App for SEO with Prerender.io"
+description: "Self-host the open-source prerender.io service and serve prerendered pages to Googlebot and other crawlers via NGINX to fix SEO for a React SPA."
 date: 2021-01-08T01:29:50+05:00
 draft: false
 categories: ["Python", "React", "NGINX", "prerender"]

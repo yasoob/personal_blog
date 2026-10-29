@@ -1,5 +1,6 @@
 ---
-title: "Extracting WhatsApp messages from an iOS backup"
+title: "How to Extract WhatsApp Messages from an iPhone Backup"
+description: "Find where WhatsApp chats live in an iPhone backup, decrypt an encrypted iOS backup with Python, and read your messages from ChatStorage.sqlite."
 date: 2022-04-24T06:20:49+05:00
 draft: false
 categories: ["programming", "python", "reverse-engineering", "ios"]

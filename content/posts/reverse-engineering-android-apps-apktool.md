@@ -1,5 +1,6 @@
 ---
-title: "Let's Reverse Engineer an Android App!"
+title: "How to Reverse Engineer an Android APK with apktool and jadx"
+description: "Step-by-step guide to reverse engineering an Android APK: decompile it with apktool and jadx, edit the smali code, then rebuild, sign, and install the app."
 date: 2020-06-22T00:00:00-04:00
 draft: false
 categories: ['reverse-engineering', 'programming']
